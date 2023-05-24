@@ -18,13 +18,6 @@
   ],
   "pageHeader": [
     {
-      "id": "workspace:split-horizontal",
-      "icon": "lucide-separator-horizontal",
-      "name": "上下分屏",
-      "mode": "desktop",
-      "color": "#969696"
-    },
-    {
       "id": "workspace:export-pdf",
       "icon": "album",
       "name": "导出为 PDF",
@@ -36,6 +29,20 @@
       "icon": "lucide-separator-vertical",
       "name": "左右分屏",
       "mode": "desktop",
+      "color": "#969696"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "icon": "lucide-separator-horizontal",
+      "name": "上下分屏",
+      "mode": "desktop",
+      "color": "#969696"
+    },
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "icon": "aperture",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "mode": "any",
       "color": "#969696"
     }
   ],

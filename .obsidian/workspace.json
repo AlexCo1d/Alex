@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,8 +169,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9a5a27d7969cbfc4",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
+    "fsdaf",
     "test.md",
     "2023-05-24.md",
     "未命名文件夹"
