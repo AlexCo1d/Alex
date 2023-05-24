@@ -66,6 +66,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "aa63d3765e80c698",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a6f29834acaa74c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,10 +181,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "templater-obsidian:Templater": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "459fac88dfbb546a",
+  "active": "6ece581273f40e8b",
   "lastOpenFiles": [
     "test.md",
     "fsdaf/未命名.canvas",
