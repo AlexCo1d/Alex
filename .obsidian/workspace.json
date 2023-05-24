@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74ae653c49bcdca4",
+        "id": "e7b88b7f964dfae7",
         "type": "tabs",
         "children": [
           {
-            "id": "58ec3be236d204eb",
+            "id": "3827dcd6ce749c4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,9 +156,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58ec3be236d204eb",
+  "active": "3827dcd6ce749c4b",
   "lastOpenFiles": [
+    "test.md",
     "2023-05-24.md",
-    "test.md"
+    "未命名文件夹"
   ]
 }
