@@ -7,7 +7,15 @@
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],
-  "statusBar": [],
+  "statusBar": [
+    {
+      "id": "theme:switch",
+      "icon": "box",
+      "name": "更换主题",
+      "mode": "any",
+      "color": "#969696"
+    }
+  ],
   "pageHeader": [
     {
       "id": "workspace:split-horizontal",

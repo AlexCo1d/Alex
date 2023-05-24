@@ -36,7 +36,7 @@
     "obsidian-git:clone-repo": 2,
     "workspace:close-tab-group": 2,
     "workspace:close-others-tab-group": 2,
-    "app:open-sandbox-vault": 2,
+    "app:open-sandbox-vault": 3,
     "file-explorer:duplicate-file": 2,
     "canvas:jump-to-group": 2,
     "obsidian-minimal-settings:cycle-minimal-table-width": 2,
@@ -63,17 +63,24 @@
     "templater-obsidian:create-new-note-from-template": 2,
     "workspace:split-vertical": 6,
     "workspace:toggle-pin": 1,
-    "editor:save-file": 7,
-    "app:reload": 7,
+    "editor:save-file": 8,
+    "app:reload": 8,
     "workspace:toggle-stacked-tabs": 1,
     "editor:context-menu": 2,
     "app:go-forward": 2,
-    "workspace:split-horizontal": 3
+    "workspace:split-horizontal": 3,
+    "obsidian-minimal-settings:toggle-minimal-gruvbox-light": 1,
+    "obsidian-minimal-settings:toggle-minimal-gruvbox-dark": 1,
+    "theme:switch": 1,
+    "obsidian-mind-map:app:markmap-preview": 1,
+    "highlightr-plugin:Pink": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 11,
     "workspace:export-pdf": 2,
     "workspace:split-horizontal": 2,
-    "workspace:split-vertical": 2
+    "workspace:split-vertical": 2,
+    "theme:switch": 1,
+    "highlightr-plugin:Pink": 1
   }
 }
