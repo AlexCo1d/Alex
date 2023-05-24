@@ -1,5 +1,6 @@
 {
   "accentColor": "#8869ec",
   "theme": "obsidian",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "translucency": false
 }
