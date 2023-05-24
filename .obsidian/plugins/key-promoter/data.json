@@ -50,11 +50,18 @@
     "obsidian-minimal-settings:toggle-minimal-rose-pine-dark": 2,
     "key-promoter:statistics": 2,
     "key-promoter:key-promoter": 2,
-    "workspace:close": 3,
-    "workspace:close-window": 3,
-    "workspace:close-others": 3,
-    "editor:toggle-spellcheck": 3,
-    "switcher:open": 2
+    "workspace:close": 4,
+    "workspace:close-window": 4,
+    "workspace:close-others": 4,
+    "editor:toggle-spellcheck": 4,
+    "switcher:open": 2,
+    "command-palette:open": 2,
+    "app:go-back": 4,
+    "templater-obsidian:insert-templater": 2,
+    "templater-obsidian:replace-in-file-templater": 2,
+    "templater-obsidian:jump-to-next-cursor-location": 2,
+    "templater-obsidian:create-new-note-from-template": 2,
+    "workspace:split-vertical": 1
   },
   "keyboardStatistics": {}
 }

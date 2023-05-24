@@ -6,5 +6,7 @@
   "key-promoter",
   "keyboard-analyzer",
   "settings-search",
-  "calendar"
+  "calendar",
+  "templater-obsidian",
+  "cmdr"
 ]
