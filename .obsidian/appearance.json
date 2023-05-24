@@ -5,6 +5,8 @@
   "translucency": false,
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "表格优化"
+    "表格优化",
+    "yaozhuwa@CSS",
+    "预览模式优化-空白行-行间距"
   ]
 }
