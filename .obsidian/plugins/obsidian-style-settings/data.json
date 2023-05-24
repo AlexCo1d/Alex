@@ -46,10 +46,5 @@
   "anuppuccin-theme-settings@@anp-table-width-pct": 100,
   "anuppuccin-theme-settings@@anp-alt-tab-style": "anp-alternate-tab-toggle",
   "anuppuccin-theme-settings@@anp-decoration-toggle": true,
-  "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-maroon",
-  "anuppuccin-theme-settings@@anp-callout-toggle": true,
-  "anuppuccin-theme-settings@@anp-editor-font-toggle": true,
-  "anuppuccin-theme-settings@@anp-disable-borders": true,
-  "anuppuccin-theme-settings@@anp-rainbow-folder-border-opacity": 1,
-  "anuppuccin-theme-settings@@anp-translucent-left": true
+  "anuppuccin-theme-settings@@anp-bold-custom": "anp-bold-maroon"
 }
