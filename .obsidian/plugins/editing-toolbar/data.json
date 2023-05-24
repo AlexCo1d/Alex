@@ -204,6 +204,11 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "workplace-Fullscreen ",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "markdown-table-editor:markdown-table-editor-open-horizontal",
+      "name": "Markdown Table Editor: Open Editor (Below the Active View)",
+      "icon": "table"
     }
   ],
   "appendMethod": "workspace",

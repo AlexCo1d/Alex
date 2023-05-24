@@ -4,8 +4,11 @@
     "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
     "fontSize": 16,
     "emojiStyle": "none",
-    "iconColor": null,
-    "recentlyUsedIcons": [],
+    "iconColor": "#473985",
+    "recentlyUsedIcons": [
+      "FabAdversal",
+      "FabExpeditedssl"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
