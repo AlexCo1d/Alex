@@ -1,12 +1,14 @@
 [
   "editing-toolbar",
-  "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-minimal-settings",
   "key-promoter",
   "keyboard-analyzer",
   "settings-search",
   "calendar",
   "templater-obsidian",
-  "cmdr"
+  "cmdr",
+  "highlightr-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "table-editor-obsidian",
+  "obsidian-style-settings"
 ]
