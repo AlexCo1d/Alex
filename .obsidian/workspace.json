@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1a9b2f2b4b50846d",
-        "type": "split",
+        "id": "f2cfe5b132f3b14b",
+        "type": "tabs",
         "children": [
           {
-            "id": "06f9ff5f436df4bd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "d98aaf167628257f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "test.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "6ece581273f40e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "test.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "9af2e9d505e0b308",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "99b189394d2cc2b2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown-table-editor-view",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,10 +170,10 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "99b189394d2cc2b2",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
-    "fsdaf/未命名.canvas",
     "test.md",
+    "fsdaf/未命名.canvas",
     "fsdaf",
     "2023-05-24.md",
     "未命名文件夹"
