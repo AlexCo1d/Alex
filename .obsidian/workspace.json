@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e7b88b7f964dfae7",
+        "id": "5ec4ad17bbe8781d",
         "type": "tabs",
         "children": [
           {
-            "id": "3827dcd6ce749c4b",
+            "id": "0cdaefa989132cd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -136,14 +136,21 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "2bdfcba823f0ee8b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,7 +163,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3827dcd6ce749c4b",
+  "active": "0cdaefa989132cd7",
   "lastOpenFiles": [
     "test.md",
     "2023-05-24.md",
