@@ -61,7 +61,10 @@
     "templater-obsidian:replace-in-file-templater": 2,
     "templater-obsidian:jump-to-next-cursor-location": 2,
     "templater-obsidian:create-new-note-from-template": 2,
-    "workspace:split-vertical": 1
+    "workspace:split-vertical": 1,
+    "workspace:toggle-pin": 1,
+    "editor:save-file": 1,
+    "app:reload": 1
   },
   "keyboardStatistics": {}
 }
