@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "1a42fd863dee839a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7840e0f6cb10473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course Register.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
