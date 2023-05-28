@@ -98,7 +98,14 @@
     "workspace:goto-tab-1": 2,
     "editing-toolbar:header1-text": 2,
     "editor:set-heading-1": 2,
-    "workspace:goto-tab-7": 1
+    "workspace:goto-tab-7": 1,
+    "workspace:goto-tab-3": 1,
+    "editing-toolbar:header3-text": 1,
+    "editor:set-heading-3": 1,
+    "obsidian-auto-link-title:auto-link-title-paste": 1,
+    "obsidian-auto-link-title:auto-link-title-normal-paste": 1,
+    "obsidian-auto-link-title:enhance-url-with-title": 1,
+    "various-complements:toggle-complement-automatically": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 11,
