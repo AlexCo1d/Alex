@@ -1,7 +1,10 @@
 # 23 Fall： 
 
+- # EECS 501 [Probability and Random Process](https://atlas.ai.umich.edu/course/EECS%20501/). 
+	Workload 
+
 - # EECS 504 Computer Vision   
-  工作量 20 A
+	Workload 20 A
 
 - # EECS 505 [Comp DS & ML](https://atlas.ai.umich.edu/course/EECS%20505/)
 	工作量 54 偏大？A
