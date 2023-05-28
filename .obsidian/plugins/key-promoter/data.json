@@ -94,7 +94,10 @@
     "editor:open-link-in-new-leaf": 2,
     "workspace:new-tab": 2,
     "app:toggle-default-new-pane-mode": 2,
-    "file-explorer:new-file": 1
+    "file-explorer:new-file": 1,
+    "workspace:goto-tab-1": 1,
+    "editing-toolbar:header1-text": 1,
+    "editor:set-heading-1": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 11,
