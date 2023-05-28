@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "acf4c11e846e82f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "选课.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md"
+                "file": "选课.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test.md",
+                "file": "选课.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test.md",
+                "file": "选课.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,9 +197,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ece581273f40e8b",
+  "active": "acf4c11e846e82f7",
   "lastOpenFiles": [
     "test.md",
+    "选课.md",
     "11/未命名.md",
     "11",
     "fsdaf/未命名.canvas",

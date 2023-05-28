@@ -93,7 +93,8 @@
     "markdown-table-editor:markdown-table-editor-select-table-content": 1,
     "editor:open-link-in-new-leaf": 2,
     "workspace:new-tab": 2,
-    "app:toggle-default-new-pane-mode": 2
+    "app:toggle-default-new-pane-mode": 2,
+    "file-explorer:new-file": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 11,
@@ -103,6 +104,9 @@
     "theme:switch": 1,
     "highlightr-plugin:Pink": 1,
     "obsidian-mind-map:app:markmap-preview": 1,
-    "markdown-table-editor:markdown-table-editor-open-horizontal": 3
+    "markdown-table-editor:markdown-table-editor-open-horizontal": 3,
+    "editor:toggle-numbered-list": 1,
+    "editing-toolbar:undent-list": 1,
+    "editor:toggle-bullet-list": 1
   }
 }
