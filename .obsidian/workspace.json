@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ce6ef254effdd20b",
+        "id": "ae60cefc3d942a2c",
         "type": "tabs",
         "children": [
           {
-            "id": "aaa6059511ff1b08",
+            "id": "2ec8108291f1ea60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,7 +184,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "459fac88dfbb546a",
+  "active": "2ec8108291f1ea60",
   "lastOpenFiles": [
     "test.md",
     "Course Register.md",
