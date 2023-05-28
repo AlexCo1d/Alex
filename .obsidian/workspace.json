@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "77b2fa679c97e935",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "efe9cc10db58aae2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +184,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "efe9cc10db58aae2",
+  "active": "6ece581273f40e8b",
   "lastOpenFiles": [
     "test.md",
     "11/未命名.md",
