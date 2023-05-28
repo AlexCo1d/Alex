@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Alex/test",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "aa63d3765e80c698",
@@ -184,7 +185,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2ec8108291f1ea60",
+  "active": "0b493b46f92a1cdc",
   "lastOpenFiles": [
     "test.md",
     "Course Register.md",
