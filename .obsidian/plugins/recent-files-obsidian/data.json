@@ -5,6 +5,10 @@
       "path": "Course Register.md"
     },
     {
+      "basename": "()",
+      "path": "().md"
+    },
+    {
       "basename": "test",
       "path": "test.md"
     }
