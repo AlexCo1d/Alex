@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "选课.md",
+                "file": "Course Register.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "选课.md"
+                "file": "Course Register.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "选课.md",
+                "file": "Course Register.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "选课.md",
+                "file": "Course Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,10 +184,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aaa6059511ff1b08",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
     "test.md",
-    "选课.md",
+    "Course Register.md",
     "11/未命名.md",
     "11",
     "fsdaf/未命名.canvas",
