@@ -3,7 +3,7 @@
   "livePreview": true,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,

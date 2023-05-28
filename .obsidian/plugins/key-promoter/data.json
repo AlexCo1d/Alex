@@ -109,7 +109,8 @@
     "obsidian-mind-map:app:markmap-preview": 1,
     "markdown-table-editor:markdown-table-editor-open-horizontal": 3,
     "editor:toggle-numbered-list": 1,
-    "editing-toolbar:undent-list": 1,
-    "editor:toggle-bullet-list": 1
+    "editing-toolbar:undent-list": 3,
+    "editor:toggle-bullet-list": 1,
+    "editing-toolbar:indent-list": 1
   }
 }
