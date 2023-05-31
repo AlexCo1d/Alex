@@ -17,3 +17,6 @@
 
 - # ROB 501 [Engineering Mathematics](https://atlas.ai.umich.edu/course/ROB%20501/) 
 	12 A 水？
+
+- # EECS 598 Special Topics
+- 30 A 读论文+展示，适合科研
