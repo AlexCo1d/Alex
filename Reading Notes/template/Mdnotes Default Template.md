@@ -1,39 +1,39 @@
-#### {{title}} #Papers
+# {{title}} 
+
+#Papers
+#Unread
 
 ---
 
-#### Metadata
+# Metadata
 
 - Author:: {{author}}
-- 作者机构::
+- 作者机构:: 
 - Keywords:: {{tags}}
 - Journal:: {{publicationTitle}}
 - Date:: {{date}}
-- 状态:: #Unread
-- 对象::
-- 方法::
-- 分类::
-- 内容::
 - {{pdfAttachments}}
 
-#### {{abstractNote}}
+# {{abstractNote}}
 
 ---
 
-#### Zotero links
+# Zotero links
 
 {{DOI}}
 
 ---
 
-#### 理论
+# 笔记
 
-#### 内容
+- ## 理论
 
-#### 方法
+- ## 内容
 
-#### 结论
+- ## 方法
 
-#### 亮点
+- ## 结论
 
-#### 灵感
+- ## 亮点
+
+- ## 灵感

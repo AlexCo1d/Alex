@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course Register.md",
-                "mode": "preview",
+                "file": "Reading Notes/template/Zotero Metadata Template.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#待读",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Register.md"
+                "file": "Reading Notes/template/Zotero Metadata Template.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Zotero Metadata Template.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Zotero Metadata Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,14 +184,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f474ec90537688b4",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
-    "test.md",
     "Reading Notes/template/Mdnotes Default Template.md",
     "Reading Notes/template/Zotero Metadata Template.md",
-    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
-    "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Course Register.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
+    "test.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Benjamin H Kann.md",
     "Reading Notes/azhieDeepLearningFramework2023.md",
     "kannScreeningExtranodalExtension2023-zotero.md",
