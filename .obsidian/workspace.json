@@ -20,6 +20,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "cc71a861ed3f6475",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0665905bd6e9762f",
+            "type": "leaf",
+            "state": {
+              "type": "zdc-debug",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,8 +200,12 @@
   },
   "active": "c7840e0f6cb10473",
   "lastOpenFiles": [
-    "Course Register.md",
+    "Reading Notes/template/Zotero Metadata Template.md",
     "Reading Notes/template/Mdnotes Default Template.md",
+    "Reading Notes/azhieDeepLearningFramework2023.md",
+    "Course Register.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023.md",
+    "kannScreeningExtranodalExtension2023-zotero.md",
     "Reading Notes/template",
     "Reading Notes",
     "test.md",
