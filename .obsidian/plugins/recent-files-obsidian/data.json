@@ -5,12 +5,16 @@
       "path": "Reading Notes/template/Mdnotes Default Template.md"
     },
     {
-      "basename": "Course Register",
-      "path": "Course Register.md"
-    },
-    {
       "basename": "Zotero Metadata Template",
       "path": "Reading Notes/template/Zotero Metadata Template.md"
+    },
+    {
+      "basename": "kannScreeningExtranodalExtension2023-zotero",
+      "path": "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md"
+    },
+    {
+      "basename": "Course Register",
+      "path": "Course Register.md"
     },
     {
       "basename": "test",

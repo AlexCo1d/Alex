@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a3a89e74c0edf0f2",
+        "id": "2e2b1db41c8b8dbb",
         "type": "tabs",
         "children": [
           {
-            "id": "cebae7a3291f5219",
+            "id": "f474ec90537688b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Reading Notes/template/Mdnotes Default Template.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -184,12 +184,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cebae7a3291f5219",
+  "active": "f474ec90537688b4",
   "lastOpenFiles": [
-    "Course Register.md",
-    "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Reading Notes/template/Zotero Metadata Template.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
     "Reading Notes/template/Mdnotes Default Template.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023.md",
+    "Course Register.md",
     "Benjamin H Kann.md",
     "Reading Notes/azhieDeepLearningFramework2023.md",
     "kannScreeningExtranodalExtension2023-zotero.md",
