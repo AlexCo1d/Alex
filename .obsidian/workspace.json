@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading Notes/template/Mdnotes Default Template.md",
+                "file": "Course Register.md",
                 "mode": "preview",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading Notes/template/Mdnotes Default Template.md"
+                "file": "Course Register.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading Notes/template/Mdnotes Default Template.md",
+                "file": "Course Register.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading Notes/template/Mdnotes Default Template.md",
+                "file": "Course Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,9 +186,10 @@
   },
   "active": "f474ec90537688b4",
   "lastOpenFiles": [
+    "test.md",
+    "Reading Notes/template/Mdnotes Default Template.md",
     "Reading Notes/template/Zotero Metadata Template.md",
     "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
-    "Reading Notes/template/Mdnotes Default Template.md",
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Course Register.md",
     "Benjamin H Kann.md",
@@ -196,7 +197,6 @@
     "kannScreeningExtranodalExtension2023-zotero.md",
     "Reading Notes/template",
     "Reading Notes",
-    "test.md",
     "2023-05-31.md",
     "().md",
     "11/未命名.md",
