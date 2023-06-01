@@ -7,14 +7,14 @@
 
 # Metadata
 
-- Author:: {{author}}
+- Author:: %(author)
 - 作者机构:: 
 - Keywords:: {{tags}}
 - Journal:: {{publicationTitle}}
 - Date:: {{date}}
 - {{pdfAttachments}}
 
-- {{abstractNote}}
+#  {{abstractNote}}
 
 ---
 

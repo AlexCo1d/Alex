@@ -26,9 +26,21 @@
               "type": "style-settings",
               "state": {}
             }
+          },
+          {
+            "id": "3f543e54cd346554",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Notes/template/Zotero Metadata Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,14 +205,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b0be1baffa563183",
+  "active": "3f543e54cd346554",
   "lastOpenFiles": [
     "Reading Notes/template/Mdnotes Default Template.md",
     "Reading Notes/template/Zotero Metadata Template.md",
-    "Course Register.md",
-    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
-    "test.md",
+    "Reading Notes/songDeepLearningBased2014-zotero.md",
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
+    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
+    "Robert L Ferris.md",
+    "Course Register.md",
+    "test.md",
     "Benjamin H Kann.md",
     "Reading Notes/azhieDeepLearningFramework2023.md",
     "kannScreeningExtranodalExtension2023-zotero.md",
