@@ -19,13 +19,9 @@
 ---
 
 - # Zotero links
-
     - {{localLibrary}}
-
     - {{pdfAttachments}}
-
     - {{DOI}}
-
     - {{citekey}}
 
 ---
@@ -42,4 +38,4 @@
 
 - ## 亮点
 
-- ## 灵感
+- ## 灵感 

@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b0be1baffa563183",
+            "type": "leaf",
+            "state": {
+              "type": "style-settings",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +193,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f474ec90537688b4",
+  "active": "b0be1baffa563183",
   "lastOpenFiles": [
     "Reading Notes/template/Mdnotes Default Template.md",
     "Reading Notes/template/Zotero Metadata Template.md",
