@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Register.md"
+                "file": "Reading Notes/template/Mdnotes Default Template.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,8 +186,11 @@
   },
   "active": "c7840e0f6cb10473",
   "lastOpenFiles": [
-    "test.md",
     "Course Register.md",
+    "Reading Notes/template/Mdnotes Default Template.md",
+    "Reading Notes/template",
+    "Reading Notes",
+    "test.md",
     "2023-05-31.md",
     "().md",
     "11/未命名.md",
