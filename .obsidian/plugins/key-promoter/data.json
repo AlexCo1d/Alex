@@ -155,6 +155,8 @@
     "editor:insert-wikilink": 1,
     "editing-toolbar:editor:insert-wikilink": 1,
     "editing-toolbar:header4-text": 2,
-    "editing-toolbar:header3-text": 4
+    "editing-toolbar:header3-text": 4,
+    "editing-toolbar:editor-redo": 4,
+    "editing-toolbar:editor-undo": 1
   }
 }

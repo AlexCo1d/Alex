@@ -9,7 +9,7 @@
 
 - {{abstractNote}}
 
-- 笔记
+---
 
 - Zotero links
 
@@ -20,3 +20,7 @@
     - {{DOI}}
 
     - {{citekey}}
+
+---
+
+- 笔记
