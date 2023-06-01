@@ -4,33 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1a42fd863dee839a",
+        "id": "a3a89e74c0edf0f2",
         "type": "tabs",
         "children": [
           {
-            "id": "c7840e0f6cb10473",
+            "id": "cebae7a3291f5219",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading Notes/kannScreeningExtranodalExtension2023.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cc71a861ed3f6475",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0665905bd6e9762f",
-            "type": "leaf",
-            "state": {
-              "type": "zdc-debug",
-              "state": {}
             }
           }
         ]
@@ -124,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reading Notes/kannScreeningExtranodalExtension2023.md"
+                "file": "Reading Notes/template/Mdnotes Default Template.md"
               }
             }
           },
@@ -156,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reading Notes/kannScreeningExtranodalExtension2023.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -173,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Reading Notes/kannScreeningExtranodalExtension2023.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,13 +184,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7840e0f6cb10473",
+  "active": "cebae7a3291f5219",
   "lastOpenFiles": [
-    "Reading Notes/template/Mdnotes Default Template.md",
+    "Course Register.md",
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Reading Notes/template/Zotero Metadata Template.md",
+    "Reading Notes/template/Mdnotes Default Template.md",
+    "Benjamin H Kann.md",
     "Reading Notes/azhieDeepLearningFramework2023.md",
-    "Course Register.md",
     "kannScreeningExtranodalExtension2023-zotero.md",
     "Reading Notes/template",
     "Reading Notes",
