@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course Register.md"
+                "file": "Reading Notes/template/Mdnotes Default Template.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course Register.md",
+                "file": "Reading Notes/template/Mdnotes Default Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,14 +184,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f474ec90537688b4",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
-    "().md",
-    "Course Register.md",
-    "test.md",
     "Reading Notes/template/Zotero Metadata Template.md",
-    "Robert L Ferris.md",
     "Reading Notes/template/Mdnotes Default Template.md",
+    "MyProject/UNNC-Cervical/idea & spirit.md",
+    "Course Register.md",
+    "MyProject/UNNC-Cervical",
+    "MyProject",
+    "().md",
+    "test.md",
+    "Robert L Ferris.md",
     "Reading Notes/songDeepLearningBased2014-zotero.md",
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",

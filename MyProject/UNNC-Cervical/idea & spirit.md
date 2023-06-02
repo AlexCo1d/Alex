@@ -1,0 +1,1 @@
+[TN-SCUI2020挑战赛冠军](https://github.com/WAMAWAMA/TNSCUI2020-Seg-Rank1st/blob/master/README_zch.md)：级联网络
