@@ -2,9 +2,9 @@
 # Intro
 # Material & Method
 
-
-
 ## Data(图像数据的获取与预处理)
+
+In this study, we collected the data by the ultrasound system {Hospital}.
 
 ## Proposed CSD Segmentation Network 
 
