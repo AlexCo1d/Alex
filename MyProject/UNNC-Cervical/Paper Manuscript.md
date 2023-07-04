@@ -2,7 +2,7 @@
 
 # Material Method
 
-## Data(图像数据的获取与处理)
+## Data(图像数据的获取与预处理)
 
 ## Proposed CSD Segmentation Network 
 
@@ -17,6 +17,8 @@
 ## 跳跃连接适应性机制
 
 ## 迁移学习与微调策略
+
+## 后处理
 
 # Experiment 
 
