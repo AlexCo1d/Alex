@@ -4,7 +4,7 @@
 
 ## Data(图像数据的获取与处理)
 
-## CSD Segmentation (介绍网络的 4 个阶段)
+## Proposed CSD Segmentation Network 
 
 ### 下采样
 
