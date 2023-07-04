@@ -33,7 +33,7 @@ CSD dataset consists of 1111 original ultrasound images annotated by physicians 
 ## metrics
 
 ## Network Training
-
+Data augmentation, 
 ## Comparison
 
 # Results and Discussion
