@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f474ec90537688b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading Notes/template/Mdnotes Default Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd97bde6557f8265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "22a5d2cde2175ebb",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,12 +189,12 @@
   },
   "active": "22a5d2cde2175ebb",
   "lastOpenFiles": [
+    "Reading Notes/template/Mdnotes Default Template.md",
+    "MyProject/UNNC-Cervical/Paper Manuscript.md",
     "MyProject/UNNC-Cervical/idea & spirit.md",
     "Course Register.md",
     "test.md",
-    "MyProject/UNNC-Cervical/Paper Manuscript.md",
     "Reading Notes/template/Zotero Metadata Template.md",
-    "Reading Notes/template/Mdnotes Default Template.md",
     "MyProject/UNNC-Cervical",
     "MyProject",
     "().md",
