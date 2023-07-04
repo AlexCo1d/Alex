@@ -1,6 +1,6 @@
 {Intro}- method() - experiment(data setup, train) - results- conclusion
-
-# Material Method
+# Intro
+# Material & Method
 
 ## Data(图像数据的获取与预处理)
 
@@ -32,7 +32,10 @@
 
 # Results and Discussion
 
-## 
+# Conclusion
+
+
+
 
 
 
