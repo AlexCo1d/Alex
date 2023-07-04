@@ -5,7 +5,7 @@
 ## Data(图像数据的获取与预处理)
 
 In this study, we collected the data by the ultrasound system {Hospital}.
-The origin datasets of CSD provided consist of 1111 US images and 16 US videos, annotation operation was conducted by a physician 
+The provided origin datasets of CSD consist of 1111 US images and 16 US videos, annotation operation was conducted by a physician 
 ## Proposed CSD Segmentation Network 
 
 ### 下采样
