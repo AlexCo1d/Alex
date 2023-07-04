@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fig",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
