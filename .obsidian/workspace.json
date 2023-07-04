@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.1 Workshop.md",
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +56,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
+        "dimension": 59.198113207547166,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -93,8 +94,9 @@
         ]
       },
       {
-        "id": "aa63d3765e80c698",
+        "id": "10bf8983d6290002",
         "type": "tabs",
+        "dimension": 40.80188679245283,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -103,8 +105,19 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "3c95c3095b1294df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,16 +139,6 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "3c95c3095b1294df",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "7.1 Workshop.md"
               }
             }
           },
@@ -167,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "7.1 Workshop.md",
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -184,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "7.1 Workshop.md",
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,10 +214,10 @@
   },
   "active": "22a5d2cde2175ebb",
   "lastOpenFiles": [
-    "test.md",
-    "7.1 Workshop.md",
-    "Course Register.md",
     "MyProject/UNNC-Cervical/idea & spirit.md",
+    "Course Register.md",
+    "test.md",
+    "MyProject/UNNC-Cervical/Paper Manuscript.md",
     "Reading Notes/template/Zotero Metadata Template.md",
     "Reading Notes/template/Mdnotes Default Template.md",
     "MyProject/UNNC-Cervical",
