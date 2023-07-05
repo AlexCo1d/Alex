@@ -50,10 +50,10 @@
     "obsidian-minimal-settings:toggle-minimal-rose-pine-dark": 5,
     "key-promoter:statistics": 2,
     "key-promoter:key-promoter": 2,
-    "workspace:close": 46,
-    "workspace:close-window": 46,
-    "workspace:close-others": 46,
-    "editor:toggle-spellcheck": 47,
+    "workspace:close": 48,
+    "workspace:close-window": 48,
+    "workspace:close-others": 48,
+    "editor:toggle-spellcheck": 49,
     "switcher:open": 2,
     "command-palette:open": 2,
     "app:go-back": 25,
@@ -157,7 +157,11 @@
     "obsidian-minimal-settings:toggle-minimal-notion-dark": 3,
     "obsidian-minimal-settings:toggle-minimal-things-dark": 3,
     "obsidian-minimal-settings:toggle-minimal-dev-block-width": 3,
-    "obsidian-style-settings:show-style-settings-leaf": 2
+    "obsidian-style-settings:show-style-settings-leaf": 2,
+    "workspace:goto-tab-6": 2,
+    "editing-toolbar:header6-text": 2,
+    "editor:set-heading-6": 2,
+    "graph:open": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 15,
