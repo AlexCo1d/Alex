@@ -21,7 +21,7 @@ As the input, the ultrasound image is reshaped into a three-channel array. Durin
 
 ### Downsampling Stage
 - Inspired by the work of #cite , we extensively utilize the Convolutional Block Attention Module (CBAM) in our network, predominantly in the Downsampling Stage. CBAM separates channel and spatial attention into two standalone submodules. The Channel Attention Module first processes the input feature map through Global Max Pooling (GMP) and Global Average Pooling (GAP), then applies Multiple Layer Projection (MLP) to these pooled maps. The final channel attention feature map is generated via a Sigmoid activation function after an element-wise addition operation on the transformed feature maps. On the other hand, the Spatial Attention Module uses the feature map produced by the Channel Attention Module as its input. The input feature map first undergoes channel-wise GMP and GAP. The resulting pooled feature maps are concatenated along the channel dimension, then dimensionally reduced via a convolution operation, producing a single-channel feature map. A Sigmoid activation function is applied to generate the spatial attention feature map, which is then element-wise multiplied with the input feature map to generate the final feature map. This procedure succinctly illustrates the operation of the Spatial Attention Module and the Channel Attention Module. #need_cut
-- Downsampling Stage, to introduce attention mechanism into CNN, merges CBAM into basic ResNetV2 block. In specific, 
+- In Downsampling Stage, to fully use attention mechanism's ability to grab global information, we merges CBAM into basic ResNetV2 block. In specific, 
 
 
 
