@@ -1,5 +1,5 @@
-{Intro}- method() - experiment(data setup, train) - results- conclusion
 # Intro
+
 # Material & Method
 
 ## Data(图像数据的获取与预处理)
@@ -10,6 +10,7 @@ The other two datasets are thyroid ultrasound dataset ( hereafter  called DDTI d
 
 ### Data preprocessing
 Because CSD dataset comes directly from ultrasound machine, we did some preprocessing work before training, in order to improve data's quality. Firstly we processed the US videos by extracting one frame every 10 frames, overcoming the overall redundancy of the data by eliminating the similarity between adjacent frames. After this process, we obtained 271 more US images. Since there was a substantial amount of residual digital information from the ultrasound equipment around all images and video frames, we then used a semi-automatic cropping algorithm, preprocessing both the images and videos into cropped shape that focus on the region of interest (ROI). #fig shows how we processed the video and cropped the CSD ultrasound images. Eventually, after removed some specific ultrasound images different from the other, we obtained 1309 images that form the CSD dataset. This dataset includes 501 positive samples and 808 negative samples. For this study, we selected a balanced subset of 802 samples for training and a balanced subset of 200 samples for testing. The size of the acquired images is inconsistent, so a standardized size of 512×512 was chosen as it is relatively close to the actual size of most images.
+
 ## Proposed CSD Segmentation Network 
 
  Our proposed network is call Med-FAUNet (Medical Fully Attention U-Net), which is generally an encoder-decoder network architecture, as depicted in #fig . This network has 4 stage, while encoder part of the network comprises three stages. Specifically, the first stage is the Downsampling Stage, where the bottleneck structure formed by a combination of ResNetV2 and the Convolutional Block Attention Module (CBAM), extracting feature from raw images. The second stage is the Self-Attention Stage, composed of the backbone of the Vision Transformer (ViT). The third stage (Stage 3) consists of a Features Reshape module built from 1x1 convolutions and an Atrous Spatial Pyramid Pooling (ASPP_CBAM) module, which perform the role of multi-scale feature fusion. The decoder of the network, which serves as the upsampling stage, is made up of five upsampling modules, each of which is a blend of CNN and CBAM modules. Similar to U-Net, the downsampling modules are skip-connected to the upsampling modules in a specific order.
