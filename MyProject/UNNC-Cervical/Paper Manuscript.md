@@ -19,13 +19,18 @@ Our proposed network, termed Med-FAUNet (Medical Fully Attention U-Net), primari
 
 As the input, the ultrasound image is reshaped into a three-channel array. During the Downsampling Stage, the image data is transformed into feature map consisting of C channels, where C equals 64. Subsequent to this, in the Self-Attention Stage, the features go through the transformer module, embedded into a space of $D \times Hidden\_Size$ dimensions. Upon transitioning through the Multi-Scale Fusion Stage, the features are reshaped, then coupled with application of the Atrous Spatial Pyramid Pooling (ASPP_CBAM) module, which reinstates the features to an array of $1024\times\frac{H} {16}\times\frac{W}{16}$ dimensions. In the final stage of processing, the image features undergoes four layers of upsampling-CBAM mixed block as well as a final segmentation head, which converts them back to a segmentation mask that is readily interpretable.
 
-### 下采样
-Enlightened by the work of #cite , we extensively adopt Convolutional Block Attention Module (CBAM) in our network, especially in Downsampling Stage. CBAM decouples the channel attention and spatial attention, dividing them into two independent submodules. The Channel Attention Module firstly receives the input feature map, which is subsequently processed through Global Max Pooling (GMP) and Global Average Pooling (GAP), respectively. These two pooled feature maps are then individually subjected to transformations via Multiple Layer Projection (MLP). After performing an element-wise addition on these two transformed feature maps, they are passed through a Sigmoid activation function to generate the final channel attention feature map. The Spatial Attention Module takes the feature map outputted by the Channel Attention Module as its input. Initially, the input feature map undergoes Global Max Pooling and Global Average Pooling operations based on its channels. The two resultant pooled feature maps are concatenated along the channel dimension. A convolution operation is then applied to the concatenated feature map to reduce its dimensions, yielding a feature map that comprises only one channel. The Sigmoid activation function is then employed to generate the spatial attention feature map. Finally, an element-wise multiplication operation is executed on the spatial attention feature map and the input feature map of the Spatial Attention Module to generate the final feature map. This narrative comprehensively captures the detailed procedure of the Spatial Attention Module.
-### Transformer
+### Downsampling Stage
+- Enlightened by the work of #cite , we extensively adopt Convolutional Block Attention Module (CBAM) in our network, especially in Downsampling Stage. CBAM decouples the channel attention and spatial attention, dividing them into two independent submodules. The Channel Attention Module firstly receives the input feature map, which is subsequently processed through Global Max Pooling (GMP) and Global Average Pooling (GAP), respectively. These two pooled feature maps are then individually subjected to transformations via Multiple Layer Projection (MLP). After performing an element-wise addition on these two transformed feature maps, they are passed through a Sigmoid activation function to generate the final channel attention feature map. The Spatial Attention Module takes the feature map outputted by the Channel Attention Module as its input. Initially, the input feature map undergoes Global Max Pooling and Global Average Pooling operations based on its channels. The two resultant pooled feature maps are concatenated along the channel dimension. A convolution operation is then applied to the concatenated feature map to reduce its dimensions, yielding a feature map that comprises only one channel. The Sigmoid activation function is then employed to generate the spatial attention feature map. Finally, an element-wise multiplication operation is executed on the spatial attention feature map and the input feature map of the Spatial Attention Module to generate the final feature map. The procedure above comprehensively depicts the way Spatial Attention Module and Channel Attention Module work. #need_cut 
 
-### ASPP-CBAM
+- Downsampling Stage, composed by a few blocks combining ResNetV2 with CBAM, is a  
 
-### 上采样
+
+
+### Self-Attention Stage
+
+### Multi-Scale Fusion Stage
+
+### Upsampling Stage
 
 ## 跳跃连接适应性机制
 
