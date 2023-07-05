@@ -20,7 +20,7 @@ Our proposed network, termed Med-FAUNet (Medical Fully Attention U-Net), primari
 As the input, the ultrasound image is reshaped into a three-channel array. During the Downsampling Stage, the image data is transformed into feature maps consisting of C channels, where C equals 64. Subsequent to this, in the Self-Attention Stage, the features go through the transformer module, embedded into a space of $D \times Hidden\_Size$ dimensions. Upon transitioning through the Multi-Scale Fusion Stage, the features are reshaped, then coupled with application of the Atrous Spatial Pyramid Pooling (ASPP_CBAM) module, which reinstates the features to an array of $1024\times\frac{H} {16}\times\frac{W}{16}$ dimensions. In the final stage of processing, the image features undergoes four layers of upsampling-CBAM mixed block as well as a final segmentation head, which converts them back to a segmentation mask that is readily interpretable.
 
 ### 下采样
-Enlightened by the work of #cite 
+Enlightened by the work of #cite , we extensively adopt Convolutional Block Attention Module (CBAM) in our network, especially
 ### Transformer
 
 ### ASPP-CBAM
