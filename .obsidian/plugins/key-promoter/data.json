@@ -208,7 +208,8 @@
     "obsidian-excalidraw-plugin:convert-to-excalidraw": 1,
     "obsidian-excalidraw-plugin:convert-excalidraw": 1,
     "editor:rename-heading": 1,
-    "insert-template": 1
+    "insert-template": 1,
+    "various-complements:show-suggestions": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 17,
