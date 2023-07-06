@@ -51,7 +51,7 @@ elif config_vit.n_skip == 4:
 ~~~
 
 ## 迁移学习与微调策略
-Employed
+
 ## 后处理
 
 # Experiment 

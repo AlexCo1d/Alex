@@ -2,7 +2,7 @@
 
 - # EECS 501 [Probability and Random Process](https://atlas.ai.umich.edu/course/EECS%20501/). 
 	Workload 37 A-
-
+	
 - # EECS 504 [Computer Vision](https://atlas.ai.umich.edu/course/EECS%20504/) 
 	Workload 20 A 水？
 	
