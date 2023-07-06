@@ -30,8 +30,7 @@
 - ViT relies on its multi-head self-attention module that enable it to grab global contextual information. So we name this subnetwork Self-Attention Stage. However, ViT requires a significant amount of data and computational resources for training to effectively learn useful visual features. Therefore, to train a ViT backbone we usually adopt a strategy of pre-training followed by fine-tuning, where it is first pre-trained on ImageNet and then fine-tuned on our target dataset.
 
 ### Multi-Scale Fusion Stage 
-- Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, aiming at apply attention mechanism to Multi-Scale convolutional network. By 
-
+- Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, aiming at apply attention mechanism to Multi-Scale convolutional network. ASPP was firstly been proposed in DeepLab series network,  representing a spatial pyramid structure with dilated convolution. Given a certain dilation rate, ASPP could expand the receptive field without utilizing pooling or downsampling operations, fulfill the goal of fusing multi-scale features.
 ### Upsampling Stage
 
 ## 跳跃连接适应性机制
