@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "29308c6a6e8480b4",
+        "id": "c88d85b85745f078",
         "type": "tabs",
         "children": [
           {
-            "id": "f5cf33767065bbfe",
+            "id": "e5c84080154199dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "10bf8983d6290002",
@@ -185,12 +184,16 @@
       "templates:插入模板": false,
       "templater-obsidian:Templater": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3c95c3095b1294df",
+  "active": "e5c84080154199dc",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-06 15.38.27.excalidraw.md",
     "MyProject/UNNC-Cervical/Paper Manuscript.md",
+    "Excalidraw",
     "MyProject/UNNC-Cervical/idea & spirit.md",
     "Reading Notes/template/Mdnotes Default Template.md",
     "Course Register.md",
