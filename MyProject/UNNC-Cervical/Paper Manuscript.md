@@ -38,7 +38,7 @@
 
 ## 跳跃连接适应性机制
 
-
+Given that small-scale medical image datasets's relatively less information, an increased number of skip-connections may elevate the computational load during the upsampling stage. This could potentially prevent the model from converging normally, thereby affecting its segmentation performance. As such, we propose that an idea of adaptive skip-connections, and employed for different datasets . Specifically, we suggest using four skip-connections for images of size 512×512 in the dataset like CSD and BUSI, and three skip-connections for images of size 256×256 in the dataset like DDTI.
 
 ## 迁移学习与微调策略
 
