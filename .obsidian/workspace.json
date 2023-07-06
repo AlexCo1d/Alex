@@ -11,9 +11,11 @@
             "id": "2a59ee658126040b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Resources/Pasted image 20230706154321.png"
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Pasted image 20230706154321.png"
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md"
               }
             }
           }
@@ -143,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Pasted image 20230706154321.png",
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -160,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Pasted image 20230706154321.png",
+                "file": "MyProject/UNNC-Cervical/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,19 +188,19 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "459fac88dfbb546a",
+  "active": "2a59ee658126040b",
   "lastOpenFiles": [
-    "未命名",
+    "Important Arrangement/Course Register.md",
+    "Resources/Pasted image 20230706154321.png",
+    "Important Arrangement",
     "MyProject/UNNC-Cervical/Paper Manuscript.md",
     "Resources",
-    "Resources/Pasted image 20230706154321.png",
     "arichitecture.png.md",
     "Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",
     "Excalidraw/Drawing 2023-07-06 15.38.27.excalidraw.md",
     "Excalidraw",
     "MyProject/UNNC-Cervical/idea & spirit.md",
     "Reading Notes/template/Mdnotes Default Template.md",
-    "Course Register.md",
     "test.md",
     "Reading Notes/template/Zotero Metadata Template.md",
     "MyProject/UNNC-Cervical",
