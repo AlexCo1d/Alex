@@ -23,8 +23,7 @@
 - In Downsampling Stage, to fully use attention mechanism's ability to grab global information, we merges CBAM into basic ResNetV2 block. In specific, we add the CBAM after the ReLU activation function in the second convolutional unit of ResNetV2. Since the dimension of the second convolution is a quarter of the output dimension, compared to adding an attention module at the end of the residual module, our approach reduces the computational cost of adding the CBAM by a quarter. This process could be depicted by the following formula #formula .
 
 ### Self-Attention Stage
-- The Self-Attention Stage is factually comprised of the backbone Vision Transformer (ViT). Due to we only focus on the attention mechanism and the essence of Transformer is its multi-head self-attention block, we nameThe core idea of the ViT module is to treat image processing as a natural language processing problem, meaning the model primarily relies on self-attention mechanism rather than traditional convolutional networks. The structure of the ViT module is shown in #fig .
-### Multi-Scale Fusion Stage
+- The Self-Attention Stage is factually comprised of the backbone Vision Transformer (ViT), which is shown in #fig . The essence of Transformer is the multi-head self-attention module that grabs global information. Therefore,
 
 ### Upsampling Stage
 
