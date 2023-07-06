@@ -31,7 +31,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 47.46162927981109,
+        "dimension": 34.35655253837072,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#need_cut",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +72,7 @@
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 52.53837072018891,
+        "dimension": 65.64344746162928,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -188,7 +188,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0b493b46f92a1cdc",
+  "active": "3c95c3095b1294df",
   "lastOpenFiles": [
     "MyProject/UNNC-Cervical/Paper Manuscript.md",
     "MyProject/UNNC-Cervical/idea & spirit.md",

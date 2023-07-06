@@ -31,11 +31,14 @@
 
 ### Multi-Scale Fusion Stage 
 - Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, which we call it ASPP_CBAM module, aiming at apply attention mechanism to Multi-Scale convolutional network. ASPP was firstly been proposed in DeepLab-related network,  representing a spatial pyramid structure with dilated convolution. Given a certain dilation rate, ASPP could expand the receptive field without utilizing pooling or downsampling operations, and such process would fulfill the goal of fusing multi-scale features. #need_cut
-- the features will initially reshaped to a $1024\times\frac{H} {16}\times\frac{W}{16}$ size and then fed into the ASPP_CBAM module. Our proposed ASPP_CBAM module improves upon the traditional ASPP by incorporating an attention operation through a CBAM module after the concatenation process, followed by a 1×1 convolution layer to reduce the number of channels. This way, the features at each scale of the spatial pyramid receive attention, enhancing the treatment of these features. #need_cut
+- Our proposed ASPP_CBAM module improves upon the traditional ASPP by incorporating an attention operation through a CBAM module after the concatenation process, followed by a 1×1 convolution layer to reduce the number of channels. This way, the features at each scale of the spatial pyramid receive attention, enhancing the treatment of these features. The features will initially reshaped to a $1024\times\frac{H} {16}\times\frac{W}{16}$ size and then fed into the ASPP_CBAM module, and this module does not change the dimension when outputs. #need_cut
 
 ### Upsampling Stage
+- The Upsampling Stage  consists of 4 upsample block and a segmentation head, incrementally restores the feature map from $1024\times\frac{H} {16}\times\frac{W}{16}$ to an intelligible segmentation mask with size of $Class \times H\times W$. We design the basic upsample module that contains a upsample operation and a CBAM. Besides, before upsample, the upsample block would receive the feature information via skip-connection. After 4 upsample blocks of different dimensions, the feature map finally reshape to normal and interpretable shape through the segmentation head.
 
 ## 跳跃连接适应性机制
+
+
 
 ## 迁移学习与微调策略
 
