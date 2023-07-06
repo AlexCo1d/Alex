@@ -206,7 +206,8 @@
     "obsidian-excalidraw-plugin:insert-LaTeX-symbol": 1,
     "obsidian-excalidraw-plugin:toggle-excalidraw-view": 1,
     "obsidian-excalidraw-plugin:convert-to-excalidraw": 1,
-    "obsidian-excalidraw-plugin:convert-excalidraw": 1
+    "obsidian-excalidraw-plugin:convert-excalidraw": 1,
+    "editor:rename-heading": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 15,

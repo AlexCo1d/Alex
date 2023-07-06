@@ -1,4 +1,4 @@
-![[Pasted image 20230706155812.png]]
+![[architecture of manu.png]]
 # Intro
 
 # Material & Method
