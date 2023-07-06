@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200 Course & Project/UNNC-Project/idea & spirit.md",
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 Course & Project/UNNC-Project/idea & spirit.md"
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md"
               }
             }
           }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 Course & Project/UNNC-Project/idea & spirit.md",
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200 Course & Project/UNNC-Project/idea & spirit.md",
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +191,8 @@
   },
   "active": "2a59ee658126040b",
   "lastOpenFiles": [
-    "2023-07-06.md",
     "200 Course & Project/UNNC-Project/idea & spirit.md",
+    "2023-07-06.md",
     "100 Daily/Course Register.md",
     "test.md",
     "200 Course & Project/UNNC-Project/Paper Manuscript.md",
