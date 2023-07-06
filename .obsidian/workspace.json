@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 290.5
   },
   "right": {
     "id": "3791e76dfb71a3af",
@@ -133,8 +133,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0f2d5a92db66ea0e",
@@ -189,10 +188,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "2a59ee658126040b",
+  "active": "2d0aabb3c3714992",
   "lastOpenFiles": [
-    "100 Daily/Course Register.md",
     "200 Course & Project/UNNC-Project/Paper Manuscript.md",
+    "100 Daily/Course Register.md",
     "200 Course & Project/UNNC-Project/idea & spirit.md",
     "2023-07-06.md",
     "test.md",
