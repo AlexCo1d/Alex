@@ -8,7 +8,7 @@
 	
 ~~- # EECS 505 [. Comp DS & ML](https://atlas.ai.umich.edu/course/EECS%20505/)
 	~~~~工作量 54 偏大？A
-	
+	 ^0098fb
 - # EECS 551 [Matrix Method](https://atlas.ai.umich.edu/course/EECS%20551/) 
 	工作量 45 A-
 

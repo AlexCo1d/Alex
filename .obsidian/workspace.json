@@ -11,8 +11,12 @@
             "id": "2a59ee658126040b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md"
+              }
             }
           }
         ],
@@ -140,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200 Course & Project/UNNC-Project/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,10 +191,10 @@
   },
   "active": "2a59ee658126040b",
   "lastOpenFiles": [
+    "100 Daily/Course Register.md",
     "200 Course & Project/UNNC-Project/Paper Manuscript.md",
     "200 Course & Project/UNNC-Project/idea & spirit.md",
     "2023-07-06.md",
-    "100 Daily/Course Register.md",
     "test.md",
     "000 Inbox",
     "200 Course & Project/UNNC-Project/attachments/architecture of manu.png",
