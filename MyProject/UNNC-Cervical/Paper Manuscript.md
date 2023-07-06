@@ -5,7 +5,7 @@
 ## Dataset 
 
 ### Data acquisition
-- To build an effective Cesarean Scar Defect (CSD) screening system, we utilized three medical ultrasound image datasets to train our proposed segmentation algorithm. The first one is a private US dataset, hereafter referred to as the CSD dataset, provided by the affiliated hospital of Shanghai JiaoTong University #hospital . CSD dataset consists of 1111 original ultrasound images annotated by physicians #hospital , as well as 16 annotated ultrasound videos without spacing information.
+- To build an effective Cesarean Scar Defect (CSD) screening system, we utilized three medical ultrasound image datasets to train our proposed segmentation algorithm. The first one is a private US dataset, hereafter referred to as the CSD dataset, provided by the affiliated hospital of Shanghai JiaoTong University #med . CSD dataset consists of 1111 original ultrasound images annotated by physicians #med , as well as 16 annotated ultrasound videos without spacing information.
 - The other two datasets are thyroid ultrasound dataset ( hereafter  called DDTI dataset)and breast cancer dataset (hereafter called BUSI dataset). Both of these datasets are open access and extensively utilized in various research studies. We employed these datasets to validate the performance of our proposed algorithm. The DDTI dataset utilized in this study comprises 637 images, each with size of  $256 \times 256$. Similarly, the BUSI dataset contains 647 images, each with size of $512 \times 512$.
 
 ### Data preprocessing
@@ -30,7 +30,8 @@
 - ViT relies on its multi-head self-attention module that enable it to grab global contextual information. So we name this subnetwork Self-Attention Stage. However, ViT requires a significant amount of data and computational resources for training to effectively learn useful visual features. Therefore, to train a ViT backbone we usually adopt a strategy of pre-training followed by fine-tuning, where it is first pre-trained on ImageNet and then fine-tuned on our target dataset.
 
 ### Multi-Scale Fusion Stage 
-- Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, aiming at apply attention mechanism to Multi-Scale convolutional network. ASPP was firstly been proposed in DeepLab-related network,  representing a spatial pyramid structure with dilated convolution. Given a certain dilation rate, ASPP could expand the receptive field without utilizing pooling or downsampling operations, and such process would fulfill the goal of fusing multi-scale features.
+- Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, which we call it ASPP_CBAM module, aiming at apply attention mechanism to Multi-Scale convolutional network. ASPP was firstly been proposed in DeepLab-related network,  representing a spatial pyramid structure with dilated convolution. Given a certain dilation rate, ASPP could expand the receptive field without utilizing pooling or downsampling operations, and such process would fulfill the goal of fusing multi-scale features.
+- the features will initially reshaped to a $1024\times\frac{H} {16}\times\frac{W}{16}$ size and then fed into the ASPP_CBAM module. Our proposed ASPP_CBAM module improves upon the traditional ASPP by incorporating an attention operation through a CBAM module after the concatenation process, followed by a 1×1 convolution layer to reduce the number of channels. This way, the features at each scale of the spatial pyramid receive attention, enhancing the treatment of these features. #need_cut 
 ### Upsampling Stage
 
 ## 跳跃连接适应性机制
