@@ -24,9 +24,10 @@
 
 ### Self-Attention Stage
 - The Self-Attention Stage is factually comprised of the backbone Vision Transformer (ViT), which is shown in #fig . The essence of Transformer is the multi-head self-attention module that grabs global information. So we name this subnetwork Self-Attention Stage. The ViT module works through the following steps:
-	1. Image Partitioning: Initially, the input image is partitioned into a series of fixed-size patches (e.g., 16x16). Hence, each image can be viewed as a sequence of patches, analogous to a sequence of words in a sentence. 
-	1. Embedding: Each patch is linearly transformed (i.e., via a fully connected layer) into an embedding vector. In addition, a position embedding is included to maintain spatial information. This step mirrors the word embedding in natural language processing. 
-	1. Transformer Encoder: The embedding vectors are then fed into a standard Transformer encoder. During this stage, the model learns the relationships among patches through the self-attention mechanism.
+	1. Image Partitioning: Initially, the input image is partitioned into a series of fixed-size patches (e.g., 16x16).
+	2. Embedding: Each patch is linearly transformed via a fully connected layer into an embedding vector. In addition, a position embedding is included to maintain spatial information. 
+	3. Transformer Encoder: The embedding vectors are then fed into a standard Transformer block, during which Transformer learns the relationships among patches through the self-attention mechanism.
+
 ### Upsampling Stage
 
 ## 跳跃连接适应性机制
