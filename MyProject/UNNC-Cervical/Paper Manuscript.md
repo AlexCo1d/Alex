@@ -28,6 +28,8 @@
 	2. Embedding: Each patch is linearly transformed via a fully connected layer into an embedding vector. In addition, a position embedding is included to maintain spatial information. 
 	3. Transformer Encoder: The embedding vectors are then fed into a standard Transformer block, during which Transformer learns the relationships among patches through the self-attention mechanism.
 
+### Multi-Scale Fusion Stage 
+
 ### Upsampling Stage
 
 ## 跳跃连接适应性机制
