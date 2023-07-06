@@ -2,7 +2,7 @@
 
 # Material & Method
 
-## Data(图像数据的获取与预处理)
+## Dataset 
 
 ### Data acquisition
 To build an effective Cesarean Scar Defect (CSD) screening system, we utilized three medical ultrasound image datasets to train our proposed segmentation algorithm. The first one is a private US dataset, hereafter referred to as the CSD dataset, provided by the affiliated hospital of Shanghai JiaoTong University #hospital . CSD dataset consists of 1111 original ultrasound images annotated by physicians #hospital , as well as 16 annotated ultrasound videos without spacing information.
@@ -22,7 +22,8 @@ As the input, the ultrasound image is reshaped into a three-channel array. Durin
 ### Downsampling Stage
 - The Downsampling Stage
 - Inspired by the work of #cite , we extensively utilize the Convolutional Block Attention Module (CBAM) in our network, predominantly in the Downsampling Stage. CBAM separates channel and spatial attention into two standalone submodules. The Channel Attention Module first processes the input feature map through Global Max Pooling (GMP) and Global Average Pooling (GAP), then applies Multiple Layer Projection (MLP) to these pooled maps. The final channel attention feature map is generated via a Sigmoid activation function after an element-wise addition operation on the transformed feature maps. On the other hand, the Spatial Attention Module uses the feature map produced by the Channel Attention Module as its input. The input feature map first undergoes channel-wise GMP and GAP. The resulting pooled feature maps are concatenated along the channel dimension, then dimensionally reduced via a convolution operation, producing a single-channel feature map. A Sigmoid activation function is applied to generate the spatial attention feature map, which is then element-wise multiplied with the input feature map to generate the final feature map. This procedure succinctly illustrates the operation of the Spatial Attention Module and the Channel Attention Module. #need_cut
-- In Downsampling Stage, to fully use attention mechanism's ability to grab global information, we merges CBAM into basic ResNetV2 block. In specific, we add the CBAM after the ReLU activation function in the second convolutional unit of ResNetV2. Since the dimension of the second convolution is a quarter of the output dimension, compared to adding an attention module at the end of the residual module, our approach reduces the computational cost of adding the CBAM by a quarter.
+- In Downsampling Stage, to fully use attention mechanism's ability to grab global information, we merges CBAM into basic ResNetV2 block. In specific, we add the CBAM after the ReLU activation function in the second convolutional unit of ResNetV2. Since the dimension of the second convolution is a quarter of the output dimension, compared to adding an attention module at the end of the residual module, our approach reduces the computational cost of adding the CBAM by a quarter. This process could be depicted by the following formula #formula .
+- A
 
 
 
