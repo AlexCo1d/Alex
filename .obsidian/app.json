@@ -12,5 +12,6 @@
   },
   "showFrontmatter": false,
   "rightToLeft": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "attachmentFolderPath": "./attachments"
 }

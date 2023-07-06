@@ -1,4 +1,4 @@
-![[Pasted image 20230706154321.png]]
+![[Pasted image 20230706155812.png]]
 # Intro
 
 # Material & Method
