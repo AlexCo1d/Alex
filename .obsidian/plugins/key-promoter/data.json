@@ -158,9 +158,9 @@
     "obsidian-minimal-settings:toggle-minimal-things-dark": 3,
     "obsidian-minimal-settings:toggle-minimal-dev-block-width": 3,
     "obsidian-style-settings:show-style-settings-leaf": 2,
-    "workspace:goto-tab-6": 2,
-    "editing-toolbar:header6-text": 2,
-    "editor:set-heading-6": 2,
+    "workspace:goto-tab-6": 5,
+    "editing-toolbar:header6-text": 5,
+    "editor:set-heading-6": 5,
     "graph:open": 1,
     "editing-toolbar:hrline": 1,
     "editing-toolbar:underline": 1,
@@ -210,7 +210,7 @@
     "editor:rename-heading": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 15,
+    "app:open-settings": 16,
     "workspace:export-pdf": 6,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
