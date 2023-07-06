@@ -23,12 +23,14 @@
 - In Downsampling Stage, to fully use attention mechanism's ability to grab global information, we merges CBAM into basic ResNetV2 block. In specific, we add the CBAM after the ReLU activation function in the second convolutional unit of ResNetV2. Since the dimension of the second convolution is a quarter of the output dimension, compared to adding an attention module at the end of the residual module, our approach reduces the computational cost of adding the CBAM by a quarter. This process could be depicted by the following formula #formula .
 
 ### Self-Attention Stage
-- The Self-Attention Stage is factually comprised of the backbone Vision Transformer (ViT), which is shown in #fig . The essence of Transformer is the multi-head self-attention module that grabs global information. So we name this subnetwork Self-Attention Stage. The ViT module works through the following steps:
+- The Self-Attention Stage is factually comprised of the backbone of Vision Transformer (ViT), which is shown in #fig . The ViT module works through the following steps:
 	1. Image Partitioning: Initially, the input image is partitioned into a series of fixed-size patches (e.g., 16x16).
 	2. Embedding: Each patch is linearly transformed via a fully connected layer into an embedding vector. In addition, a position embedding is included to maintain spatial information. 
 	3. Transformer Encoder: The embedding vectors are then fed into a standard Transformer block, during which Transformer learns the relationships among patches through the self-attention mechanism.
+- ViT relies on its multi-head self-attention module that enable it to grab global contextual information. So we name this subnetwork Self-Attention Stage. However, ViT requires a significant amount of data and computational resources for training to effectively learn useful visual features. Therefore, to train a ViT backbone we usually adopt a strategy of pre-training followed by fine-tuning, where it is first pre-trained on ImageNet and then fine-tuned on our target dataset.
 
 ### Multi-Scale Fusion Stage 
+- Multi-Scale Fusion Stage is substantially an Atrous Spatial Pyramid Pooling (ASPP)  #cite  plus CBAM, aiming at apply attention mechanism to Multi-Scale convolutional network. By 
 
 ### Upsampling Stage
 
