@@ -58,7 +58,7 @@ elif config_vit.n_skip == 4:
 
 ## Postprocessing
 
-- 
+- After using Deep Learning model to generate the segmentation mask, we also design and apply a postprocessing procedure to gain high-quality segmentation result. In specific, we 
 
 # Experiment 
 
