@@ -83,9 +83,7 @@ elif config_vit.n_skip == 4:
 - Here 'pred' corresponds to the predicted mask, while 'true' stands for the actual mask. The value of the Dice coefficient ranges between 0 and 1, where a value closer to 1 indicates that the predicted segmentation result is more aligned with the true segmentation result. Throughout the experiment, we compute the Dice coefficient for the predicted and true masks for each image in the test set. Subsequently, we average these values to derive the overall Dice coefficient for the test samples, thereby evaluating the comprehensive segmentation effect of the model.
 
 ## Network Training
-### Data augmentation
-- 
-, epoch, freeze, learning rate, fine-tuning 
+Data augmentation, epoch, freeze, learning rate, fine-tuning 
 ## Comparison 
 
 # Results
