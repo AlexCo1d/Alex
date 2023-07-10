@@ -51,7 +51,9 @@ elif config_vit.n_skip == 4:
     config_vit.decoder_channels=(512,256, 64,16)
 ~~~
 
-## 迁移学习与微调策略
+## Transfer Learning
+
+To train our 
 
 ## 后处理
 
@@ -62,7 +64,7 @@ elif config_vit.n_skip == 4:
 ## metrics
 
 ## Network Training
-Data augmentation, epoch, freeze, learning rate...
+Data augmentation, epoch, freeze, learning rate, fine-tuning 
 ## Comparison 
 
 # Results and Discussion
