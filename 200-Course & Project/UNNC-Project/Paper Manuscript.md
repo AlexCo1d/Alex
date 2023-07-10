@@ -84,6 +84,12 @@ elif config_vit.n_skip == 4:
 
 ## Network Training
 Data augmentation, epoch, freeze, learning rate, fine-tuning 
+- In the training process of our neural network model, we implement various strategies to ensure robustness, optimal performance, and generalizability of the model. One of these approaches is data augmentation. Given the limited availability of our dataset, data augmentation techniques such as rotations, scaling, and flipping are employed to artificially expand the dataset, enhancing the model's ability to generalize to unseen data.
+- The training process of our model is divided into epochs, where an epoch refers to one complete pass through the entire dataset. Each epoch consists of multiple iterations, each corresponding to a batch of training samples processed by the network. The number of epochs is carefully chosen to ensure that the model learns the underlying patterns in the data without overfitting or underfitting.
+- The concept of freezing is incorporated into our training regimen. Specifically, during the initial phase of training, the weights of certain pre-trained layers (e.g., the layers imported from a pre-trained ResNet or VGG model) are 'frozen' or kept constant. This approach allows the model to maintain the useful features already learned by these layers while training the remaining layers.
+- The learning rate is a crucial hyperparameter that determines the step size at each iteration while moving towards a minimum of a loss function. A smaller learning rate could make the training process converge slowly, while a larger learning rate could lead the model to overshoot the minimum. Therefore, the learning rate is meticulously tuned to balance the trade-off between training speed and accuracy.
+- Additionally, fine-tuning is another strategy that we employ after the initial phase of training. Once the model has learned basic features using the frozen pre-trained layers, these layers are unfrozen, and the entire model is trained again with a smaller learning rate. This process allows the model to 'fine-tune' and adapt these pre-learned features to the specific task at hand.
+- In summary, the training process of our model is carefully designed, incorporating several strategies like data augmentation, epoch division, freezing, learning rate adjustment, and fine-tuning, to optimize its performance and robustness.
 ## Comparison 
 
 # Results

@@ -230,7 +230,7 @@
     "markdown-table-editor:markdown-table-editor-open-horizontal": 7,
     "editor:toggle-numbered-list": 3,
     "editing-toolbar:undent-list": 9,
-    "editor:toggle-bullet-list": 16,
+    "editor:toggle-bullet-list": 17,
     "editing-toolbar:indent-list": 3,
     "editing-toolbar:codeblock": 1,
     "editor:focus": 20,
