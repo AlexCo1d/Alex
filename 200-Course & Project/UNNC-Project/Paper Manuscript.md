@@ -53,7 +53,7 @@ elif config_vit.n_skip == 4:
 
 ## Transfer Learning
 
-To train our proposed Med-FAUNet model, we use transfer learning strategy that  #fig 
+- To train our proposed Med-FAUNet model, we use transfer learning strategy that  #fig 
 
 ## 后处理
 
