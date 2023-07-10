@@ -54,7 +54,7 @@ elif config_vit.n_skip == 4:
 ## Transfer Learning
 
 - To train our proposed Med-FAUNet model, we use transfer learning strategy that not only reduces the training time, but also solves the underfitting problem caused by insufficient data is presented. The basic idea and implementation of Transfer Learning in our proposed model is illustrated by #fig .
-- More exactly, the Downsampling Stage as well as the Self-Attention Stage of our model are partly applied pre-trained knowledge. For the Downsampling Stage, we use the ResNetV2 pre-trained weight trained on ImageNet, 
+	- More exactly, the Downsampling Stage as well as the Self-Attention Stage of our model are partly applied pre-trained knowledge. For the Downsampling Stage, we use the ResNetV2 pre-trained weight trained on ImageNet, 
 
 ## 后处理
 
