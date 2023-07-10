@@ -53,7 +53,7 @@ elif config_vit.n_skip == 4:
 
 ## Transfer Learning
 
-- To train our proposed Med-FAUNet model, we use transfer learning strategy that  #fig 
+- To train our proposed Med-FAUNet model, we use transfer learning strategy that not only reduces the training time, but also solves the underfitting problem caused by insufficient data is presented. The basic idea and implementation of Transfer Learning in our proposed model is illustrated by #fig .
 
 ## 后处理
 
