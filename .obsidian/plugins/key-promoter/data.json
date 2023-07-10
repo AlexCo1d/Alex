@@ -56,7 +56,7 @@
     "editor:toggle-spellcheck": 60,
     "switcher:open": 2,
     "command-palette:open": 2,
-    "app:go-back": 33,
+    "app:go-back": 34,
     "templater-obsidian:insert-templater": 3,
     "templater-obsidian:replace-in-file-templater": 3,
     "templater-obsidian:jump-to-next-cursor-location": 3,
@@ -105,7 +105,7 @@
     "obsidian-auto-link-title:auto-link-title-paste": 4,
     "obsidian-auto-link-title:auto-link-title-normal-paste": 4,
     "obsidian-auto-link-title:enhance-url-with-title": 4,
-    "various-complements:toggle-complement-automatically": 4,
+    "various-complements:toggle-complement-automatically": 6,
     "table-editor-obsidian:next-row": 1,
     "table-editor-obsidian:next-cell": 1,
     "table-editor-obsidian:format-table": 1,
@@ -209,7 +209,14 @@
     "obsidian-excalidraw-plugin:convert-excalidraw": 1,
     "editor:rename-heading": 1,
     "insert-template": 1,
-    "various-complements:show-suggestions": 1
+    "various-complements:show-suggestions": 3,
+    "various-complements:reload-custom-dictionaries": 1,
+    "various-complements:reload-current-vault": 1,
+    "various-complements:toggle-match-strategy": 1,
+    "various-complements:hide-suggestions": 1,
+    "various-complements:add-word-custom-dictionary": 1,
+    "various-complements:predictable-complements": 1,
+    "various-complements:copy-plugin-settings": 1
   },
   "keyboardStatistics": {
     "app:open-settings": 17,

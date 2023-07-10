@@ -62,7 +62,7 @@ elif config_vit.n_skip == 4:
 
 ## Network Training
 Data augmentation, epoch, freeze, learning rate...
-## Comparison
+## Comparison 
 
 # Results and Discussion
 

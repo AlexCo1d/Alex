@@ -4,5 +4,15 @@
       "modifiers": [],
       "key": "F12"
     }
-  ]
+  ],
+  "various-complements:show-suggestions": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ],
+  "various-complements:add-word-custom-dictionary": []
 }
