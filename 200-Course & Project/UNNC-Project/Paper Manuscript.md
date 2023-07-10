@@ -53,8 +53,8 @@ elif config_vit.n_skip == 4:
 
 ## Transfer Learning
 
-- To train our proposed Med-FAUNet model, we use transfer learning strategy that not only reduces the training time, but also solves the underfitting problem caused by insufficient data is presented. The basic idea and implementation of Transfer Learning in our proposed model is illustrated by #fig .
-- More exactly, the pre-trained knowledge are partly applied in the Downsampling Stage as well as the Self-Attention Stage of our model. For the Downsampling Stage, we use the ResNetV 2 pre-trained weight trained on ImageNet, which contains 3 layers with 3,4,9 basic ResNetV 2 Blocks respectively. However, the aforementioned CBAM blocks embedded in ResNetV 2 block in the Downsampling Stage are not using pre-trained weight. As for the Self-Attention Stage, our proposed model has 16 ViT basic blocks, which are all pre-trained on ImageNet. Besides, the rest of the model is all trained directly.
+- To train our proposed Med-FAUNet model, we leverage a transfer learning strategy that significantly reduces the training time and effectively addresses the underfitting problem caused by a lack of sufficient data. The fundamental concept and implementation of transfer learning within our model are illustrated in #fig .
+- To elaborate, the pre-trained knowledge is partially incorporated within the Downsampling Stage and the Self-Attention Stage of our model. For the Downsampling Stage, we utilize the ResNetV2 pre-trained weights acquired from ImageNet, which comprises 3 layers with 3, 4, and 9 basic ResNetV2 blocks, respectively. However, the integrated CBAM blocks within the ResNetV2 block of the Downsampling Stage do not utilize pre-trained weights. In contrast, within the Self-Attention Stage, our proposed model comprises 16 ViT basic blocks, all of which are pre-trained on ImageNet. Moreover, the remaining sections of the model are trained from scratch.
 
 ## Postprocessing
 
