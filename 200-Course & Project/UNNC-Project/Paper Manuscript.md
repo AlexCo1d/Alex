@@ -58,7 +58,7 @@ elif config_vit.n_skip == 4:
 
 ## Postprocessing
 
-- Following the generation of the segmentation mask via our deep learning model, we further design and apply a set of post-processing procedures to attain high-quality segmentation results. More specifically, we initially utilize morphological operations such as closing to ensure the smoothness of the mask boundaries. Subsequently, we develop an algorithm to extract the top 'k' largest connected components, proving an effective strategy for manually eliminating the interference within the mask. The results are depicted in #fig . It's important to underscore that these procedures are optional and contingent upon the shape characteristics of the ground truth mask. Consequently, for our CSD dataset, we opt to employ all the described post-processing operations.
+- Following the generation of the segmentation mask via our deep learning model, we further design and apply a set of post-processing procedures to attain high-quality segmentation results. More specifically, we initially utilize morphological operations such as closing, which could remove the cavity inside the mask, ensuring the wholeness of mask. Subsequently, we develop an algorithm to extract the top 'k' largest connected components, proving an effective strategy for manually eliminating the interference within the mask. The results are depicted in #fig . It's important to underscore that these procedures are optional and contingent upon the shape characteristics of the ground truth mask. Consequently, for our CSD dataset, we opt to employ all the described post-processing operations.
 
 # Experiment 
 
