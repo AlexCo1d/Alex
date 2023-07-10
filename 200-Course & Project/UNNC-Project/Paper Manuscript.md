@@ -37,7 +37,7 @@
 ### Upsampling Stage
 - The Upsampling Stage  consists of 4 decoder block and a segmentation head, incrementally restores the feature map from $1024\times\frac{H} {16}\times\frac{W}{16}$ to an intelligible segmentation mask with size of $Class \times H\times W$. We design the basic upsample module that contains a upsample operation and a CBAM. Besides, before upsample, the decoder block would receive the feature information via skip-connection. After 4 decoder blocks of different dimensions, the feature map finally reshape to normal and interpretable shape through the segmentation head.
 
-## 跳跃连接适应性机制
+## Adaptive Skip-connections 
 
 - Given that small-scale medical image datasets's relatively less information, an increased number of skip-connections may elevate the computational load during the upsampling stage. This could potentially prevent the model from converging normally, thereby affecting its segmentation performance. As such, we propose that an idea of adaptive skip-connections, and employed for different datasets. Particularly, we suggest using 4 skip-connections for images of size 512×512 in the dataset like CSD and BUSI, and 3 skip-connections for images of size 256×256 in the dataset like DDTI.
 - To implement the function of adaptive skip-connections, we choose different network parameter for the Upsampling Stage. For the subnetwork with 3 skip-connections, its decoder blocks have (256, 128, 64, 16) output channels respectively, while the one with 4 skip-connections' decoder blocks have (512,256, 64,16) output channels. The channel's adaptive changes are illustrated in #fig . Such design ensures that the scale of parameters is adaptively suitable for dataset, improving the model's segmentation performance.  
