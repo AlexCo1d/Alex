@@ -64,8 +64,11 @@ elif config_vit.n_skip == 4:
 
 ## Environment
 
-The model code for this study was constructed utilizing PyTorch as the framework, with PyTorch version 1.7.0 and Python version 3.8.0. To train and predict, we use a server with Ubuntu 18.04 operating system, utilizing a GPU configuration of 4 pieces of NVIDIA RTX A5000 graphics cards.
+The code for our model was built using PyTorch as the primary framework, specifically employing PyTorch version 1.7.0 and Python version 3.8.0. All training and prediction processes were carried out on a server running the Ubuntu 18.04 operating system, equipped with a GPU setup that includes four NVIDIA RTX A5000 graphics cards.
+
 ## Metrics
+
+
 
 ## Network Training
 Data augmentation, epoch, freeze, learning rate, fine-tuning 
