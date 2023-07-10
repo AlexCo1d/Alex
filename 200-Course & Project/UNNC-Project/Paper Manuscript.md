@@ -68,8 +68,17 @@ The code for our model was built using PyTorch as the primary framework, specifi
 
 ## Metrics
 
+In our proposed method, a hybrid loss function is adopted, combining Focal loss function and Dice loss function #cite . The Focal loss function mainly focuses on the classification error of samples, while the Dice loss function mainly considers the degree of matching between the segmentation mask and the actual mask. The calculation formula of the hybrid loss function is:
 
+To solve the problem of unbalanced sample pixels, we have improved the Focal loss function by introducing different classification weights. The calculation formula is as follows:
 
+Here, X ∈ ℕ1×N is the output prediction mask, and c ∈ ℕ1×C is the predicted category. Substituting Equation (4) we get:
+
+Where Median is the median function, and Wc is the obtained classification weight matrix.
+
+In the prediction stage, we use [83] to evaluate the segmentation performance of the model. The Dice coefficient is a commonly used performance indicator for medical image segmentation, which can measure the quality and accuracy of segmentation. The calculation formula of the Dice coefficient is:
+
+Here, pred is the predicted mask, and true is the true mask. The value of the Dice coefficient is between 0 and 1. The closer the value is to 1, the closer the predicted segmentation result is to the real segmentation result. In the experiment, we calculate the Dice coefficient of the predicted mask and the true mask for each image in the test set, and then take the average value to get the overall Dice coefficient of the test samples, which is used to measure the overall segmentation effect of the model.
 ## Network Training
 Data augmentation, epoch, freeze, learning rate, fine-tuning 
 ## Comparison 
