@@ -64,22 +64,21 @@ elif config_vit.n_skip == 4:
 
 ## Environment
 
-The code for our model was built using PyTorch as the primary framework, specifically employing PyTorch version 1.7.0 and Python version 3.8.0. All training and prediction processes were carried out on a server running the Ubuntu 18.04 operating system, equipped with a GPU setup that includes four NVIDIA RTX A5000 graphics cards.
+- The code for our model was built using PyTorch as the primary framework, specifically employing PyTorch version 1.7.0 and Python version 3.8.0. All training and prediction processes were carried out on a server running the Ubuntu 18.04 operating system, equipped with a GPU setup that includes four NVIDIA RTX A5000 graphics cards.
 
 ## Loss Function and Metrics
 
-In our proposed method, a hybrid loss function is adopted, combining Focal loss function and Dice loss function #cite . The Focal loss function mainly focuses on the classification error of samples, while the Dice loss function mainly considers the degree of matching between the segmentation mask and the actual mask. The calculation formula of the hybrid loss function is:
-#formula 
+- In our proposed method, a hybrid loss function is adopted, combining Focal loss function and Dice loss function #cite . The Focal loss function chiefly emphasizes the classification error in the samples, while the Dice loss function largely pertains to the alignment between the segmentation mask and the true mask. The expression for calculating the hybrid loss function is as follows:
+- #formula 
+- To tackle the issue of imbalanced pixel samples, we refine the Focal loss function by introducing adaptive classification weights. Considering different quantities of sample categories, our approach adaptively assigns weights to these categories to maintain equilibrium. The formulation for this is as follows:
+- #formula 
+- Herein, X ∈ ℕ1×N represents the output prediction mask, and c ∈ ℕ1×C represents the predicted category. By substituting Equation (4) we obtain:
+- #formula 
+- Where Median is the median function, and Wc is the obtained classification weight matrix.
+- During the prediction phase, we utilize the Dice coefficient to assess the segmentation performance of the model. As a widely recognized performance metric in the domain of medical image segmentation, the Dice coefficient effectively gauges the quality and accuracy of segmentation. The formula for calculating the Dice coefficient is:
+- #formula 
+- Here 'pred' corresponds to the predicted mask, while 'true' stands for the actual mask. The value of the Dice coefficient ranges between 0 and 1, where a value closer to 1 indicates that the predicted segmentation result is more aligned with the true segmentation result. Throughout the experiment, we compute the Dice coefficient for the predicted and true masks for each image in the test set. Subsequently, we average these values to derive the overall Dice coefficient for the test samples, thereby evaluating the comprehensive segmentation effect of the model.
 
-To solve the problem of unbalanced sample pixels, we have improved the Focal loss function by introducing adaptive classification weights. Given a different number of sample categories, our solution adaptively weight different categories to balance manually. The calculation formula is as follows:
-#formula 
-Here, X ∈ ℕ1×N is the output prediction mask, and c ∈ ℕ1×C is the predicted category. Substituting Equation (4) we get:
-#formula 
-Where Median is the median function, and Wc is the obtained classification weight matrix.
-
-In the prediction stage, we use Dice coefficient to evaluate the segmentation performance of the model. The Dice coefficient is a commonly used performance indicator for medical image segmentation, which can measure the quality and accuracy of segmentation. The calculation formula of the Dice coefficient is:
-#formula 
-Here, pred is the predicted mask, and true is the true mask. The value of the Dice coefficient is between 0 and 1. The closer the value is to 1, the closer the predicted segmentation result is to the real segmentation result. In the experiment, we calculate the Dice coefficient of the predicted mask and the true mask for each image in the test set, and then take the average value to get the overall Dice coefficient of the test samples, which is used to measure the overall segmentation effect of the model.
 ## Network Training
 Data augmentation, epoch, freeze, learning rate, fine-tuning 
 ## Comparison 
