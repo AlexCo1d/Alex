@@ -58,7 +58,7 @@ elif config_vit.n_skip == 4:
 
 ## Postprocessing
 
-- After using Deep Learning model to generate the segmentation mask, we also design and apply some postprocessing procedures to gain high-quality segmentation result. In specific, we first utilize some morphological algorithm like opening and closing operations to ensure that the boundary of output masks are smooth. Second, we design an algorithm to obtain the maximum k connected components, which is an effective way to manually remove the interference in the mask. The result is illustrated in #fig . It is  worthy to note that all of this procedures is optional, depending on the shape features of the ground truth mask. Therefore, in our CSD dataset, we choose to use all of the postprocessing operations.
+- Following the generation of the segmentation mask via our deep learning model, we further design and apply a set of post-processing procedures to attain high-quality segmentation results. More specifically, we initially utilize morphological operations such as opening and closing to ensure the smoothness of the mask boundaries. Subsequently, we develop an algorithm to extract the top 'k' largest connected components, proving an effective strategy for manually eliminating the interference within the mask. The results are depicted in #fig. It's important to underscore that these procedures are optional and contingent upon the shape characteristics of the ground truth mask. Consequently, for our CSD dataset, we opt to employ all the described post-processing operations.
 
 # Experiment 
 
