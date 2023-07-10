@@ -35,7 +35,7 @@
 - Our proposed ASPP_CBAM module improves upon the traditional ASPP by incorporating an attention operation through a CBAM module after the concatenation process, followed by a 1×1 convolution layer to reduce the number of channels. This way, the features at each scale of the spatial pyramid receive attention, enhancing the treatment of these features. The features will initially reshaped to a $1024\times\frac{H} {16}\times\frac{W}{16}$ size and then fed into the ASPP_CBAM module, and this module does not change the dimension when outputs. #need_cut 
 
 ### Upsampling Stage
-- The Upsampling Stage  consists of 4 decoder block and a segmentation head, incrementally restores the feature map from $1024\times\frac{H} {16}\times\frac{W}{16}$ to an intelligible segmentation mask with size of $Class \times H\times W$. We design the basic upsample module that contains a upsample operation and a CBAM. Besides, before upsample, the decoder block would receive the feature information via skip-connection. After 4 decoder blocks of different dimensions, the feature map finally reshape to normal and interpretable shape through the segmentation head.
+- The Upsampling Stage  consists of 4 decoder block and a segmentation head, incrementally restores the feature map from $1024\times\frac{H} {16}\times\frac{W}{16}$ to an intelligible segmentation mask with size of $Class \times H\times W$. We design the basic upsample module that contains a upsample operation and a CBAM block, the process of which could be described as #formula . Besides, before upsample, the decoder block would receive the feature information via skip-connection. After 4 decoder blocks of different dimensions, the feature map finally reshape to normal and interpretable shape through the segmentation head. 
 
 ## Adaptive Skip-connections 
 
@@ -54,7 +54,7 @@ elif config_vit.n_skip == 4:
 ## Transfer Learning
 
 - To train our proposed Med-FAUNet model, we leverage a transfer learning strategy that significantly reduces the training time and effectively addresses the underfitting problem caused by a lack of sufficient data. The fundamental concept and implementation of transfer learning within our model are illustrated in #fig .
-- To elaborate, the pre-trained knowledge is partially incorporated within the Downsampling Stage and the Self-Attention Stage of our model. For the Downsampling Stage, we utilize the ResNetV2 pre-trained weights acquired from training on ImageNet, which comprises 3 layers with 3, 4 and 9 basic ResNetV2 blocks, respectively. However, the integrated CBAM blocks within the ResNetV2 block of the Downsampling Stage do not utilize pre-trained weights. In contrast, within the Self-Attention Stage, our proposed model comprises 16 ViT basic blocks, all of which are pre-trained on ImageNet. Moreover, the remaining sections of the model are trained from scratch.
+- To elaborate, the pre-trained knowledge is partially incorporated within the Downsampling Stage and the Self-Attention Stage of our model. For the Downsampling Stage, we utilize the ResNetV2 pre-trained weights acquired from training on ImageNet, which comprises 3 layers with 3, 4 and 9 basic ResNetV2 blocks, respectively. Moreover, within the Self-Attention Stage, our proposed model comprises 16 ViT basic blocks, all of which are pre-trained on ImageNet. Besides, in our design, the integrated CBAM blocks within the ResNetV2 block of the Downsampling Stage, as well as the subnetwork in the other stage do not utilize pre-trained weights, trained from scratch.
 
 ## Postprocessing
 
@@ -71,6 +71,8 @@ The model code for this study was constructed utilizing PyTorch as the framework
 Data augmentation, epoch, freeze, learning rate, fine-tuning 
 ## Comparison 
 
-# Results and Discussion
+# Results
+
+# Discussion
 
 # Conclusion
