@@ -59,10 +59,12 @@ elif config_vit.n_skip == 4:
 ## Postprocessing
 
 - After using Deep Learning model to generate the segmentation mask, we also design and apply some postprocessing procedures to gain high-quality segmentation result. In specific, we first utilize some morphological algorithm like opening and closing operations to ensure that the boundary of output masks are smooth. Second, we design an algorithm to obtain the maximum k connected components, which is an effective way to manually remove the interference in the mask. The result is illustrated in #fig . It is  worthy to note that all of this procedures is optional, depending on the shape features of the ground truth mask. Therefore, in our CSD dataset, we choose to use all of the postprocessing operations.
+
 # Experiment 
-To train and predict, we run our model in a server with 4
+
 ## Environment
 
+The model code for this study was constructed utilizing PyTorch as the framework, with PyTorch version 1.7.0 and Python version 3.8.0. To train and predict, we use a server with Ubuntu 18.04 operating system, utilizing a GPU configuration of 4 pieces of NVIDIA RTX A5000 graphics cards.
 ## Metrics
 
 ## Network Training
