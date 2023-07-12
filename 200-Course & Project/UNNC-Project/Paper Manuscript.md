@@ -92,8 +92,6 @@ In the training process of our proposed network, we implement various strategies
 ### Learning Rate
 - The learning rate is a crucial hyper-parameter that determines the step size at each iteration while moving towards a minimum of a loss function. Our initial learning rate is set at 1e-4, and we utilize the Adam optimizer to manage the learning rate adjustments, implementing a cosine annealing schedule for its decay. Therefore, the learning rate is meticulously tuned to balance the trade-off between training speed and accuracy.
 
-## Comparison 
-
 # Results
 
 # Discussion
