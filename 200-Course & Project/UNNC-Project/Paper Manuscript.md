@@ -102,7 +102,7 @@ In the training process of our proposed network, we implement various strategies
 ## Identification
 #table shows the comparative results between our proposed model and TransUnet and nnUnet, #need_elaborate.
 
-## Ablation Experiment 
+## Ablation Study
 #table
 
 # Discussion

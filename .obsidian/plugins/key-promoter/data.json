@@ -87,7 +87,7 @@
     "editor:toggle-comments": 1,
     "editor:cycle-list-checklist": 1,
     "daily-notes": 1,
-    "editor:toggle-source": 1,
+    "editor:toggle-source": 2,
     "markdown-table-editor:markdown-table-editor-open-horizontal": 6,
     "markdown-table-editor:markdown-table-editor-open-vertical": 5,
     "markdown-table-editor:markdown-table-editor-select-table-content": 5,

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+                "file": "100-Daily/Course Register.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 64.55696202531645,
+        "dimension": 65.92015579357351,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -71,7 +71,7 @@
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 35.44303797468354,
+        "dimension": 34.079844206426486,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md"
+                "file": "100-Daily/Course Register.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+                "file": "100-Daily/Course Register.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+                "file": "100-Daily/Course Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +188,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "214cc77d2e92c5a2",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "Excalidraw/Drawing 2023-07-12 16.17.14.excalidraw.md",
