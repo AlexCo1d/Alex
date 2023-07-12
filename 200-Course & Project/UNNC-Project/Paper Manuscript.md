@@ -1,5 +1,6 @@
 ![[architecture of manu.png]]
 # Intro
+[[architecture of manu.png]]
 
 # Material & Method
 

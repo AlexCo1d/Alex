@@ -50,13 +50,13 @@
     "obsidian-minimal-settings:toggle-minimal-rose-pine-dark": 5,
     "key-promoter:statistics": 2,
     "key-promoter:key-promoter": 2,
-    "workspace:close": 61,
-    "workspace:close-window": 61,
-    "workspace:close-others": 61,
-    "editor:toggle-spellcheck": 62,
+    "workspace:close": 62,
+    "workspace:close-window": 62,
+    "workspace:close-others": 62,
+    "editor:toggle-spellcheck": 63,
     "switcher:open": 2,
     "command-palette:open": 2,
-    "app:go-back": 39,
+    "app:go-back": 40,
     "templater-obsidian:insert-templater": 3,
     "templater-obsidian:replace-in-file-templater": 3,
     "templater-obsidian:jump-to-next-cursor-location": 3,
@@ -221,7 +221,7 @@
   },
   "keyboardStatistics": {
     "app:open-settings": 18,
-    "workspace:export-pdf": 6,
+    "workspace:export-pdf": 7,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
     "theme:switch": 6,
@@ -253,6 +253,7 @@
     "editing-toolbar:editor-redo": 6,
     "editing-toolbar:editor-undo": 8,
     "editor:toggle-strikethrough": 13,
-    "editing-toolbar:editor:toggle-strikethrough": 13
+    "editing-toolbar:editor:toggle-strikethrough": 13,
+    "switcher:open": 1
   }
 }

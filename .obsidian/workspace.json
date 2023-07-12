@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d81baba525650934",
+        "id": "8c7b4517389dc92e",
         "type": "tabs",
         "children": [
           {
-            "id": "214cc77d2e92c5a2",
+            "id": "e563b43fd0be619b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100-Daily/Course Register.md",
+                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100-Daily/Course Register.md"
+                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100-Daily/Course Register.md",
+                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100-Daily/Course Register.md",
+                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,18 +188,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "459fac88dfbb546a",
+  "active": "e563b43fd0be619b",
   "lastOpenFiles": [
+    "300-Reading Notes/template/Mdnotes Default Template.md",
+    "200-Course & Project/UNNC-Project/attachments/architecture of manu.png",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+    "architecture.md",
+    "100-Daily/Course Register.md",
     "Excalidraw/Drawing 2023-07-12 16.17.14.excalidraw.md",
     "Excalidraw",
     "000-Inbox/Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",
-    "100-Daily/Course Register.md",
     "200-Course & Project/UNNC-Project/idea & spirit.md",
     "2023-07-06.md",
     "test.md",
     "000-Inbox",
-    "200-Course & Project/UNNC-Project/attachments/architecture of manu.png",
     "200-Course & Project/UNNC-Project/attachments",
     "Resources/Pasted image 20230706154321.png",
     "100-Daily",
@@ -207,7 +209,6 @@
     "arichitecture.png.md",
     "Excalidraw/Drawing 2023-07-06 15.38.27.excalidraw.md",
     "000-Inbox/Excalidraw",
-    "300-Reading Notes/template/Mdnotes Default Template.md",
     "300-Reading Notes/template/Zotero Metadata Template.md",
     "200-Course & Project/UNNC-Project",
     "200-Course & Project",
