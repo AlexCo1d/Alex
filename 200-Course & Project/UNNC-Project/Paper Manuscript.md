@@ -78,9 +78,9 @@ elif config_vit.n_skip == 4:
 
 ## Metrics
 
-- During the prediction phase, we utilize the Dice coefficient to assess the segmentation performance of the model as the metric. As a widely recognized performance metric in the domain of medical image segmentation, the Dice coefficient effectively gauges the quality and accuracy of segmentation. The formula for calculating the Dice coefficient is:
+- During the prediction phase, we utilize the Dice Similariy Coefficient (DSC) to assess the segmentation performance of the model as the metric. As a widely recognized performance metric in the domain of medical image segmentation, the DSC effectively gauges the quality and accuracy of segmentation. The formula for calculating the DSC is:
 - #formula 
-- Here 'pred' corresponds to the predicted mask, while 'true' stands for the actual mask. The value of the Dice coefficient ranges between 0 and 1, where a value closer to 1 indicates that the predicted segmentation result is more aligned with the true segmentation result. Throughout the experiment, we compute the Dice coefficient for the predicted and true masks for each image in the test set. Subsequently, we average these values to derive the overall Dice coefficient for the test samples, thereby evaluating the comprehensive segmentation effect of the model.
+- Here 'pred' corresponds to the predicted mask, while 'true' stands for the actual mask. The value of the DSC ranges between 0 and 1, where a value closer to 1 indicates that the predicted segmentation result is more aligned with the true segmentation result. Throughout the experiment, we compute the DSC for the predicted and true masks for each image in the test set. Subsequently, we average these values to derive the overall DSC for the test samples, thereby evaluating the comprehensive segmentation effect of the model.
 
 ## Network Training
 
@@ -96,8 +96,8 @@ In the training process of our proposed network, we implement various strategies
 
 ## Segmentation 
 
-In the DDTI, BUSI, and Cervical datasets, the proposed Med-FAUNet was compared with mainstream medical segmentation models such as TransUnet and nnUnet. The results are shown in Figure 9. Overall, the proposed model has improved segmentation performance across all datasets.
-
+- In CSD datasets, the proposed Med-FAUNet was compared with mainstream medical segmentation models such as TransUnet and nnUnet. The results are shown in #fig . The segmentation results of our proposed model have improved segmentation performance, showing more matching masks than other model, greatly enhancing the sharpness of the segmentation edge. We also use the Dice Similarty Coefficient mentioned before to quantitatively evaluate the segmentation performance among models. #table lists the all models' DSC, in which  ... The results of #table fully supported that our proposed model have the best performance in CSD dataset.
+- Quantitative testing was conducted on the DDTI and BUSI datasets using Med-FAUNet, and comparisons were made with several published methods, including: U-net[12], TransUnet[66], nnUnet[24], SegNet[14], CE_Net[84], Unet++[85], SA_Net[86], Attention U-net[46], DeepLabV3+[18], MshNet[87], Swin-Unet[75], and SDU-Net[88]. All models utilized the Dice coefficient to evaluate segmentation performance. Some of the data sources for these models come from experiments conducted for this paper, while others come from the works of other researchers8789[91], all of which are noted in the table.
 ## Identification
 
 
