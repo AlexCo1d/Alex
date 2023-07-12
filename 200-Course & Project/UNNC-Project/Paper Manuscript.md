@@ -96,11 +96,24 @@ In the training process of our proposed network, we implement various strategies
 
 ## Segmentation 
 
-- In CSD datasets, the proposed Med-FAUNet was compared with mainstream medical segmentation models such as TransUnet and nnUnet. The results are shown in #fig . The segmentation results of our proposed model have improved segmentation performance, showing more matching masks than other model, greatly enhancing the sharpness of the segmentation edge. We also use the Dice Similarty Coefficient mentioned before to quantitatively evaluate the segmentation performance among models. #table lists the all models' DSC, in which  ... The results of #table fully supported that our proposed model have the best performance in CSD dataset.
-- Quantitative testing was conducted on the DDTI and BUSI datasets using Med-FAUNet, and comparisons were made with several published methods, including: U-net[12], TransUnet[66], nnUnet[24], SegNet[14], CE_Net[84], Unet++[85], SA_Net[86], Attention U-net[46], DeepLabV3+[18], MshNet[87], Swin-Unet[75], and SDU-Net[88]. All models utilized the Dice coefficient to evaluate segmentation performance. Some of the data sources for these models come from experiments conducted for this paper, while others come from the works of other researchers8789[91], all of which are noted in the table.
-## Identification
+- In the context of CSD datasets, our proposed Med-FAUNet was benchmarked against mainstream medical segmentation models such as TransUnet and nnUnet. The comparative results are depicted in #fig . Overall, our proposed model delivered an enhancement in segmentation performance, producing masks that exhibited a higher degree of alignment compared to other models. Particularly noteworthy was the impact of the post-processing method applied; the segmentation mask exhibited improved outcomes as a result of the removal of interference. We also engaged the previously mentioned Dice Similarity Coefficient as a means to quantitatively assess the segmentation performance across various models. #table documents the Dice Similarity Coefficients for all models, in which #need_elaborate The findings presented in #table provide comprehensive evidence that our proposed model exhibits superior performance in the context of the CSD dataset.
+- To further substantiate the superior capability and performance of our proposed model in the context of segmentation tasks, we utilized two open-access datasets, the DDTI dataset and the BUSI dataset, for benchmarking against other established state-of-the-art models. The visual comparison of segmentation effects is presented in #fig , clearly demonstrating that our proposed model produces a more precise mask than other methods. In addition, a quantitative evaluation was carried out on the DDTI and BUSI datasets. This analysis encompassed our proposed Med-FAUNet and a variety of other well-regarded methods including: U-net, TransUnet, nnUnet, SegNet, CE_Net, Unet++, SA_Net, Attention U-net, DeepLabV3+, MshNet, Swin-Unet, and SDU-Net. As outlined in #table , all comparative assessments employed the DSC as the primary performance metric. From the analysis presented in the table, it is evident that #need_elaborate. The results compiled in #table unequivocally demonstrate that our proposed model also excels within the context of state-of-the-art benchmarks.
 
+## Identification
+#table shows the comparative results between our proposed model and TransUnet and nnUnet, #need_elaborate.
+
+## Ablation Experiment 
+#table
 
 # Discussion
+#med 写点意义？
+
+# Future Improvement
 
 # Conclusion
+
+In this study, we proposed a medical fully attentive U-shaped network, Med-FAUNet (Medical Fully Attention U-shape Network), which integrates the respective strengths of Transformer and CNN. Its overall structure is shown in #fig . The main contributions of this paper are as follows:
+- The encoder-decoder architecture is divided into three stages. In the first stage, all CNN modules are augmented with the full attention mechanism of the CBAM module. In the second stage, we retain the backbone structure of ViT.
+- We added the ASPP_CBAM module in the second stage, which not only refines the full attention mechanism but also realizes the fusion of multi-scale features.
+- We adopted a U-net-like architecture and proposed an adaptive selection of the number of skip-connections based on the condition of certain dataset, ensuring computational complexity and model size are suitable for specific medical image datasets.
+- We conducted detailed comparison and validation experiments for the improvements made, ensuring the necessity of these changes. The segmentation performance of our model surpasses current advanced models across multiple datasets.

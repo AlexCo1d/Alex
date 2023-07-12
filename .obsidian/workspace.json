@@ -31,7 +31,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 22.200584225900684,
+        "dimension": 64.55696202531645,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,13 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 77.79941577409932,
+        "dimension": 35.44303797468354,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -191,8 +190,10 @@
   },
   "active": "214cc77d2e92c5a2",
   "lastOpenFiles": [
-    "000-Inbox/Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+    "Excalidraw/Drawing 2023-07-12 16.17.14.excalidraw.md",
+    "Excalidraw",
+    "000-Inbox/Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",
     "100-Daily/Course Register.md",
     "200-Course & Project/UNNC-Project/idea & spirit.md",
     "2023-07-06.md",
@@ -222,7 +223,6 @@
     "300-Reading Notes",
     "2023-05-31.md",
     "11/未命名.md",
-    "11",
     "fsdaf/未命名.canvas",
     "2023-05-24.md"
   ]
