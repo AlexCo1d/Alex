@@ -207,7 +207,7 @@
     "obsidian-excalidraw-plugin:toggle-excalidraw-view": 3,
     "obsidian-excalidraw-plugin:convert-to-excalidraw": 3,
     "obsidian-excalidraw-plugin:convert-excalidraw": 3,
-    "editor:rename-heading": 1,
+    "editor:rename-heading": 2,
     "insert-template": 1,
     "various-complements:show-suggestions": 3,
     "various-complements:reload-custom-dictionaries": 1,
@@ -220,7 +220,7 @@
     "obsidian-git:edit-gitignore": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 17,
+    "app:open-settings": 18,
     "workspace:export-pdf": 6,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
