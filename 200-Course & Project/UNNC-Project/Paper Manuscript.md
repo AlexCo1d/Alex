@@ -96,6 +96,7 @@ In the training process of our proposed network, we implement various strategies
 
 ## Segmentation 
 
+In the DDTI, BUSI, and Cervical datasets, the proposed Med-FAUNet was compared with mainstream medical segmentation models such as TransUnet and nnUnet. The results are shown in Figure 9. Overall, the proposed model has improved segmentation performance across all datasets.
 
 ## Identification
 
