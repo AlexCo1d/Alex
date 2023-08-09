@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "8c7b4517389dc92e",
+        "id": "da888ac8ca396e7d",
         "type": "tabs",
         "children": [
           {
-            "id": "e563b43fd0be619b",
+            "id": "b8fac1f1aa53f4df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -71,7 +67,7 @@
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 48.952380952380956,
+        "dimension": 48.95238095238095,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -86,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -145,7 +139,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +155,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,11 +180,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e563b43fd0be619b",
+  "active": "b8fac1f1aa53f4df",
   "lastOpenFiles": [
+    "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "300-Reading Notes/template/Mdnotes Default Template.md",
     "200-Course & Project/UNNC-Project/attachments/architecture of manu.png",
-    "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "architecture.md",
     "100-Daily/Course Register.md",
     "Excalidraw/Drawing 2023-07-12 16.17.14.excalidraw.md",
