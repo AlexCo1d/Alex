@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "ef5b5b3120c247a0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -27,7 +38,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 51.04761904761905,
+        "dimension": 51.04761904761906,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -67,7 +78,7 @@
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 48.95238095238095,
+        "dimension": 48.95238095238094,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -180,7 +191,7 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "b8fac1f1aa53f4df",
+  "active": "ef5b5b3120c247a0",
   "lastOpenFiles": [
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "300-Reading Notes/template/Mdnotes Default Template.md",
