@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "da888ac8ca396e7d",
+        "id": "36b0839ae9c79a87",
         "type": "tabs",
         "children": [
           {
-            "id": "b8fac1f1aa53f4df",
+            "id": "275d0c2b4b30b86f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,7 +31,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 71.07438016528926,
+        "dimension": 44.62809917355372,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Unread",
+                "query": "tag:#rob/need_formulate",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,13 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "10bf8983d6290002",
         "type": "tabs",
-        "dimension": 28.92561983471074,
+        "dimension": 55.371900826446286,
         "children": [
           {
             "id": "5a6f29834acaa74c",
@@ -189,11 +188,11 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "0b493b46f92a1cdc",
+  "active": "275d0c2b4b30b86f",
   "lastOpenFiles": [
     "200-Course & Project/ROB 501/LEC 8.28.md",
-    "200-Course & Project/ROB 501",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+    "200-Course & Project/ROB 501",
     "300-Reading Notes/template/Mdnotes Default Template.md",
     "200-Course & Project/UNNC-Project/attachments/architecture of manu.png",
     "architecture.md",

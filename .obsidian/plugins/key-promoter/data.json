@@ -50,10 +50,10 @@
     "obsidian-minimal-settings:toggle-minimal-rose-pine-dark": 5,
     "key-promoter:statistics": 2,
     "key-promoter:key-promoter": 2,
-    "workspace:close": 63,
-    "workspace:close-window": 63,
-    "workspace:close-others": 63,
-    "editor:toggle-spellcheck": 64,
+    "workspace:close": 64,
+    "workspace:close-window": 64,
+    "workspace:close-others": 64,
+    "editor:toggle-spellcheck": 65,
     "switcher:open": 2,
     "command-palette:open": 3,
     "app:go-back": 40,
@@ -233,7 +233,7 @@
     "editor:toggle-bullet-list": 19,
     "editing-toolbar:indent-list": 3,
     "editing-toolbar:codeblock": 2,
-    "editor:focus": 24,
+    "editor:focus": 25,
     "editor:toggle-blockquote": 1,
     "editing-toolbar:editor:toggle-blockquote": 1,
     "editor:insert-embed": 1,
@@ -256,6 +256,7 @@
     "editing-toolbar:editor:toggle-strikethrough": 13,
     "switcher:open": 1,
     "editing-toolbar:underline": 2,
-    "editing-toolbar:subscript": 1
+    "editing-toolbar:subscript": 1,
+    "editing-toolbar:superscript": 1
   }
 }
