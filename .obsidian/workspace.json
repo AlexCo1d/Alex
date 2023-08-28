@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dfac986d7b868a66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -49,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rob/need_formulate",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,15 +200,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "275d0c2b4b30b86f",
+  "active": "459fac88dfbb546a",
   "lastOpenFiles": [
-    "200-Course & Project/ROB 501/LEC 8.28.md",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
+    "200-Course & Project/ROB 501/LEC 8.28.md",
+    "100-Daily/Course Register.md",
     "200-Course & Project/ROB 501",
     "300-Reading Notes/template/Mdnotes Default Template.md",
     "200-Course & Project/UNNC-Project/attachments/architecture of manu.png",
     "architecture.md",
-    "100-Daily/Course Register.md",
     "Excalidraw/Drawing 2023-07-12 16.17.14.excalidraw.md",
     "Excalidraw",
     "000-Inbox/Excalidraw/Drawing 2023-07-06 15.38.51.excalidraw.md",

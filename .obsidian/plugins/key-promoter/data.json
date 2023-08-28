@@ -257,6 +257,7 @@
     "switcher:open": 1,
     "editing-toolbar:underline": 2,
     "editing-toolbar:subscript": 1,
-    "editing-toolbar:superscript": 1
+    "editing-toolbar:superscript": 1,
+    "editor:open-search-replace": 1
   }
 }
