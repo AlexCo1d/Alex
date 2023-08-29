@@ -12,8 +12,7 @@
 # Mathematical Arguments & Proof Techniques 
 ## Notation of Variables
 #rob/need_formulate
-	eg. $N={1,2,3,...}$, Z={...,-1,0,1,...}, Q={m/q, q!=0, no common factors} rational numbers, R=real numbers, C={a+j b, j<sup>2</sup>=-1} complex numbers
-
+	eg. $N={1,2,3,...}$, Z={...,-1,0,1,...}, Q={m/q, q!=0, no common factors} rational numbers, R=real numbers, C={a+j b, j<sup>2</sup>=-1} complex numbers 
 #rob/need_formulate
 V means for every, for each
 E means for some, there exists, for at least one
