@@ -207,7 +207,7 @@
     "obsidian-excalidraw-plugin:toggle-excalidraw-view": 3,
     "obsidian-excalidraw-plugin:convert-to-excalidraw": 3,
     "obsidian-excalidraw-plugin:convert-excalidraw": 3,
-    "editor:rename-heading": 2,
+    "editor:rename-heading": 3,
     "insert-template": 1,
     "various-complements:show-suggestions": 3,
     "various-complements:reload-custom-dictionaries": 1,

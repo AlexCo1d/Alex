@@ -19,19 +19,25 @@ Eg.
 $\forall$ means for every, for each
 $\exists$ means for some, there exists, for at least one
 $\in$ means element of
-such that s.t. 使得
+$\text{s.t.}$ such that 使得
 eg.  
 	Every real number x can be arbitrarily closely approximated by a rational number, how close is defined by epsilon:
 $$
 \DeclareMathOperator{\st}{s.t.}
-\forall x \in \mathbb{R}, \forall \epsilon \in \mathbb{R}, \epsilon> 0, \exists q \in \mathbb{Q}  \st |x-q|< \epsilon 
+\begin{gather}
+\forall x \in \mathbb{R}, 
+\ \forall \epsilon \in \mathbb{R}, 
+\ \epsilon> 0, 
+\\ \ \exists q \in \mathbb{Q},
+\ \st |x-q|< \epsilon 
+\end{gather}
 $$
 ## Logic Notation 
 #rob/need_formulate 
 ~ means not 
-A means and 
-v means or
-p => q means if p is true then q is true, a implication
+$\wedge$ means and  
+$\vee$ means or
+p $\rightarrow$ q means if p is true then q is true, a implication
 P <=>q means p is true if and only if q is true
 	(P <=> q) <=> ((p=>q) A (q=>))
 
