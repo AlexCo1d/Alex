@@ -11,8 +11,12 @@
             "id": "30e53d9801a44955",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "200-Course & Project/EECS 553/LEC 8-29.md"
+              }
             }
           }
         ],
@@ -140,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -156,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,8 +189,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "459fac88dfbb546a",
+  "active": "30e53d9801a44955",
   "lastOpenFiles": [
+    "200-Course & Project/EECS 553/LEC 8-29.md",
+    "200-Course & Project/EECS 553",
     "200-Course & Project/ROB 501/LEC 8.28.md",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "100-Daily/Course Register.md",
@@ -215,7 +225,6 @@
     "Benjamin H Kann.md",
     "Reading Notes/azhieDeepLearningFramework2023.md",
     "kannScreeningExtranodalExtension2023-zotero.md",
-    "300-Reading Notes/template",
     "2023-05-31.md",
     "11/未命名.md",
     "fsdaf/未命名.canvas",
