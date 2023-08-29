@@ -43,7 +43,7 @@
       {
         "id": "21dceb5d86a3ca23",
         "type": "tabs",
-        "dimension": 44.62809917355372,
+        "dimension": 44.628099173553714,
         "children": [
           {
             "id": "459fac88dfbb546a",
@@ -188,6 +188,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "command-palette:打开命令面板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,

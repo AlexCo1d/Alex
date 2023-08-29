@@ -56,7 +56,7 @@
     "editor:toggle-spellcheck": 65,
     "switcher:open": 2,
     "command-palette:open": 3,
-    "app:go-back": 40,
+    "app:go-back": 42,
     "templater-obsidian:insert-templater": 3,
     "templater-obsidian:replace-in-file-templater": 3,
     "templater-obsidian:jump-to-next-cursor-location": 3,
@@ -220,7 +220,7 @@
     "obsidian-git:edit-gitignore": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 19,
+    "app:open-settings": 20,
     "workspace:export-pdf": 7,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
