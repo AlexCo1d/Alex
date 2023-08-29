@@ -10,18 +10,22 @@
 - Final: 12.8 13.30-15.30
 
 # Mathematical Arguments & Proof Techniques 
-## Notation of Variables
-#rob/need_formulate
-	eg. $N={1,2,3,...}$, Z={...,-1,0,1,...}, Q={m/q, q!=0, no common factors} rational numbers, R=real numbers, C={a+j b, j<sup>2</sup>=-1} complex numbers 
-#rob/need_formulate
-V means for every, for each
-E means for some, there exists, for at least one
-e means element of
+## Notation of Variables 
+Eg. 
+	$\mathbb{N}$,  
+	$\mathbb{Z}=\{\cdots,-3,-2,-1,0,1,2,3, \cdots\}$, $\mathbb{Q}=\{m/q, q!=0, m,q \ with \ no \ common \ factors\}$ rational numbers,
+	$\mathbb{R}$ =real numbers, 
+	$\mathbb{C}=\{\alpha+j\beta, j^2=-1\}$ complex numbers
+$\forall$ means for every, for each
+$\exists$ means for some, there exists, for at least one
+$\in$ means element of
 such that s.t. 使得
-	eg.  Every real number x can be arbitrarily closely approximated by a rational number, how close is defined by epsilon:
-	V x e R, V epi e R, epi > 0, E q e Q
-	Such that |x-q|< epi
-
+eg.  
+	Every real number x can be arbitrarily closely approximated by a rational number, how close is defined by epsilon:
+$$
+\DeclareMathOperator{\st}{s.t.}
+\forall x \in \mathbb{R}, \forall \epsilon \in \mathbb{R}, \epsilon> 0, \exists q \in \mathbb{Q}  \st |x-q|< \epsilon 
+$$
 ## Logic Notation 
 #rob/need_formulate 
 ~ means not 
