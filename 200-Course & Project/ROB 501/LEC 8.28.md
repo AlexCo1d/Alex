@@ -20,7 +20,7 @@ $\forall$ means for every, for each
 $\exists$ means for some, there exists, for at least one
 $\in$ means element of
 $\text{s.t.}$ such that 使得
-eg.  
+Eg.  
 	Every real number x can be arbitrarily closely approximated by a rational number, how close is defined by epsilon:
 $$
 \DeclareMathOperator{\st}{s.t.}
@@ -37,9 +37,9 @@ $$
 ~ means not 
 $\wedge$ means and  
 $\vee$ means or
-p $\rightarrow$ q means if p is true then q is true, a implication
-P <=>q means p is true if and only if q is true
-	(P <=> q) <=> ((p=>q) A (q=>))
+p $\Rightarrow$ q means if p is true then q is true, a implication
+P $\Leftrightarrow$ q means p is true if and only if q is true
+	(P $\Leftrightarrow$ q) $\Leftrightarrow$ ((p $\Rightarrow$ q) $\wedge$ (q $\Rightarrow$ p))
 
 
 
