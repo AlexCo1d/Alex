@@ -54,7 +54,7 @@ Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” whic
 ```ad-example
 - claim:$\quad \forall n \ge 1, \ 1+3+5+\cdots + (2n+1)=n^2$
 
-- Step 1: Check the base case, P(1): For k = 1, we have that 1 = 12, and hence the base case is true.
+- Step 1: Check the base case, P(1): For k = 1, we have that $1=1^2$, and hence the base case is true.
 
 - Step 2: Show the induction hypothesis is true. That is, using the fact that P(k) is true, show that P(k + 1) is true. Often, this involves re-writing P(k + 1) as a sum of terms that show up in P(k) and another term.
 ```
