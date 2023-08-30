@@ -38,7 +38,7 @@ $$
 $\wedge$ means logical and  
 $\vee$ means logical or
 p $\Rightarrow$ q means if p is true then q is true, p implies q
-```ad-tip
+```ad-note
 does not means q$\Rightarrow$p
 The <u>__contrapositive__</u> of p $\Rightarrow$ q $\ \Leftrightarrow  \ \neg q \Rightarrow \neg p$
 __useful for proof__
@@ -51,10 +51,19 @@ Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” whic
 ## Proof method
 - Direct Proof
 - Proof by contrapositive 
-```ad-tip
+```ad-note
 $(p \Rightarrow q) \Leftrightarrow (\neg q \Rightarrow \neg p)$
 ```
 - Proof by introduction
+````ad-note
+title:Standard induction 
+Let P(n) denote a statement about the natural numbers with the following properties:
+
+(a) Base case: P(1) is true
+
+(b) Induction hypothesis: If P(k) is true, then P(k + 1) is true.
+
+Then P(n) is true for all n ≥ 1.
 ```ad-example
 title: Example for Standard induction
 - claim:$\quad \forall n \ge 1, \ 1+3+5+\cdots + (2n+1)=n^2$
@@ -63,13 +72,18 @@ title: Example for Standard induction
 
 - Step 2: Show the induction hypothesis is true. That is, using the fact that P(k) is true, show that P(k + 1) is true. Often, this involves re-writing P(k + 1) as a sum of terms that show up in P(k) and another term.
 ```
+````
 
-```ad-tip
+```ad-note
 title: Strong induction
-- Step 1: Check the base case, P(1) is True
+Let P(n) be a statement about the natural numbers with the following properties:
 
-- Step 2: If P(j) is true for all 1 ≤ j ≤ k, then P(k + 1) is true.
-- Then P(n) is true for all n ≥ 1 (or, n greater than or equal to the n0 used in the Base Case).
+(a) Base Case: P(1) is true.
+
+(b) Induction hypothesis: If P(j) is true for all 1 ≤ j ≤ k, then P(k + 1) is true.
+
+Then P(n) is true for all n ≥ 1 (or, n greater than or equal to the n0 used in the Base Case).
 ```
 
 - Proof by contradiction
+
