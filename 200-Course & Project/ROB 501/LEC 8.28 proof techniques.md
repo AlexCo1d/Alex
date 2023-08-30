@@ -52,6 +52,7 @@ Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” whic
 - Proof by contrapositive 
 - Proof by introduction
 ```ad-example
+title: Example for standard induction
 - claim:$\quad \forall n \ge 1, \ 1+3+5+\cdots + (2n+1)=n^2$
 
 - Step 1: Check the base case, P(1): For k = 1, we have that $1=1^2$, and hence the base case is true.
@@ -59,3 +60,10 @@ Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” whic
 - Step 2: Show the induction hypothesis is true. That is, using the fact that P(k) is true, show that P(k + 1) is true. Often, this involves re-writing P(k + 1) as a sum of terms that show up in P(k) and another term.
 ```
 
+```ad-example
+title: strong induction
+- Step 1: Check the base case, P(1) is True
+
+- Step 2: If P(j) is true for all 1 ≤ j ≤ k, then P(k + 1) is true.
+- Then P(n) is true for all n ≥ 1 (or, n greater than or equal to the n0 used in the Base Case).
+```
