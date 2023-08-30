@@ -33,7 +33,6 @@ $$
 \end{gather}
 $$
 ## Logic Notation 
-#rob/need_formulate 
 ~ means not 
 $\wedge$ means logical and  
 $\vee$ means logical or
@@ -48,7 +47,7 @@ P $\Leftrightarrow$ q means p is true if and only if q is true
 
 Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” which means “thus it was demonstrated”; it is used to alert the reader that a proof has been completed. Nowadays, you more frequently see □ or ■ instead of QED.
 
-## Proof method
+## Proof method 8.30
 - Direct Proof
 - Proof by contrapositive 
 ```ad-note

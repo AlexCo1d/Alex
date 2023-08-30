@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 504/LEC 8.30.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md"
+                "file": "200-Course & Project/EECS 504/LEC 8.30.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 504/LEC 8.30.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 504/LEC 8.30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +191,12 @@
   },
   "active": "30e53d9801a44955",
   "lastOpenFiles": [
+    "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+    "200-Course & Project/EECS 504/LEC 8.30.md",
+    "200-Course & Project/EECS 504",
     "200-Course & Project/EECS 553/LEC 8-29.md",
     "200-Course & Project/EECS 553/LEC 8-30.md",
     "200-Course & Project/EECS 553",
-    "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "100-Daily/Course Register.md",
     "200-Course & Project/ROB 501",
@@ -217,7 +219,6 @@
     "000-Inbox/Excalidraw",
     "300-Reading Notes/template/Zotero Metadata Template.md",
     "200-Course & Project/UNNC-Project",
-    "200-Course & Project",
     "().md",
     "Robert L Ferris.md",
     "Reading Notes/songDeepLearningBased2014-zotero.md",
@@ -228,7 +229,6 @@
     "kannScreeningExtranodalExtension2023-zotero.md",
     "2023-05-31.md",
     "11/未命名.md",
-    "fsdaf/未命名.canvas",
-    "2023-05-24.md"
+    "fsdaf/未命名.canvas"
   ]
 }
