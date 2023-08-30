@@ -40,15 +40,22 @@ $\vee$ means logical or
 p $\Rightarrow$ q means if p is true then q is true, p implies q
 ```ad-tip
 does not means q$\Rightarrow$p
-The <u>_contrapositive_</u> of p $\Rightarrow$ q $\ \Leftrightarrow  \ \neg q \Rightarrow \neg p$
-useful for proof
+The <u>__contrapositive__</u> of p $\Rightarrow$ q $\ \Leftrightarrow  \ \neg q \Rightarrow \neg p$
+__useful for proof__
 ```
 P $\Leftrightarrow$ q means p is true if and only if q is true
 	(P $\Leftrightarrow$ q) $\Leftrightarrow$ ((p $\Rightarrow$ q) $\wedge$ (q $\Rightarrow$ p))
 
 Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” which means “thus it was demonstrated”; it is used to alert the reader that a proof has been completed. Nowadays, you more frequently see □ or ■ instead of QED.
-``` ad-tip
-!!! ad-tip 
-	title: first
-	fsdf
+## Proof method
+- Direct Proof
+- Proof by contrapositive 
+- Proof by introduction
+```ad-example
+- claim:$\quad \forall n \ge 1, \ 1+3+5+\cdots + (2n+1)=n^2$
+
+- Step 1: Check the base case, P(1): For k = 1, we have that 1 = 12, and hence the base case is true.
+
+- Step 2: Show the induction hypothesis is true. That is, using the fact that P(k) is true, show that P(k + 1) is true. Often, this involves re-writing P(k + 1) as a sum of terms that show up in P(k) and another term.
 ```
+
