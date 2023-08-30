@@ -35,11 +35,20 @@ $$
 ## Logic Notation 
 #rob/need_formulate 
 ~ means not 
-$\wedge$ means and  
-$\vee$ means or
-p $\Rightarrow$ q means if p is true then q is true, a implication
+$\wedge$ means logical and  
+$\vee$ means logical or
+p $\Rightarrow$ q means if p is true then q is true, p implies q
+```ad-tip
+does not means q$\Rightarrow$p
+The <u>_contrapositive_</u> of p $\Rightarrow$ q $\ \Leftrightarrow  \ \neg q \Rightarrow \neg p$
+useful for proof
+```
 P $\Leftrightarrow$ q means p is true if and only if q is true
 	(P $\Leftrightarrow$ q) $\Leftrightarrow$ ((p $\Rightarrow$ q) $\wedge$ (q $\Rightarrow$ p))
 
-
-
+Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” which means “thus it was demonstrated”; it is used to alert the reader that a proof has been completed. Nowadays, you more frequently see □ or ■ instead of QED.
+``` ad-tip
+!!! ad-tip 
+	title: first
+	fsdf
+```

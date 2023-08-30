@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-29.md"
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-29.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,11 +189,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2d0aabb3c3714992",
+  "active": "30e53d9801a44955",
   "lastOpenFiles": [
     "200-Course & Project/EECS 553/LEC 8-29.md",
+    "200-Course & Project/EECS 553/LEC 8-30.md",
     "200-Course & Project/EECS 553",
-    "200-Course & Project/ROB 501/LEC 8.28.md",
+    "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
     "200-Course & Project/UNNC-Project/Paper Manuscript.md",
     "100-Daily/Course Register.md",
     "200-Course & Project/ROB 501",
