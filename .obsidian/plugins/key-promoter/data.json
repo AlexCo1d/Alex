@@ -34,8 +34,8 @@
     "obsidian-git:push2": 2,
     "obsidian-git:delete-repo": 2,
     "obsidian-git:clone-repo": 2,
-    "workspace:close-tab-group": 3,
-    "workspace:close-others-tab-group": 3,
+    "workspace:close-tab-group": 4,
+    "workspace:close-others-tab-group": 4,
     "app:open-sandbox-vault": 3,
     "file-explorer:duplicate-file": 2,
     "canvas:jump-to-group": 2,
@@ -50,10 +50,10 @@
     "obsidian-minimal-settings:toggle-minimal-rose-pine-dark": 5,
     "key-promoter:statistics": 2,
     "key-promoter:key-promoter": 2,
-    "workspace:close": 66,
-    "workspace:close-window": 66,
-    "workspace:close-others": 66,
-    "editor:toggle-spellcheck": 67,
+    "workspace:close": 67,
+    "workspace:close-window": 67,
+    "workspace:close-others": 67,
+    "editor:toggle-spellcheck": 68,
     "switcher:open": 2,
     "command-palette:open": 4,
     "app:go-back": 43,
@@ -223,7 +223,7 @@
     "obsidian-markdown-formatting-assistant-plugin:open-callouts-selector": 2
   },
   "keyboardStatistics": {
-    "app:open-settings": 22,
+    "app:open-settings": 23,
     "workspace:export-pdf": 7,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
@@ -266,6 +266,7 @@
     "editor:toggle-comments": 1,
     "editor:toggle-italics": 2,
     "editing-toolbar:editor:toggle-italics": 2,
-    "editor:save-file": 2
+    "editor:save-file": 2,
+    "templater-obsidian:jump-to-next-cursor-location": 1
   }
 }

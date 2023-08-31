@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 553/LEC 8-31.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "419a300f08f4db8d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md"
+                "file": "200-Course & Project/EECS 553/LEC 8-31.md"
               }
             }
           }
@@ -156,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 553/LEC 8-31.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -173,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+                "file": "200-Course & Project/EECS 553/LEC 8-31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,10 +189,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "419a300f08f4db8d",
+  "active": "30e53d9801a44955",
   "lastOpenFiles": [
-    "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
+    "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/EECS 553/LEC 8-29.md",
     "200-Course & Project/EECS 553/attachments/Pasted image 20230831134200.png",
     "200-Course & Project/EECS 553/attachments",
