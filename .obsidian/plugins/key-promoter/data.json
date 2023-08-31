@@ -195,7 +195,7 @@
     "obsidian-excalidraw-plugin:insert-link-to-element-frame": 3,
     "obsidian-excalidraw-plugin:insert-link-to-element-area": 3,
     "obsidian-excalidraw-plugin:toggle-lefthanded-mode": 3,
-    "obsidian-excalidraw-plugin:reset-image-to-100": 6,
+    "obsidian-excalidraw-plugin:reset-image-to-100": 9,
     "obsidian-excalidraw-plugin:insert-image": 3,
     "obsidian-excalidraw-plugin:import-svg": 3,
     "obsidian-excalidraw-plugin:release-notes": 3,
