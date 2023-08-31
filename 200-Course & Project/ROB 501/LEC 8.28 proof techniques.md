@@ -47,13 +47,13 @@ P $\Leftrightarrow$ q means p is true if and only if q is true
 
 Q.E.D. or QED is an abbreviation of the Latin “quod erat demonstrandum” which means “thus it was demonstrated”; it is used to alert the reader that a proof has been completed. Nowadays, you more frequently see □ or ■ instead of QED.
 
-## Proof method 8.30
-- Direct Proof
-- Proof by contrapositive 
+## Proof method
+### Direct Proof 
+### Proof by contrapositive   
 ```ad-note
 $(p \Rightarrow q) \Leftrightarrow (\neg q \Rightarrow \neg p)$
 ```
-- Proof by introduction
+### Proof by introduction
 ````ad-note
 title:Standard induction 
 Let P(n) denote a statement about the natural numbers with the following properties:
@@ -83,6 +83,9 @@ Let P(n) be a statement about the natural numbers with the following properties:
 
 Then P(n) is true for all n ≥ 1 (or, n greater than or equal to the n0 used in the Base Case).
 ```
-
-- Proof by contradiction
+###  Proof by contradiction
+```ad-note
+- to prove R, just to prove $R \wedge \neg R = T$
+- to prove $(p \Rightarrow q)$, just to prove $\neg (p \wedge (\neg q))$
+```
 
