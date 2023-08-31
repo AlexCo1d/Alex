@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "419a300f08f4db8d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,7 +200,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "30e53d9801a44955",
+  "active": "419a300f08f4db8d",
   "lastOpenFiles": [
     "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
