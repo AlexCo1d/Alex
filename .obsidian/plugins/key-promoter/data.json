@@ -226,7 +226,7 @@
     "editor:set-heading-2": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 27,
+    "app:open-settings": 28,
     "workspace:export-pdf": 7,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
@@ -257,7 +257,7 @@
     "editing-toolbar:header4-text": 2,
     "editing-toolbar:header3-text": 5,
     "editing-toolbar:editor-redo": 11,
-    "editing-toolbar:editor-undo": 55,
+    "editing-toolbar:editor-undo": 69,
     "editor:toggle-strikethrough": 13,
     "editing-toolbar:editor:toggle-strikethrough": 13,
     "switcher:open": 1,
@@ -269,7 +269,7 @@
     "editor:toggle-comments": 1,
     "editor:toggle-italics": 2,
     "editing-toolbar:editor:toggle-italics": 2,
-    "editor:save-file": 3,
+    "editor:save-file": 5,
     "templater-obsidian:jump-to-next-cursor-location": 2,
     "obsidian-completr:completr-insert-selected-suggestion": 3,
     "editor:open-search": 1,
