@@ -239,7 +239,7 @@
     "editor:toggle-bullet-list": 19,
     "editing-toolbar:indent-list": 3,
     "editing-toolbar:codeblock": 2,
-    "editor:focus": 42,
+    "editor:focus": 43,
     "editor:toggle-blockquote": 1,
     "editing-toolbar:editor:toggle-blockquote": 1,
     "editor:insert-embed": 1,
@@ -273,8 +273,8 @@
     "templater-obsidian:jump-to-next-cursor-location": 1,
     "obsidian-completr:completr-insert-selected-suggestion": 2,
     "editor:open-search": 1,
-    "editor:toggle-bold": 7,
-    "editing-toolbar:editor:toggle-bold": 4,
+    "editor:toggle-bold": 8,
+    "editing-toolbar:editor:toggle-bold": 5,
     "obsidian-completr:completr-select-previous-suggestion": 2
   }
 }
