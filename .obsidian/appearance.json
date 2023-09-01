@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "cssTheme": "Minimal",
   "translucency": false,
-  "baseFontSize": 19,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "切换标签页优化",
     "表格优化",
