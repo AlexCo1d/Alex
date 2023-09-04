@@ -44,3 +44,4 @@ E(I)=\beta\sum\limits_{s=1}^{n-1}\sum\limits_{t=1}^{n}\left(\mathbb{I}[I(s,t)\ne
 $$
 
 Where $\mathbb{I}(a)=\begin{cases}1 & \text{if a  is true} \\ 0 & \text{if a  is false}\end{cases}$
+The plot of E (I) is like a truncate potential function.
