@@ -223,10 +223,11 @@
     "obsidian-markdown-formatting-assistant-plugin:open-callouts-selector": 2,
     "workspace:goto-tab-2": 1,
     "editing-toolbar:header2-text": 1,
-    "editor:set-heading-2": 1
+    "editor:set-heading-2": 1,
+    "highlightr-plugin:Yellow": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 29,
+    "app:open-settings": 38,
     "workspace:export-pdf": 7,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
@@ -239,7 +240,7 @@
     "editor:toggle-bullet-list": 19,
     "editing-toolbar:indent-list": 3,
     "editing-toolbar:codeblock": 2,
-    "editor:focus": 53,
+    "editor:focus": 54,
     "editor:toggle-blockquote": 1,
     "editing-toolbar:editor:toggle-blockquote": 1,
     "editor:insert-embed": 1,
@@ -269,12 +270,17 @@
     "editor:toggle-comments": 1,
     "editor:toggle-italics": 4,
     "editing-toolbar:editor:toggle-italics": 4,
-    "editor:save-file": 20,
+    "editor:save-file": 23,
     "templater-obsidian:jump-to-next-cursor-location": 2,
-    "obsidian-completr:completr-insert-selected-suggestion": 6,
+    "obsidian-completr:completr-insert-selected-suggestion": 8,
     "editor:open-search": 1,
     "editor:toggle-bold": 11,
     "editing-toolbar:editor:toggle-bold": 8,
-    "obsidian-completr:completr-select-previous-suggestion": 2
+    "obsidian-completr:completr-select-previous-suggestion": 2,
+    "editing-toolbar:format-eraser": 2,
+    "editor:toggle-highlight": 2,
+    "highlightr-plugin:Yellow": 1,
+    "quick-latex:addAlignBlock": 1,
+    "quick-latex:addCasesBlock": 1
   }
 }

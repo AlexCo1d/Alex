@@ -36,8 +36,8 @@ Extract feature image from $I:\{RGB\}$ to $\nabla I$ , then we have
 $$
 I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}^k
 $$
-### Implementation
-Potts Model - Difference between neighbor pixel.
+### Implementation - Potts model
+Difference between neighbor pixel.
 ***Energy function*** that evaluate the image's stability of how it is at peace.
 $$
 E(I)=\beta\sum\limits_{s=1}^{n-1}\sum\limits_{t=1}^{n}\left(\mathbb{I}[I(s,t)\neq I(s+1),t]\right)+\beta\sum\limits_{s=1}^{n-1}\sum\limits_{t=1}^{n}\left(\mathbb{I}[I(s,t)\neq I(s,t+1)]\right)
@@ -48,9 +48,27 @@ The plot of E (I) is like a truncate potential function.
 
 Noisy Images or Cleaning Dirty Images:
 $I=J+Noise$, J is the actual image we want
-To remove noise, we need to minimize the Energy function
+we need to minimize the Energy function
 $$
 E(J|I)=\alpha Cost(I,J)+(1-\alpha)S(J)
 $$
+$$
+arg \ \mathop{min}\limits_{J} \ E(I|J)
+$$
 Cost is the data term that $\sum\limits_{s=1}^n\sum\limits_{t=1}^n(I(s,t)-J(s,t))^2$ 
 And S is a regularizer term, $S(J)=E_p(J)$.
+
+## Model & Continuous
+$$
+I: \ \mathbb{R}^2 \rightarrow \mathbb{R}
+$$
+Used when smooth image boundaries are needed
+E.g. medical image segmentation, or rotoscoping in holywood.
+
+## Hybrid discrete & continuous 
+
+Key issue for continuous model is ***interpolation*** 
+E.g. bilinear interpolation
+- weighs along row first, and then columns
+- Convex combinations of sampled value. 
+
