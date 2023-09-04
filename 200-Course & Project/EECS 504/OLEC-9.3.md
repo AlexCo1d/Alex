@@ -17,7 +17,8 @@ Where $I(\cdot) \geq 0, \ d\geq 1$
 
 ## Physical & continuous Images
 Like Perfect image
-Implementation: Lambertian model
+### Implementation
+Lambertian model
 
 ## Physical & Discrete Images
 Like digital image (e.g. CCD), which is a sampled and quantized perfect image 
@@ -25,6 +26,15 @@ $$
 I:\mathbb{N}^{2}\rightarrow \mathbb{N}
 $$
  $R^2 \rightarrow N^2$ is sampling, and from $R \rightarrow N$ is quantization
- Implementation: Bayer pattern model
-## 
-
+### Implementation
+Bayer pattern model, demosaiking each color channel to form an image
+## Model & Discrete
+$$
+I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}
+$$
+Extract feature image from $I:\{RGB\}$ to $\nabla I$ , then we have
+$$
+I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}^k
+$$
+### Implementation
+Potts Model
