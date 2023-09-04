@@ -45,3 +45,12 @@ $$
 
 Where $\mathbb{I}(a)=\begin{cases}1 & \text{if a  is true} \\ 0 & \text{if a  is false}\end{cases}$
 The plot of E (I) is like a truncate potential function.
+
+Noisy Images or Cleaning Dirty Images:
+$I=J+Noise$, J is the actual image we want
+To remove noise, we need to minimize the Energy function
+$$
+E(J|I)=\alpha Cost(I,J)+(1-\alpha)S(J)
+$$
+Cost is the data term that $\sum\limits_{s=1}^n\sum\limits_{t=1}^n(I(s,t)-J(s,t))^2$ 
+And S is a regularizer term, $S(J)=E_p(J)$.

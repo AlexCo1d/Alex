@@ -39,6 +39,7 @@ say
 search
 sampled
 sampling
+stability
 discussion
 defined
 demonstrandum
@@ -49,6 +50,7 @@ does
 denote
 driverless
 digital
+demosaiking
 identical
 is
 if
@@ -99,12 +101,15 @@ Pedestrian
 Point
 Perfect
 Physical
+Potts
 HW
 Hessian
 Exam
 Eg
 Every
 Example
+Extract
+Energy
 Final
 For
 First
@@ -114,6 +119,7 @@ Function
 Mid
 Mathematical
 Matching
+Model
 Arguments
 Avoidance
 Notation
@@ -136,6 +142,7 @@ non
 negative
 natural
 need
+neighbor
 complex
 can
 closely
@@ -153,6 +160,8 @@ challenge
 car
 core
 continuous
+color
+channel
 means
 more
 method
@@ -169,6 +178,8 @@ function
 focus
 functions
 from
+form
+feature
 every
 each
 exists
@@ -178,6 +189,7 @@ erat
 example
 eigenvalues
 equal
+evaluate
 there
 that
 true
@@ -193,6 +205,7 @@ twice
 than
 twi
 transformation
+truncate
 at
 arbitrarily
 approximated
@@ -213,6 +226,7 @@ abstract
 least
 logical
 local
+like
 be
 by
 been
@@ -220,6 +234,7 @@ base
 but
 bulged
 binary
+between
 Logic
 Latin
 Local
@@ -254,12 +269,17 @@ problems
 possibilities
 perfect
 pattern
+pixel
+peace
+plot
+potential
 you
 your
 Direct
 Definite
 Detection
 Discrete
+Difference
 Standard
 Step
 Show
