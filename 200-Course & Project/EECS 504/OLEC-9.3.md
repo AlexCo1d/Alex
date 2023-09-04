@@ -16,7 +16,8 @@ Where $I(\cdot) \geq 0, \ d\geq 1$
 # Image as functions
 
 ## Physical & continuous Images
-Like Perfect image -> Lambertian model
+Like Perfect image
+Implementation: Lambertian model
 
 ## Physical & Discrete Images
 Like digital image (e.g. CCD), which is a sampled and quantized perfect image 
@@ -24,5 +25,6 @@ $$
 I:\mathbb{N}^{2}\rightarrow \mathbb{N}
 $$
  $R^2 \rightarrow N^2$ is sampling, and from $R \rightarrow N$ is quantization
+ Implementation: Bayer pattern model
 ## 
 
