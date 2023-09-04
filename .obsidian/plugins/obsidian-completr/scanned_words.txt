@@ -10,6 +10,8 @@ Induction
 Intersection
 In
 Invariance
+Image
+Iamges
 Time
 Thu
 Term
@@ -53,9 +55,11 @@ involves
 in
 iff
 info
+image
 Wed
 We
 What
+Where
 or
 of
 one
@@ -77,6 +81,7 @@ hence
 hypothesis
 GSI
 Gradient
+Graph
 Prof
 Piazza
 Proof
@@ -85,6 +90,9 @@ Properties
 PSD
 PD
 Pedestrian
+Point
+Perfect
+Physical
 HW
 Hessian
 Exam
@@ -96,6 +104,7 @@ For
 First
 Following
 Fitting
+Function
 Mid
 Mathematical
 Matching
@@ -113,6 +122,7 @@ remain
 recognition
 retrieval
 reconstruction
+representing
 numbers
 number
 not
@@ -136,6 +146,7 @@ convexity
 challenge
 car
 core
+continuous
 means
 more
 method
@@ -149,6 +160,7 @@ fact
 following
 function
 focus
+functions
 every
 each
 exists
@@ -199,11 +211,13 @@ been
 base
 but
 bulged
+binary
 Logic
 Latin
 Local
 Let
 Lane
+Like
 QED
 quod
 quantity
@@ -213,6 +227,7 @@ we
 writing
 with
 when
+ways
 used
 using
 up
@@ -225,6 +240,7 @@ properties
 prove
 property
 problems
+possibilities
 you
 your
 Direct
