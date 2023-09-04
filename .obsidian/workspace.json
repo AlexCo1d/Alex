@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/SI 544/LEC 9-1.md",
+                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/SI 544/LEC 9-1.md"
+                "file": "200-Course & Project/EECS 504/OLEC-9.3.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/SI 544/LEC 9-1.md",
+                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/SI 544/LEC 9-1.md",
+                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,15 +191,16 @@
   },
   "active": "30e53d9801a44955",
   "lastOpenFiles": [
-    "200-Course & Project/EECS 553/LEC 8-31.md",
+    "200-Course & Project/EECS 504/LEC 8.30.md",
+    "200-Course & Project/EECS 504/OLEC-9.3.md",
     "200-Course & Project/SI 544/LEC 9-1.md",
+    "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
     "200-Course & Project/SI 544",
     "200-Course & Project/未命名.md",
     "200-Course & Project/EECS 553/LEC 8-29.md",
     "200-Course & Project/EECS 553/attachments/Pasted image 20230831134200.png",
     "200-Course & Project/EECS 553/attachments",
-    "200-Course & Project/EECS 504/LEC 8.30.md",
     "200-Course & Project/EECS 504",
     "200-Course & Project/EECS 553/LEC 8-30.md",
     "200-Course & Project/EECS 553",
@@ -229,7 +230,6 @@
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
     "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
     "Benjamin H Kann.md",
-    "Reading Notes/azhieDeepLearningFramework2023.md",
     "fsdaf/未命名.canvas"
   ]
 }

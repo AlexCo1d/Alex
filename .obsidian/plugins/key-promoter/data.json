@@ -269,7 +269,7 @@
     "editor:toggle-comments": 1,
     "editor:toggle-italics": 2,
     "editing-toolbar:editor:toggle-italics": 2,
-    "editor:save-file": 5,
+    "editor:save-file": 8,
     "templater-obsidian:jump-to-next-cursor-location": 2,
     "obsidian-completr:completr-insert-selected-suggestion": 3,
     "editor:open-search": 1,
