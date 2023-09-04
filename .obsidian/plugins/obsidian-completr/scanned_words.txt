@@ -4,6 +4,7 @@ Condition
 Convexity
 Case
 CV
+CCD
 Info
 If
 Induction
@@ -12,6 +13,8 @@ In
 Invariance
 Image
 Iamges
+Images
+Implementation
 Time
 Thu
 Term
@@ -34,6 +37,8 @@ strictly
 statement
 say
 search
+sampled
+sampling
 discussion
 defined
 demonstrandum
@@ -43,6 +48,7 @@ definite
 does
 denote
 driverless
+digital
 identical
 is
 if
@@ -154,6 +160,7 @@ minimizer
 matrix
 min
 most
+model
 for
 frequently
 fact
@@ -161,6 +168,7 @@ following
 function
 focus
 functions
+from
 every
 each
 exists
@@ -218,9 +226,12 @@ Local
 Let
 Lane
 Like
+Lambertian
 QED
 quod
 quantity
+quantized
+quantization
 which
 was
 we
@@ -241,11 +252,14 @@ prove
 property
 problems
 possibilities
+perfect
+pattern
 you
 your
 Direct
 Definite
 Detection
+Discrete
 Standard
 Step
 Show
@@ -256,6 +270,7 @@ Unconstrained
 global
 greater
 Base
+Bayer
 just
 vice
 versa
