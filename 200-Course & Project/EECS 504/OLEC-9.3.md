@@ -37,4 +37,10 @@ $$
 I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}^k
 $$
 ### Implementation
-Potts Model
+Potts Model - Difference between neighbor pixel.
+***Energy function*** that evaluate the image's stability of how it is at peace.
+$$
+E(I)=\beta\sum\limits_{s=1}^{n-1}\sum\limits_{t=1}^{n}\left(\mathbb{I}[I(s,t)\neq I(s+1),t]\right)+\beta\sum\limits_{s=1}^{n-1}\sum\limits_{t=1}^{n}\left(\mathbb{I}[I(s,t)\neq I(s,t+1)]\right)
+$$
+
+Where $\mathbb{I}(a)=\begin{cases}1 & \text{if a  is true} \\ 0 & \text{if a  is false}\end{cases}$
