@@ -22,6 +22,7 @@ Techniques
 That
 Then
 The
+Tu
 score
 sec
 some
@@ -120,11 +121,13 @@ Mid
 Mathematical
 Matching
 Model
+Mo
 Arguments
 Avoidance
 Notation
 Nowadays
 Necessary
+NQ
 Variables
 rational
 real
@@ -206,6 +209,7 @@ than
 twi
 transformation
 truncate
+time
 at
 arbitrarily
 approximated
@@ -280,12 +284,14 @@ Definite
 Detection
 Discrete
 Difference
+Discusion
 Standard
 Step
 Show
 Semi
 Second
 Strong
+SPH
 Unconstrained
 global
 greater
