@@ -1,0 +1,8 @@
+# Course Info
+Discusion time:
+Tu 8.30-10.00 SPH 21123
+Mo 13-14.00 *
+We 14.30-16.00 NQ 2255
+We 16.00-17.30 NQ 2185
+We 17.30-19.00 NQ 2165
+Tu 10.00-11.30 SPH 21123

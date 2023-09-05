@@ -270,7 +270,7 @@
     "editor:toggle-comments": 1,
     "editor:toggle-italics": 4,
     "editing-toolbar:editor:toggle-italics": 4,
-    "editor:save-file": 23,
+    "editor:save-file": 24,
     "templater-obsidian:jump-to-next-cursor-location": 2,
     "obsidian-completr:completr-insert-selected-suggestion": 8,
     "editor:open-search": 1,
@@ -281,6 +281,7 @@
     "editor:toggle-highlight": 2,
     "highlightr-plugin:Yellow": 1,
     "quick-latex:addAlignBlock": 1,
-    "quick-latex:addCasesBlock": 1
+    "quick-latex:addCasesBlock": 1,
+    "obsidian-completr:completr-blacklist-current-word": 1
   }
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/EECS 504/OLEC-9.3.md"
+                "file": "200-Course & Project/SI 544/LEC 9-1.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/EECS 504/OLEC-9.3.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,8 +191,8 @@
   },
   "active": "30e53d9801a44955",
   "lastOpenFiles": [
-    "().md",
     "200-Course & Project/EECS 504/OLEC-9.3.md",
+    "().md",
     "200-Course & Project/EECS 504/LEC 8.30.md",
     "200-Course & Project/SI 544/LEC 9-1.md",
     "200-Course & Project/EECS 553/LEC 8-31.md",
