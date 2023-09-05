@@ -6,18 +6,29 @@ We need to characterize the joint distribution $(X,y)$
 		Then $P(y,x)=P(x|y)\cdot P(y)$
 -  marginal distribution X, and conditional distribution Y given $X=x$
 		Then $P(y,x)=P(y|x)\cdot P(x)$
+
+```ad-tip
+title: marginal distribution
+$$
+P(X)=\sum_{i=1}^kP(X,y_i)=\sum_{i=1}^kP(X|y_i)\times P(y_i)
+$$
+```
+So we have
+$$
+P(y_i|X)=\frac{P(X|y_i)\times P(y_i)}{P(X)}
+$$
 ## Notation
 - $\eta_k(\boldsymbol{x})= Pr(Y=k|X=x)$,
 - $g(x)=pdf \ of \ X$,
-- $g_k(x)=pdf \ of \ X, \ given \ Y=k$, 
+- $g_k(x)=pdf \ of \ X, \ given \ Y=k$,
 - $\pi_k=Pr(Y=k)$
+
 ## Joint distribution
 $$g(\boldsymbol{x})=\pi_1 g_1 (\boldsymbol{x})+\pi_2 g_2 (\boldsymbol{x}) 
 $$
 $$
 \eta_1 (\boldsymbol{x})=\frac{\pi_1 g_1 (\boldsymbol{x})}{\pi_1 g_1 (\boldsymbol{x})+\pi_2 g_2 (\boldsymbol{x})} 
 $$
-
 ## Bayes classifier 
 Bayes classifier is a function $f(X): X\in\mathbb{R}^{d} \rightarrow \{1,\ldots, K\}$, given a joint distribution of $\{X, Y\}$
 
