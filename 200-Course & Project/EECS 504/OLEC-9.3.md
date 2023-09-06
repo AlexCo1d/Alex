@@ -28,6 +28,7 @@ $$
  $R^2 \rightarrow N^2$ is sampling, and from $R \rightarrow N$ is quantization
 ### Implementation
 Bayer pattern model, demosaiking each color channel to form an image
+green more than red&blue (because human eyes are more sensitive)
 ## Model & Discrete
 $$
 I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}
