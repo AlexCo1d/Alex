@@ -87,7 +87,7 @@ title: Strong induction
 ###  Proof by contradiction
 ```ad-note
 
- - to prove R, just to prove $R \wedge \neg R = T$
+ - to prove p, just to assume $\neg p$ and prove $\exists R, \ \neg p \Rightarrow (R \wedge \neg R) = T$
  - to prove $(p \Rightarrow q)$, just to prove $\neg (p \wedge (\neg q))$
 ```
 
@@ -97,6 +97,14 @@ we assume $\neg q$ is true, then we assume $(p\wedge \neg q)$ is true, and we fo
 title: proof by contradiction
 theorem: $\sqrt{2}$ is irrational number
 p:$\sqrt{2}$ is irrational numbers
-$neg p$: $\sqrt{2}$ is rational numbers
-
+$\neg p$: $\sqrt{2}$ is rational numbers
+assume $\neg p$:
+then $\exists m,n \in \mathbb{Z}$ s.t.
+	$R_1:$ m,n have no common factors\
+	$R_2:$ $\sqrt{2}=\frac{m}{n}$
+$R_{2} \Rightarrow 2=\frac{m^{2}}{n^{2}}\Rightarrow2n^2=m^{2} \Rightarrow$ m is even
+thus $\exists k\in \mathbb{N}$ s.t. m=2k
+then $2n^{2}=m^{2}=4k^{2} \Rightarrow n^{2}=2k^{2}\Rightarrow n^{2}$ is even$\Rightarrow$ n is even
+so we have proved that $R_{2}\wedge \neg R_{2}$ is True $\Rightarrow \ \neg p is false$
+therefore p is true.
 ```
