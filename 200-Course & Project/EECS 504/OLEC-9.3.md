@@ -66,7 +66,7 @@ $$
 Used when smooth image boundaries are needed
 E.g. medical image segmentation, or rotoscoping in holywood.
 
-## Hybrid discrete & continuous 
+### Hybrid discrete & continuous 
 
 Key issue for continuous model is ***interpolation*** 
 E.g. bilinear interpolation
