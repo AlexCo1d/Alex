@@ -16,7 +16,7 @@ Where $I(\cdot) \geq 0, \ d\geq 1$
 # Image as functions
 
 ## Physical & continuous Images
-Like Perfect image
+Like [[#Perfect image]]
 ### Implementation
 Lambertian model
 
