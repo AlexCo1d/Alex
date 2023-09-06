@@ -48,6 +48,7 @@ sampling
 stability
 smooth
 segmentation
+so
 discussion
 defined
 demonstrandum
@@ -62,6 +63,7 @@ demosaiking
 data
 discrete
 distribution
+don
 identical
 is
 if
@@ -117,6 +119,7 @@ Perfect
 Physical
 Potts
 Probabilistic
+Plug
 HW
 Hessian
 Hybrid
@@ -137,10 +140,12 @@ Mathematical
 Matching
 Model
 Mo
+ML
 Arguments
 Avoidance
 And
 Analysis
+Also
 Notation
 Nowadays
 Necessary
@@ -194,6 +199,7 @@ combinations
 characterize
 conditional
 classifier
+could
 means
 more
 method
@@ -217,6 +223,7 @@ from
 form
 feature
 first
+formula
 every
 each
 exists
@@ -228,6 +235,8 @@ eigenvalues
 equal
 evaluate
 error
+exact
+estimate
 there
 that
 true
@@ -293,6 +302,7 @@ quod
 quantity
 quantized
 quantization
+quantities
 which
 was
 we
@@ -340,14 +350,17 @@ Second
 Strong
 SPH
 Setting
+So
 Unconstrained
 Used
 global
 greater
 given
+get
 Base
 Bayer
 Bayes
+Because
 just
 joint
 vice
@@ -356,3 +369,4 @@ value
 vector
 Reduction
 Key
+Joint
