@@ -51,6 +51,7 @@ segmentation
 so
 step
 supremum
+sensitive
 discussion
 defined
 demonstrandum
@@ -108,6 +109,7 @@ have
 hence
 hypothesis
 holywood
+human
 GSI
 Gradient
 Graph
@@ -173,6 +175,7 @@ regularizer
 rotoscoping
 row
 risk
+red
 numbers
 number
 not
@@ -248,6 +251,7 @@ evaluate
 error
 exact
 estimate
+eyes
 there
 that
 true
@@ -301,6 +305,8 @@ between
 boundaries
 bilinear
 bayes
+blue
+because
 Logic
 Latin
 Local
@@ -370,6 +376,7 @@ global
 greater
 given
 get
+green
 Base
 Bayer
 Bayes
