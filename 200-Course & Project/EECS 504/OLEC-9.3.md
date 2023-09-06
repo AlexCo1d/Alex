@@ -19,16 +19,15 @@ Where $I(\cdot) \geq 0, \ d\geq 1$
 Like [[#Perfect image]]
 ### Implementation
 Lambertian model
-
 ## Physical & Discrete Images
 Like digital image (e.g. CCD), which is a sampled and quantized perfect image 
 $$
 I:\mathbb{N}^{2}\rightarrow \mathbb{N}
 $$
  $R^2 \rightarrow N^2$ is sampling, and from $R \rightarrow N$ is quantization
-### Implementation
+### Implementation - Bayer pattern model
 Bayer pattern model, demosaiking each color channel to form an image
-green more than red&blue (because human eyes are more sensitive)
+green more than red & blue (because human eyes are more sensitive)
 ## Model & Discrete
 $$
 I:\mathbb{Z}^{2}\rightarrow \mathbb{Z}
@@ -72,4 +71,3 @@ Key issue for continuous model is ***interpolation***
 E.g. bilinear interpolation
 - weighs along row first, and then columns
 - Convex combinations of sampled value. 
-
