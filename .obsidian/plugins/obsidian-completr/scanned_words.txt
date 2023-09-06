@@ -49,6 +49,7 @@ stability
 smooth
 segmentation
 so
+step
 discussion
 defined
 demonstrandum
@@ -64,6 +65,7 @@ data
 discrete
 distribution
 don
+derive
 identical
 is
 if
@@ -123,6 +125,7 @@ Plug
 HW
 Hessian
 Hybrid
+Hence
 Exam
 Eg
 Every
@@ -152,6 +155,7 @@ Necessary
 NQ
 Noisy
 Notate
+Negating
 Variables
 rational
 real
@@ -224,6 +228,8 @@ form
 feature
 first
 formula
+follow
+false
 every
 each
 exists
@@ -273,6 +279,7 @@ applied
 abstract
 actual
 along
+assume
 least
 logical
 local
@@ -351,6 +358,7 @@ Strong
 SPH
 Setting
 So
+Statement
 Unconstrained
 Used
 global
