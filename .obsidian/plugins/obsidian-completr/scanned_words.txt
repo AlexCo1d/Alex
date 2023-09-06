@@ -50,6 +50,7 @@ smooth
 segmentation
 so
 step
+supremum
 discussion
 defined
 demonstrandum
@@ -81,6 +82,7 @@ info
 image
 issue
 interpolation
+infimum
 Wed
 We
 What
@@ -93,6 +95,7 @@ optimization
 order
 on
 object
+own
 Office
 Oct
 Often
@@ -216,6 +219,8 @@ minimize
 medical
 marginal
 measure
+maximum
+minimum
 for
 frequently
 fact
@@ -376,5 +381,6 @@ versa
 value
 vector
 Reduction
+Reading
 Key
 Joint

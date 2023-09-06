@@ -6,3 +6,4 @@
   $\neg p:\exists x \in \mathbb{R},f(x)\leq 0$
 ```
 
+Reading your own : maximum, minimum, infimum, supremum
