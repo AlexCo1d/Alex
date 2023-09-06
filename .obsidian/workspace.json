@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md"
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,13 +191,15 @@
   },
   "active": "b2d9d9db2217b74a",
   "lastOpenFiles": [
-    "200-Course & Project/EECS 504/OLEC-9.3.md",
+    "200-Course & Project/ROB 501/LEC 9.6.md",
+    "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
     "200-Course & Project/EECS 553/LEC 9-5.md",
+    "200-Course & Project/ROB 501/未命名",
+    "200-Course & Project/EECS 504/OLEC-9.3.md",
     "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/SI 544/LEC 9-1.md",
     "().md",
     "200-Course & Project/EECS 504/LEC 8.30.md",
-    "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
     "200-Course & Project/SI 544",
     "200-Course & Project/未命名.md",
     "200-Course & Project/EECS 553/LEC 8-29.md",
@@ -222,14 +224,12 @@
     "200-Course & Project/UNNC-Project/attachments",
     "Resources/Pasted image 20230706154321.png",
     "100-Daily",
-    "Resources",
     "arichitecture.png.md",
     "Excalidraw/Drawing 2023-07-06 15.38.27.excalidraw.md",
     "300-Reading Notes/template/Zotero Metadata Template.md",
     "Robert L Ferris.md",
     "Reading Notes/songDeepLearningBased2014-zotero.md",
     "Reading Notes/kannScreeningExtranodalExtension2023.md",
-    "Reading Notes/kannScreeningExtranodalExtension2023-zotero.md",
     "fsdaf/未命名.canvas"
   ]
 }

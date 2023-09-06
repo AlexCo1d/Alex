@@ -240,7 +240,7 @@
     "editor:toggle-bullet-list": 20,
     "editing-toolbar:indent-list": 3,
     "editing-toolbar:codeblock": 2,
-    "editor:focus": 54,
+    "editor:focus": 55,
     "editor:toggle-blockquote": 1,
     "editing-toolbar:editor:toggle-blockquote": 1,
     "editor:insert-embed": 1,
@@ -262,7 +262,7 @@
     "editor:toggle-strikethrough": 13,
     "editing-toolbar:editor:toggle-strikethrough": 13,
     "switcher:open": 1,
-    "editing-toolbar:underline": 13,
+    "editing-toolbar:underline": 14,
     "editing-toolbar:subscript": 1,
     "editing-toolbar:superscript": 2,
     "editor:open-search-replace": 2,
@@ -272,16 +272,17 @@
     "editing-toolbar:editor:toggle-italics": 4,
     "editor:save-file": 24,
     "templater-obsidian:jump-to-next-cursor-location": 3,
-    "obsidian-completr:completr-insert-selected-suggestion": 9,
+    "obsidian-completr:completr-insert-selected-suggestion": 11,
     "editor:open-search": 1,
     "editor:toggle-bold": 11,
     "editing-toolbar:editor:toggle-bold": 8,
-    "obsidian-completr:completr-select-previous-suggestion": 2,
+    "obsidian-completr:completr-select-previous-suggestion": 5,
     "editing-toolbar:format-eraser": 2,
     "editor:toggle-highlight": 2,
     "highlightr-plugin:Yellow": 1,
     "quick-latex:addAlignBlock": 1,
     "quick-latex:addCasesBlock": 2,
-    "obsidian-completr:completr-blacklist-current-word": 1
+    "obsidian-completr:completr-blacklist-current-word": 1,
+    "obsidian-completr:completr-select-next-suggestion": 1
   }
 }

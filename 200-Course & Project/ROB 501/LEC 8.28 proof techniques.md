@@ -91,3 +91,12 @@ title: Strong induction
  - to prove $(p \Rightarrow q)$, just to prove $\neg (p \wedge (\neg q))$
 ```
 
+we assume $\neg q$ is true, then we assume $(p\wedge \neg q)$ is true, and we follow logical step to derive a statement that it is <u>false</u>. Hence it can not be that $p\Rightarrow \neg q$, hence it has to be that $p\Rightarrow q$.
+
+```ad-example
+title: proof by contradiction
+theorem: $\sqrt{2}$ is irrational number
+p:$\sqrt{2}$ is irrational numbers
+$neg p$: $\sqrt{2}$ is rational numbers
+
+```
