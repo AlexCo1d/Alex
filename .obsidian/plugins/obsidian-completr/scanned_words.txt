@@ -52,6 +52,7 @@ so
 step
 supremum
 sensitive
+smallest
 discussion
 defined
 demonstrandum
@@ -185,6 +186,7 @@ natural
 need
 neighbor
 needed
+name
 complex
 can
 closely
@@ -210,6 +212,10 @@ characterize
 conditional
 classifier
 could
+class
+call
+constant
+called
 means
 more
 method
@@ -252,6 +258,7 @@ error
 exact
 estimate
 eyes
+evidence
 there
 that
 true
@@ -294,6 +301,7 @@ logical
 local
 like
 label
+likelihood
 be
 by
 been
@@ -350,6 +358,9 @@ peace
 plot
 potential
 performance
+posterior
+probability
+prior
 you
 your
 Direct
