@@ -38,9 +38,22 @@ Bayes classifier is a function $f(X): X\in\mathbb{R}^{d} \rightarrow \{1,\ldots,
 
 And the error, or risk is $R(f)=P(f(x)\neq y)$, which measure the performance of the bayes classifier. We call it _risk_ . R* is the smallest risk,
 Also, we have:
-$$\mathop{arg \ min}\limits_{1\leq k\leq K} \ R(f) \  \Leftrightarrow \ \mathop{arg \ max} \ \eta_k(\boldsymbol{x}) \Leftrightarrow arg \ max\ \pi_{k}g_{k}(x)$$
+$$\mathop{arg \ min}\limits_{1\leq k\leq K} \ R(f) \  \Leftrightarrow \ \mathop{arg \ max}\limits_{1\leq k\leq K} \ \eta_k(\boldsymbol{x}) \Leftrightarrow \mathop{arg \ max}\limits_{1\leq k\leq K}\ \pi_{k}g_{k}(x)$$
 Because $g (x)$ is a constant, called *evidence*.
+To use this classifier, just compare $\pi g_{1}(x)$ and $\pi g_{0}(x)$, to get the maximum.
+
+## Gaussian case
+$$
+f_k(x)=\frac1{(2\pi)^{l/2}|\boldsymbol{\Sigma}_k|^{1/2}}e^{-\frac12(x-\mu_k)^T\boldsymbol{\Sigma}_k^{-1}(x-\mu_k)}
+$$
+Where l is the total classes of Y.
+Use the compare way in a *log form*, and we can get:
+$$
+b+2(\mu_{1}-\mu_{2})^{\top}\Sigma^{-1}x >0
+$$
+
 # Plug-in classifier
 Because in ML, we don't have the exact data of $\pi_k,g_k(x),\eta_k(x)$, so we could only estimate the quantities in the formula, get a classifier.
+
 
 # Linear Discriminant Analysis
