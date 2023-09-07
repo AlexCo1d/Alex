@@ -14,5 +14,6 @@
   "showFrontmatter": false,
   "rightToLeft": false,
   "readableLineLength": true,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "showIndentGuide": false
 }
