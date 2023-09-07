@@ -17,6 +17,10 @@ So we have
 $$
 P(y_i|X)=\frac{P(X|y_i)\times P(y_i)}{P(X)}
 $$
+Where we name $P(y_{i}|\boldsymbol{X})$ posterior probability; $P(\boldsymbol{X}|y_{i})$ is likelihood; $P(y_{i})$ is class prior probability.
+```ad-note
+if it is a <u>naive bayes</u>, then it assume that all component in vector $\boldsymbol{x}$ is condition independent, so $P(\boldsymbol{x})=\Pi_{i=1}^{k}P(\boldsymbol{x}^{(i)})$
+```
 ## Notation
 - $\eta_k(\boldsymbol{x})= Pr(Y=k|X=x)$,
 - $g(x)=pdf \ of \ X$,
