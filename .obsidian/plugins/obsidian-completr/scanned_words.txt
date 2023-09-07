@@ -73,6 +73,8 @@ don
 derive
 dimension
 detail
+different
+diagonal
 identical
 is
 if
@@ -103,6 +105,7 @@ order
 on
 object
 own
+orthogonal
 Office
 Oct
 Often
@@ -117,6 +120,7 @@ hypothesis
 holywood
 human
 hyperplane
+here
 GSI
 Gradient
 Graph
@@ -163,6 +167,7 @@ Avoidance
 And
 Analysis
 Also
+As
 Notation
 Nowadays
 Necessary
@@ -186,6 +191,7 @@ rotoscoping
 row
 risk
 red
+result
 numbers
 number
 not
@@ -228,6 +234,9 @@ constant
 called
 compare
 classes
+code
+cost
+consists
 means
 more
 method
@@ -256,6 +265,7 @@ first
 formula
 follow
 false
+factorized
 every
 each
 exists
@@ -312,6 +322,7 @@ along
 assume
 assumption
 also
+algorithm
 least
 logical
 local
@@ -343,7 +354,9 @@ Lambertian
 Linear
 LDA
 Logistic
+LR
 QED
+Question
 quod
 quantity
 quantized
@@ -384,6 +397,7 @@ performance
 posterior
 probability
 prior
+produces
 you
 your
 Direct
