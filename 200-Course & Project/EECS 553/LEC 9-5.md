@@ -36,8 +36,11 @@ $$
 ## Bayes classifier 
 Bayes classifier is a function $f(X): X\in\mathbb{R}^{d} \rightarrow \{1,\ldots, K\}$, given a joint distribution of $\{X, Y\}$
 
-And the error, or risk is $err(f)=P(f(x)\neq y)$, which measure the performance of the bayes classifier. Also, we have:
-$$\mathop{arg \ min}\limits_{1\leq k\leq K} \ err(f) \  \Leftrightarrow \ \mathop{arg \ max} \ \eta_k(\boldsymbol{x})=P(y=k|\boldsymbol{x})$$
+And the error, or risk is $R(f)=P(f(x)\neq y)$, which measure the performance of the bayes classifier. We call it _risk_ . R* is the smallest risk,
+Also, we have:
+$$\mathop{arg \ min}\limits_{1\leq k\leq K} \ R(f) \  \Leftrightarrow \ \mathop{arg \ max} \ \eta_k(\boldsymbol{x}) \Leftrightarrow arg \ max\ \pi_{k}g_{k}(x)$$
+Because $g (x)$ is a constant, called *evidence*.
 # Plug-in classifier
 Because in ML, we don't have the exact data of $\pi_k,g_k(x),\eta_k(x)$, so we could only estimate the quantities in the formula, get a classifier.
+
 # Linear Discriminant Analysis

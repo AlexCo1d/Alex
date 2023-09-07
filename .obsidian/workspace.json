@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md"
+                "file": "200-Course & Project/SI 544/LEC 9-1.md"
               }
             }
           }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 9-5.md",
+                "file": "200-Course & Project/SI 544/LEC 9-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,13 +191,13 @@
   },
   "active": "8895f57d3be2e699",
   "lastOpenFiles": [
+    "200-Course & Project/EECS 553/LEC 9-5.md",
     "200-Course & Project/EECS 504/LEC 9-6.md",
     "200-Course & Project/EECS 504/OLEC 9.3.md",
     "200-Course & Project/EECS 504/LEC 8.30.md",
     "Perfect image.md",
     "200-Course & Project/ROB 501/LEC 9.6.md",
     "200-Course & Project/ROB 501/LEC 8.28 proof techniques.md",
-    "200-Course & Project/EECS 553/LEC 9-5.md",
     "200-Course & Project/ROB 501/未命名",
     "200-Course & Project/EECS 553/LEC 8-31.md",
     "200-Course & Project/SI 544/LEC 9-1.md",
