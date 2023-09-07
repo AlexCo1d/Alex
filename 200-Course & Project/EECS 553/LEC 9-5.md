@@ -42,6 +42,17 @@ $$\mathop{arg \ min}\limits_{1\leq k\leq K} \ R(f) \  \Leftrightarrow \ \mathop{
 Because $g (x)$ is a constant, called *evidence*.
 To use this classifier, just compare $\pi g_{1}(x)$ and $\pi g_{0}(x)$, to get the maximum.
 
+# Linear Discriminant Analysis
+## Plug-in classifier
+Because in ML, we don't have the exact data of $\pi_k,g_k(x),\eta_k(x)$, so we could only estimate the quantities in the formula, get a classifier.
+From the maximum likelihood estimate:
+$$
+\begin{aligned}
+\widehat{\pi}_{k}& \begin{aligned}&=\frac{n_k}n,\quad\quad\quad n_k=|\{i:y_i=k\}|\end{aligned}  \\
+\widehat{\boldsymbol{\mu}}_k& =\frac1{n_k}\sum_{i:y_i=k}\boldsymbol{x}_i  \\
+\widehat{\Sigma}& \begin{aligned}=\frac1n\sum_{i=1}^n(\boldsymbol{x}_i-\widehat{\boldsymbol{\mu}}_{y_i})(\boldsymbol{x}_i-\widehat{\boldsymbol{\mu}}_{y_i})^T\end{aligned} 
+\end{aligned}
+$$
 ## Gaussian case
 $$
 f_k(x)=\frac1{(2\pi)^{l/2}|\boldsymbol{\Sigma}_k|^{1/2}}e^{-\frac12(x-\mu_k)^T\boldsymbol{\Sigma}_k^{-1}(x-\mu_k)}
@@ -51,9 +62,12 @@ Use the compare way in a *log form*, and we can get:
 $$
 b+2(\mu_{1}-\mu_{2})^{\top}\Sigma^{-1}x >0
 $$
-
-# Plug-in classifier
-Because in ML, we don't have the exact data of $\pi_k,g_k(x),\eta_k(x)$, so we could only estimate the quantities in the formula, get a classifier.
-
-
-# Linear Discriminant Analysis
+So for binary setting $Y\in \{0,1\}$:
+The LDA classifier is when using the [[#Plug-in classifier]]
+$$
+\widehat{f}(\boldsymbol{x})=\operatorname{sign}(\boldsymbol{w}^T\boldsymbol{x}+b)
+$$ where
+$$
+\begin{aligned}\boldsymbol{w}&=\widehat{\boldsymbol{\Sigma}}^{-1}(\widehat{\boldsymbol{\mu}}_1-\widehat{\boldsymbol{\mu}}_{-1})\\b&=\log(\widehat{\pi}_1/\widehat{\pi}_{-1})+\frac12(\widehat{\boldsymbol{\mu}}_{-1}^T\widehat{\boldsymbol{\Sigma}}^{-1}\widehat{\boldsymbol{\mu}}_{-1}-\widehat{\boldsymbol{\mu}}_1^T\widehat{\boldsymbol{\Sigma}}^{-1}\widehat{\boldsymbol{\mu}}_1).\end{aligned}
+$$
+When could see that it is a linear classifier in a *d-dimension hyperplane*. For more detail, see [LDA]( https://esl.hohoweiya.xyz/04-Linear-Methods-for-Classification/4.3-Linear-Discriminant-Analysis/index.html)

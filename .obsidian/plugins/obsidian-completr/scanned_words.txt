@@ -28,6 +28,7 @@ That
 Then
 The
 Tu
+To
 score
 sec
 some
@@ -53,6 +54,7 @@ step
 supremum
 sensitive
 smallest
+setting
 discussion
 defined
 demonstrandum
@@ -69,6 +71,8 @@ discrete
 distribution
 don
 derive
+dimension
+detail
 identical
 is
 if
@@ -89,6 +93,7 @@ Wed
 We
 What
 Where
+When
 or
 of
 one
@@ -111,9 +116,11 @@ hence
 hypothesis
 holywood
 human
+hyperplane
 GSI
 Gradient
 Graph
+Gaussian
 Prof
 Piazza
 Proof
@@ -144,6 +151,7 @@ First
 Following
 Fitting
 Function
+From
 Mid
 Mathematical
 Matching
@@ -216,6 +224,8 @@ class
 call
 constant
 called
+compare
+classes
 means
 more
 method
@@ -276,6 +286,7 @@ twi
 transformation
 truncate
 time
+total
 at
 arbitrarily
 approximated
@@ -302,6 +313,8 @@ local
 like
 label
 likelihood
+log
+linear
 be
 by
 been
@@ -323,6 +336,7 @@ Lane
 Like
 Lambertian
 Linear
+LDA
 QED
 quod
 quantity
@@ -338,11 +352,14 @@ when
 ways
 want
 weighs
+way
+where
 used
 using
 up
 useful
 unchanged
+use
 proof
 point
 positive
@@ -383,6 +400,7 @@ So
 Statement
 Unconstrained
 Used
+Use
 global
 greater
 given
