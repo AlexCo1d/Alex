@@ -13,14 +13,17 @@ $$
 P(X)=\sum_{i=1}^kP(X,y_i)=\sum_{i=1}^kP(X|y_i)\times P(y_i)
 $$
 ```
+
 So we have
 $$
 P(y_i|X)=\frac{P(X|y_i)\times P(y_i)}{P(X)}
 $$
 Where we name $P(y_{i}|\boldsymbol{X})$ posterior probability; $P(\boldsymbol{X}|y_{i})$ is likelihood; $P(y_{i})$ is class prior probability.
+
 ```ad-note
 if it is a <u>naive bayes</u>, then it assume that all component in vector $\boldsymbol{x}$ is condition independent, so $P(\boldsymbol{x})=\Pi_{i=1}^{k}P(\boldsymbol{x}^{(i)})$
 ```
+
 ## Notation
 - $\eta_k(\boldsymbol{x})= Pr(Y=k|X=x)$,
 - $g(x)=pdf \ of \ X$,
@@ -43,7 +46,7 @@ Because $g (x)$ is a constant, called *evidence*.
 To use this classifier, just compare $\pi g_{1}(x)$ and $\pi g_{0}(x)$, to get the maximum.
 
 # Linear Discriminant Analysis
-## Plug-in classifier
+## Plug-in estimation
 Because in ML, we don't have the exact data of $\pi_k,g_k(x),\eta_k(x)$, so we could only estimate the quantities in the formula, get a classifier.
 From the maximum likelihood estimate:
 $$
@@ -71,3 +74,4 @@ $$
 \begin{aligned}\boldsymbol{w}&=\widehat{\boldsymbol{\Sigma}}^{-1}(\widehat{\boldsymbol{\mu}}_1-\widehat{\boldsymbol{\mu}}_{-1})\\b&=\log(\widehat{\pi}_1/\widehat{\pi}_{-1})+\frac12(\widehat{\boldsymbol{\mu}}_{-1}^T\widehat{\boldsymbol{\Sigma}}^{-1}\widehat{\boldsymbol{\mu}}_{-1}-\widehat{\boldsymbol{\mu}}_1^T\widehat{\boldsymbol{\Sigma}}^{-1}\widehat{\boldsymbol{\mu}}_1).\end{aligned}
 $$
 When could see that it is a linear classifier in a *d-dimension hyperplane*. For more detail, see [LDA]( https://esl.hohoweiya.xyz/04-Linear-Methods-for-Classification/4.3-Linear-Discriminant-Analysis/index.html)
+

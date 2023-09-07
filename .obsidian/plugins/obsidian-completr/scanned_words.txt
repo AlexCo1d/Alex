@@ -170,6 +170,7 @@ NQ
 Noisy
 Notate
 Negating
+Naive
 Variables
 rational
 real
@@ -195,6 +196,7 @@ need
 neighbor
 needed
 name
+notation
 complex
 can
 closely
@@ -269,6 +271,7 @@ exact
 estimate
 eyes
 evidence
+estimation
 there
 that
 true
@@ -307,6 +310,8 @@ abstract
 actual
 along
 assume
+assumption
+also
 least
 logical
 local
@@ -410,6 +415,7 @@ Base
 Bayer
 Bayes
 Because
+By
 just
 joint
 vice
