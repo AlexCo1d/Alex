@@ -342,6 +342,7 @@ Like
 Lambertian
 Linear
 LDA
+Logistic
 QED
 quod
 quantity
@@ -424,5 +425,6 @@ value
 vector
 Reduction
 Reading
+Regression
 Key
 Joint

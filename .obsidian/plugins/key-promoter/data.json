@@ -281,7 +281,7 @@
     "editor:toggle-highlight": 2,
     "highlightr-plugin:Yellow": 1,
     "quick-latex:addAlignBlock": 1,
-    "quick-latex:addCasesBlock": 2,
+    "quick-latex:addCasesBlock": 3,
     "obsidian-completr:completr-blacklist-current-word": 1,
     "obsidian-completr:completr-select-next-suggestion": 1
   }
