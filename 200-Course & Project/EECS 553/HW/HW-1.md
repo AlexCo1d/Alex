@@ -26,7 +26,7 @@ for n in n_list:
     print()
 ```
 
-The result is here.
+The result is here. We can see in training stage, the brute algorithm is the fastest one.
 ```
 n: 1000
 method:	 ball_tree   time: 0.007141828536987305
