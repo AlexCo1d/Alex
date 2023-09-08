@@ -48,5 +48,6 @@ A=Q\Lambda Q^{-1}=Q\Lambda Q^T
 $$
 Where Q is an orthogonal matrix s.t.  $Q^{\top}=Q^{-1}$, and $\Lambda$ is a diagonal matrix that consists of each of the eigenvalues $\lambda_{1},\lambda_{2},\ldots,\lambda_{n}$ of $A$
 $Q^{\top}=Q^{-1} \Leftrightarrow Q^{\top}Q=I$
+$\Rightarrow x^{T}Ax=x^{T}(Q^{T}Q)A(Q^{T}Q)x=x^{T}Q^{T}\Lambda Qx$
 
 ## (b)
