@@ -62,7 +62,7 @@ Because $\forall\lambda_{i}>0$ , thus  $\sum\limits_{i=1}^{n}\lambda_{i}y_{i}^{2
 $\square$ 
 
 ## (b)
-Let G be the Gram matrix s.t. $G_{ij}=<\boldsymbol{x}_{i},\boldsymbol{x}_{j}>$ , so it is easy to tell that G is a symmetric matrix because $\forall i,j \ G_{ij}=G_{ji}$ 
+Let G be the Gram matrix s.t. $G_{ij}=<\boldsymbol{x}_{i},\boldsymbol{x}_{j}>$ , so it is easy to tell that G is a symmetric matrix because $\forall i,j \ G_{ij}=G_{ji}$ . So 
 Then for vector y $\neq 0：$
 $$
 y^TGy=
