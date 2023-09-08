@@ -81,6 +81,8 @@ detail
 different
 diagonal
 discriminative
+denotes
+definition
 identical
 is
 if
@@ -99,6 +101,7 @@ interpolation
 infimum
 increase
 independent
+inner
 Wed
 We
 What
@@ -134,6 +137,7 @@ GSI
 Gradient
 Graph
 Gaussian
+Gram
 Prof
 Piazza
 Proof
@@ -270,6 +274,8 @@ marginal
 measure
 maximum
 minimum
+multiplication
+matrx
 for
 frequently
 fact
@@ -304,6 +310,8 @@ eyes
 evidence
 estimation
 exam
+edu
+easy
 there
 that
 true
@@ -324,6 +332,7 @@ time
 total
 training
 th
+tell
 at
 arbitrarily
 approximated
@@ -347,6 +356,7 @@ assume
 assumption
 also
 algorithm
+according
 least
 logical
 local
@@ -371,6 +381,7 @@ blue
 because
 brute
 better
+bi
 Logic
 Latin
 Local
@@ -409,6 +420,7 @@ useful
 unchanged
 use
 underfitting
+umich
 proof
 point
 positive
@@ -432,8 +444,10 @@ project
 people
 parametric
 parameter
+product
 you
 your
+yuanhaoz
 Direct
 Definite
 Detection
@@ -460,11 +474,13 @@ greater
 given
 get
 green
+gram
 Base
 Bayer
 Bayes
 Because
 By
+Based
 just
 joint
 vice
@@ -476,3 +492,5 @@ Reading
 Regression
 Key
 Joint
+Yuanhao
+Zou
