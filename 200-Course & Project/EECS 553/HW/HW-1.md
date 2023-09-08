@@ -1,3 +1,5 @@
+Yuanhao Zou
+yuanhaoz@umich.edu
 # Question 1
 ## (a)
 I use the following code to compare different algorithm's cost of time.
@@ -38,6 +40,7 @@ method:	 ball_tree   time: 0.005206108093261719
 method:	 kd_tree   time: 0.007337093353271484
 method:	 brute   time: 0.0011408329010009766
 ```
+
 ## (b)
 
 # Question 2
@@ -47,7 +50,15 @@ $$
 A=Q\Lambda Q^{-1}=Q\Lambda Q^T
 $$
 Where Q is an orthogonal matrix s.t.  $Q^{\top}=Q^{-1}$, and $\Lambda$ is a diagonal matrix that consists of each of the eigenvalues $\lambda_{1},\lambda_{2},\ldots,\lambda_{n}$ of $A$
-$Q^{\top}=Q^{-1} \Leftrightarrow Q^{\top}Q=I$
-$\Rightarrow x^{T}Ax=x^{T}(Q^{T}Q)A(Q^{T}Q)x=x^{T}Q^{T}\Lambda Qx$
+$$Q^{\top}=Q^{-1} \Leftrightarrow Q^{\top}Q=I$$
+$$\Rightarrow x^{T}Ax=x^{T}(Q^{T}Q)A(Q^{T}Q)x=x^{T}Q^{T}\Lambda Qx$$
+Let $x^{T}Q^{T}=y^{T}$, so $y=Qx$
+Because $\Lambda$ is a diagonal matrix, we have:
+$$
+y^{T}\Lambda y=\sum\limits_{i=1}^{n}\lambda_{i}y_{i}^{2}
+$$
+Where $y_{i}$ is the i-th component of vector $\boldsymbol{y}$ 
+Because $\forall\lambda_{i}>0$ , thus  $\sum\limits_{i=1}^{n}\lambda_{i}y_{i}^{2}>0$ $\Rightarrow x^{T}Ax=y^{T}\Lambda y>0$ 
+$\square$ 
 
 ## (b)

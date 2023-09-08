@@ -20,6 +20,7 @@ Image
 Iamges
 Images
 Implementation
+Iclicker
 Time
 Thu
 Term
@@ -55,6 +56,10 @@ supremum
 sensitive
 smallest
 setting
+stage
+smoothness
+sample
+size
 discussion
 defined
 demonstrandum
@@ -75,6 +80,7 @@ dimension
 detail
 different
 diagonal
+discriminative
 identical
 is
 if
@@ -91,6 +97,8 @@ image
 issue
 interpolation
 infimum
+increase
+independent
 Wed
 We
 What
@@ -106,6 +114,7 @@ on
 object
 own
 orthogonal
+overfitting
 Office
 Oct
 Often
@@ -143,6 +152,7 @@ HW
 Hessian
 Hybrid
 Hence
+Homework
 Exam
 Eg
 Every
@@ -176,6 +186,10 @@ Noisy
 Notate
 Negating
 Naive
+No
+Nearest
+Neighbor
+NN
 Variables
 rational
 real
@@ -203,6 +217,8 @@ neighbor
 needed
 name
 notation
+nearest
+neighbors
 complex
 can
 closely
@@ -237,6 +253,9 @@ classes
 code
 cost
 consists
+component
+complexity
+controlling
 means
 more
 method
@@ -266,6 +285,8 @@ formula
 follow
 false
 factorized
+fastest
+final
 every
 each
 exists
@@ -282,6 +303,7 @@ estimate
 eyes
 evidence
 estimation
+exam
 there
 that
 true
@@ -300,6 +322,8 @@ transformation
 truncate
 time
 total
+training
+th
 at
 arbitrarily
 approximated
@@ -331,6 +355,7 @@ label
 likelihood
 log
 linear
+less
 be
 by
 been
@@ -344,6 +369,8 @@ bilinear
 bayes
 blue
 because
+brute
+better
 Logic
 Latin
 Local
@@ -355,6 +382,7 @@ Linear
 LDA
 Logistic
 LR
+Larger
 QED
 Question
 quod
@@ -373,12 +401,14 @@ want
 weighs
 way
 where
+while
 used
 using
 up
 useful
 unchanged
 use
+underfitting
 proof
 point
 positive
@@ -398,6 +428,10 @@ posterior
 probability
 prior
 produces
+project
+people
+parametric
+parameter
 you
 your
 Direct
