@@ -62,9 +62,15 @@ Because $\forall\lambda_{i}>0$ , thus  $\sum\limits_{i=1}^{n}\lambda_{i}y_{i}^{2
 $\square$ 
 
 ## (b)
-Let G be the Gram matrix s.t. $G_{ij}=<\boldsymbol{x}_{i},\boldsymbol{x}_{j}>$ , so it is easy to tell that G is a symmetric matrix because $\forall i,j \ G_{ij}=G_{ji}$ . So 
-Then for vector y $\neq 0：$
+Let G be the Gram matrix s.t. $G_{ij}=\left<\boldsymbol{x}_{i},\boldsymbol{x}_{j}\right>$ , so it is easy to tell that G is a symmetric matrix because $\forall i,j \ G_{ij}=G_{ji}$ . So 
+Then $\forall$ vector y $\neq 0$, according to the matrix multiplication:
 $$
-y^TGy=
+y^TGy=\sum\limits_{i,j}^{n,n}y_{i}y_{j}G_{ij}=\sum\limits_{i,j}^{n,n}y_{i}y_{j}\left<\boldsymbol{x}_{i},\boldsymbol{x}_{j}\right>
+$$
+Where $y_{i}$ denotes the i-th component of vector y, which is a <u>number</u>.
+From the bi-linear property of inner product:
+$$
+\sum\limits_{i,j}^{n,n}y_{i}y_{j}\left<\boldsymbol{x}_{i},\boldsymbol{x}_{j}\right>=\sum\limits_{i,j}^{n,n}\left<y_{i}\boldsymbol{x}_{i},y_{j}\boldsymbol{x}_{j}\right>=\left<\sum\limits_{i=1}^{n}y_{i}\boldsymbol{x}_{i},\sum\limits_{j=1}^{n}y_{j}\boldsymbol{x}_{j}\right>=\left|\left|\sum\limits_{i=1}^{n}y_{i}\boldsymbol{x}_{i}\right|\right|^{2}\geq 0
 $$
 
+Based on the definition of PSD matrix, gram is a PSD matrx.
