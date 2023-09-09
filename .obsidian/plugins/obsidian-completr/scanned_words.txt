@@ -30,6 +30,7 @@ Then
 The
 Tu
 To
+Therefore
 score
 sec
 some
@@ -60,6 +61,8 @@ stage
 smoothness
 sample
 size
+significantly
+same
 discussion
 defined
 demonstrandum
@@ -102,6 +105,7 @@ infimum
 increase
 independent
 inner
+infer
 Wed
 We
 What
@@ -118,6 +122,9 @@ object
 own
 orthogonal
 overfitting
+other
+observed
+output
 Office
 Oct
 Often
@@ -157,6 +164,7 @@ Hessian
 Hybrid
 Hence
 Homework
+However
 Exam
 Eg
 Every
@@ -182,6 +190,7 @@ And
 Analysis
 Also
 As
+At
 Notation
 Nowadays
 Necessary
@@ -210,6 +219,10 @@ row
 risk
 red
 result
+results
+range
+run
+roughly
 numbers
 number
 not
@@ -276,6 +289,8 @@ maximum
 minimum
 multiplication
 matrx
+measured
+my
 for
 frequently
 fact
@@ -293,6 +308,7 @@ false
 factorized
 fastest
 final
+fluctuating
 every
 each
 exists
@@ -333,6 +349,13 @@ total
 training
 th
 tell
+test
+those
+takes
+two
+three
+these
+times
 at
 arbitrarily
 approximated
@@ -357,6 +380,8 @@ assumption
 also
 algorithm
 according
+algorithms
+always
 least
 logical
 local
@@ -366,6 +391,8 @@ likelihood
 log
 linear
 less
+larger
+longer
 be
 by
 been
@@ -382,6 +409,7 @@ because
 brute
 better
 bi
+block
 Logic
 Latin
 Local
@@ -445,6 +473,9 @@ people
 parametric
 parameter
 product
+predict
+part
+program
 you
 your
 yuanhaoz
