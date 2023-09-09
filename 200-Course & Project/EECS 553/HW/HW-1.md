@@ -29,7 +29,7 @@ for n in n_list:
 ```
 
 The result is here. We can see in training stage, the brute algorithm is the fastest one.
-```
+```output
 n: 1000
 method:	 ball_tree   time: 0.007141828536987305
 method:	 kd_tree   time: 0.0018720626831054688
@@ -70,7 +70,74 @@ for n in range(max_n,min_n,-50):
     print()
 ```
 
-The results show that for n bigger than
+The results show that for larger n, such as those in the range of 1500 to 100000, it takes significantly longer to infer the brute algorithm than the other two algorithms. At the same time, I observed that when n is in the range of 1400 to 1000, the three algorithms run in about the same time. However, these measured times are always fluctuating and I could not get the exact minimum value. Therefore I roughly observed a minimum n of 1400. In the following code block is part of my program above's output.
+```output
+n: 1500
+method:	 ball_tree   time: 0.08685111999511719
+method:	 kd_tree   time: 0.08310794830322266
+method:	 brute   time: 0.3519430160522461
+
+n: 1450
+method:	 ball_tree   time: 0.07758688926696777
+method:	 kd_tree   time: 0.06316518783569336
+method:	 brute   time: 0.14694452285766602
+
+n: 1400
+method:	 ball_tree   time: 0.04186415672302246
+method:	 kd_tree   time: 0.04026007652282715
+method:	 brute   time: 0.05213451385498047
+
+n: 1350
+method:	 ball_tree   time: 0.040220022201538086
+method:	 kd_tree   time: 0.05111074447631836
+method:	 brute   time: 0.04634356498718262
+
+n: 1300
+method:	 ball_tree   time: 0.04042410850524902
+method:	 kd_tree   time: 0.03107285499572754
+method:	 brute   time: 0.04288458824157715
+
+n: 1250
+method:	 ball_tree   time: 0.03975653648376465
+method:	 kd_tree   time: 0.033684492111206055
+method:	 brute   time: 0.04698586463928223
+
+n: 1200
+method:	 ball_tree   time: 0.04727506637573242
+method:	 kd_tree   time: 0.03237748146057129
+method:	 brute   time: 0.061133384704589844
+
+n: 1150
+method:	 ball_tree   time: 0.03566122055053711
+method:	 kd_tree   time: 0.027804851531982422
+method:	 brute   time: 0.03971266746520996
+
+n: 1100
+method:	 ball_tree   time: 0.039412736892700195
+method:	 kd_tree   time: 0.027874469757080078
+method:	 brute   time: 0.043331146240234375
+
+n: 1050
+method:	 ball_tree   time: 0.030924558639526367
+method:	 kd_tree   time: 0.034847259521484375
+method:	 brute   time: 0.03602409362792969
+
+n: 1000
+method:	 ball_tree   time: 0.03258514404296875
+method:	 kd_tree   time: 0.024677753448486328
+method:	 brute   time: 0.03885793685913086
+
+n: 950
+method:	 ball_tree   time: 0.02947378158569336
+method:	 kd_tree   time: 0.023334026336669922
+method:	 brute   time: 0.03251385688781738
+
+n: 900
+method:	 ball_tree   time: 0.030408859252929688
+method:	 kd_tree   time: 0.03508472442626953
+method:	 brute   time: 0.03603768348693848
+```
+
 # Question 2
 ## (a)
 Because A is a symmetric matrix, thus it could be factorized as:
@@ -102,3 +169,6 @@ $$
 $$
 
 Based on the definition of PSD matrix, gram is a PSD matrx.
+
+# Question 3
+
