@@ -42,7 +42,35 @@ method:	 brute   time: 0.0011408329010009766
 ```
 
 ## (b)
+I use the following code to get the cost of time for every algorithm to predict for X_test
+```python
+min_n=0
+max_n=2000
+time_list={}
+for n in range(max_n,min_n,-50):
+    X_train=np.random.randn(n,2)
+    X_test=np.random.randn(n,2)
+    y_train=np.sign(np.random.randn(n))
+    algorithm=['ball_tree','kd_tree', 'brute']
+    k=5
+    print('n:',n)
+    for algo in algorithm:
+        clf=KNeighborsClassifier(k,algorithm=algo)
+        clf.fit(X_train,y_train)
+        start_time=time.time()
+        clf.predict(X_test)
+        end_time=time.time()
+        time_list[algo]=-start_time+end_time
+        print("method:\t",algo,"  time:",-start_time+end_time)
 
+    if (time_list['brute']==min(time_list.values())):
+    print('true!',n)
+    break
+
+    print()
+```
+
+The results show that for n bigger than
 # Question 2
 ## (a)
 Because A is a symmetric matrix, thus it could be factorized as:
