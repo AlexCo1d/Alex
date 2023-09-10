@@ -207,11 +207,10 @@ Following the same derivation, we can get:
 $$
 R(h^{*})=\mathbb{E}_{\boldsymbol{X}}\left[1-\eta(\boldsymbol{X})+(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h^{*}(x)=-1\}} \right] \tag{3.3}
 $$
-Combining (3.1) and (3,2) ,we get
+Combining (3.2) and (3,3) ,we get
 $$\begin{align*}
-R(h)-R(h^{*}) &=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot (1_{\{h(x)=-1\}}-1_{\{h^{*}(x)=-1\}}) \right]\\\\\\
+R(h)-R(h^{*}) &=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot (1_{\{h(x)=-1\}}-1_{\{h^{*}(x)=-1\}}) \right]\\
 \end{align*}
-
 $$
 We notice that, 
 $$
