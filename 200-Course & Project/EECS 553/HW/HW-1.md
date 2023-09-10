@@ -308,7 +308,7 @@ $$
 \exists t\in(0,1), \ \boldsymbol{k}=t\boldsymbol{x}+(1-t)\boldsymbol{y}, \ s.t.f(\boldsymbol{k})<f(\boldsymbol{x_{0}})
 $$
 However, it contradicts to the assumption that $f(\boldsymbol{x_{0}})$ is the minimum.
-Therefore, we could deduce that for a strict convex function $f$, there can be at most one minimizer, $\square$
+Therefore, we could deduce that for a strictly convex function $f$, there can be at most one minimizer, $\square$
 ## (c)
 
 $$(\boldsymbol{x^{T}}A \boldsymbol{x})=\sum\limits_{u=1}^{n}\sum\limits_{v=1}^{n}x_{u}x_{v}a_{u,v}$$
@@ -323,4 +323,5 @@ $$
 $$
 \Rightarrow H=A+A^{T}
 $$
-According to the lecture, when $A$ is positive semi-definite(PSD), $\Rightarrow A+A^T$ is PSD, so function $f$ is convex.
+According to the EECS 553 Lecture ppt, when $A$ is positive semi-definite(PSD), $\Rightarrow A+A^T$ is PSD $\Leftrightarrow$ function $f$ is convex.
+When $A$ is positive definite (PD) $\Rightarrow A+A^{T}$ is PD $\Rightarrow$ function $f$ is strictly convex.
