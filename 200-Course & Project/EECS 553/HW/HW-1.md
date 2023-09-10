@@ -248,5 +248,9 @@ $$
 &=  \frac{y_1^2}{\lambda_1}+\frac{y_2^2}{\lambda_2}\leq r^2 
 \end{align*}
 $$
-Since $U=\left[\begin{array}{cc}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{array}\right],\theta=\frac{\pi}{4}$,   $U^{T}=\left[\begin{array}{cc} \frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\\-\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\end{array}\right]$we have
+Since $U=\left[\begin{array}{cc}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{array}\right],\theta=\frac{\pi}{4}$,   $U^{T}=\left[\begin{array}{cc} \frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\\-\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\end{array}\right]$
+
+we have $y_{1}=\frac{\sqrt{2}}{2}(x_{1}-1)+\frac{\sqrt{2}}{2}(x_{2}-1)$, and $y_2=-\frac{\sqrt{2}}{2}(x_{1}-1)+\frac{\sqrt{2}}{2}(x_{2}-1)$
+
+So the scratch is the following figure:
 
