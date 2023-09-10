@@ -311,4 +311,16 @@ However, it contradicts to the assumption that $f(\boldsymbol{x_{0}})$ is the mi
 Therefore, we could deduce that for a strict convex function $f$, there can be at most one minimizer, $\square$
 ## (c)
 
-
+$$(\boldsymbol{x^{T}}A \boldsymbol{x})=\sum\limits_{u=1}^{n}\sum\limits_{v=1}^{n}x_{u}x_{v}a_{u,v}$$
+Where $x_{u}$ denotes the u-th component of vector $\boldsymbol{x}$, and $a_{u,v}$ denotes the u-th row, v-th column of matrix $A$.
+So for hessian matrix $H$ 
+$$
+H_{u,v}=\begin{cases}
+a_{u,v}+a_{v,u} \quad u\neq v \\
+2a_{u,u} \quad u=v
+\end{cases}
+$$
+$$
+\Rightarrow H=A+A^{T}
+$$
+According to the lecture, when $A$ is positive semi-definite(PSD), $\Rightarrow A+A^T$ is PSD, so function $f$ is convex.

@@ -28,6 +28,7 @@ Cb
 CiU
 Cj
 CL
+Consider
 Info
 If
 Induction
@@ -151,6 +152,8 @@ systems
 satisfy
 squared
 sFP
+situation
+strict
 discussion
 defined
 demonstrandum
@@ -201,6 +204,7 @@ dGs
 di
 dyetphrbxme
 degree
+deduce
 identical
 is
 if
@@ -345,6 +349,7 @@ hl
 hki
 hM
 hn
+hessian
 GSI
 Gradient
 Graph
@@ -725,6 +730,8 @@ cR
 coordinate
 chi
 cv
+contradicts
+column
 means
 more
 method
@@ -1639,3 +1646,4 @@ kk
 kQxE
 kh
 kc
+know
