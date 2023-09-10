@@ -10,6 +10,7 @@ Cost
 Continuous
 Convex
 Classifier
+Combining
 Info
 If
 Induction
@@ -86,6 +87,7 @@ diagonal
 discriminative
 denotes
 definition
+derivation
 identical
 is
 if
@@ -191,6 +193,7 @@ Analysis
 Also
 As
 At
+According
 Notation
 Nowadays
 Necessary
@@ -223,6 +226,8 @@ results
 range
 run
 roughly
+relationship
+represent
 numbers
 number
 not
@@ -236,6 +241,8 @@ name
 notation
 nearest
 neighbors
+notes
+notice
 complex
 can
 closely
@@ -382,6 +389,7 @@ algorithm
 according
 algorithms
 always
+achieves
 least
 logical
 local
@@ -393,6 +401,8 @@ linear
 less
 larger
 longer
+lowest
+lecture
 be
 by
 been
@@ -476,6 +486,7 @@ product
 predict
 part
 program
+proved
 you
 your
 yuanhaoz

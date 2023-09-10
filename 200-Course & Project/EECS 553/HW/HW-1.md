@@ -45,7 +45,7 @@ method:	 brute   time: 0.0011408329010009766
 I use the following code to get the cost of time for every algorithm to predict for X_test
 ```python
 min_n=0
-max_n=2000
+max_n=100000
 time_list={}
 for n in range(max_n,min_n,-50):
     X_train=np.random.randn(n,2)
@@ -168,7 +168,8 @@ $$
 \sum\limits_{i,j}^{n,n}y_{i}y_{j}\left<\boldsymbol{x}_{i},\boldsymbol{x}_{j}\right>=\sum\limits_{i,j}^{n,n}\left<y_{i}\boldsymbol{x}_{i},y_{j}\boldsymbol{x}_{j}\right>=\left<\sum\limits_{i=1}^{n}y_{i}\boldsymbol{x}_{i},\sum\limits_{j=1}^{n}y_{j}\boldsymbol{x}_{j}\right>=\left|\left|\sum\limits_{i=1}^{n}y_{i}\boldsymbol{x}_{i}\right|\right|^{2}\geq 0
 $$
 
-Based on the definition of PSD matrix, gram is a PSD matrx.
+Based on the definition of PSD matrix, gram is a PSD matrix.
+$\square$ 
 
 # Question 3
 
@@ -181,7 +182,7 @@ $$h^{*}(x)=
 $$
 So 
 $$
-h^{*}(x)=sign(\eta(x)- \frac{1}{2})=sign(2\eta(x)-1)
+h^{*}(x)=sign(\eta(\boldsymbol{x})- \frac{1}{2})=sign(2\eta(\boldsymbol{x})-1)\tag{3.1}
 $$
 According to the formula in ***lecture notes***, we have 
 $$\begin{align*}
@@ -195,25 +196,41 @@ Because there are only two label $Y=\{1,-1\}$, thus we have $\eta_{1}(x)+\eta_{-
 , and we denote $\eta(\boldsymbol{X})=\eta_{1}(x)$ , $\eta_{-1}(x)=1-\eta(\boldsymbol{X})$. So:
 $$\begin{align*}
 R(h) &= \mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1,k=1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1,k=-1\}} \right] \\\\
-&=\mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1\}} \right] \\\\
-&= \mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h(x)=-1\}} \right] 
-\end{align*}
+&=\mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1\}} \right] \tag{3.2}\end{align*}
 
 $$
- Following the same derivation, we can get:
+From
 $$
-R(h^{*})=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h^{*}(x)=-1\}} \right]
-$$ and we have
+1_{\{h(x)=1\}}+1_{\{h(x)=-1\}}=1 \Rightarrow \mathbb{E}_{\boldsymbol{X}}\left[1-\eta(\boldsymbol{X})+(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h(x)=-1\}} \right] 
+$$
+Following the same derivation, we can get:
+$$
+R(h^{*})=\mathbb{E}_{\boldsymbol{X}}\left[1-\eta(\boldsymbol{X})+(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h^{*}(x)=-1\}} \right] \tag{3.3}
+$$
+Combining (3.1) and (3,2) ,we get
 $$\begin{align*}
 R(h)-R(h^{*}) &=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot (1_{\{h(x)=-1\}}-1_{\{h^{*}(x)=-1\}}) \right]\\\\\\
 \end{align*}
 
 $$
+We notice that, 
 $$
 \mathbf{1}_{\{h(\boldsymbol{x})=-1\}}-\mathbf{1}_{\{h^*(\boldsymbol{x})=-1\}}=
 \begin{cases} 
-1&\mathrm{~if~}h(\boldsymbol{x})=0,h^*(\boldsymbol{x})=1\\
--1&\mathrm{~if~}h(\boldsymbol{x})=1,h^*(\boldsymbol{x})=0\\
+1&\mathrm{~if~}h(\boldsymbol{x})=-1,h^*(\boldsymbol{x})=1\\
+-1&\mathrm{~if~}h(\boldsymbol{x})=1,h^*(\boldsymbol{x})=-1\\
 0&\mathrm{~if~}h(\boldsymbol{x})=h^*(\boldsymbol{x})&
 \end{cases}
-$$$
+$$
+When $h^{*}(x)=1,2\eta(\boldsymbol{X})-1\geq 0$ , and when $h^{*}(x)=-1,2\eta(\boldsymbol{X})-1< 0$, thus we use the relationship between $h(x)$ and $h^{*}(x)$ to represent the formula by:
+$$
+(2\eta(\boldsymbol{X})-1)\cdot (1_{\{h(x)=-1\}}-1_{\{h^{*}(x)=-1\}})=\left|(2\eta(\boldsymbol{X})-1)\right|\cdot 1_{\{h(x)\neq h^*(x)\}}
+$$
+Because (3.1), we have proved that
+$$
+R(h)-R^*=\mathbb{E}_{\boldsymbol{X}}\left[\left|2\eta(\boldsymbol{X})-1\right|1_{\{h(\boldsymbol{X})\neq\operatorname{sign}(2\eta(\boldsymbol{X})-1)\}}\right].
+$$
+$\square$ 
+
+# Question 4
+
