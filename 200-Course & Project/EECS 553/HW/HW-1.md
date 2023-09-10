@@ -235,3 +235,13 @@ $\square$
 
 # Question 4
 
+$$
+\begin{align*}
+&(x-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\boldsymbol{x}-\boldsymbol{\mu})\leq r^2\\
+\Leftrightarrow \ & (x-\boldsymbol{\mu})^{T}U\Lambda U^T(\boldsymbol{x}-\boldsymbol{\mu})\leq r^2
+\end{align*}
+$$
+Let y= $U^T(\boldsymbol{x}-\boldsymbol{\mu})$, then 
+$$
+\Leftrightarrow \ y^{T}\Lambda y\leq r^{2}
+$$

@@ -280,7 +280,7 @@
     "editing-toolbar:format-eraser": 2,
     "editor:toggle-highlight": 2,
     "highlightr-plugin:Yellow": 1,
-    "quick-latex:addAlignBlock": 4,
+    "quick-latex:addAlignBlock": 5,
     "quick-latex:addCasesBlock": 4,
     "obsidian-completr:completr-blacklist-current-word": 1,
     "obsidian-completr:completr-select-next-suggestion": 1,
