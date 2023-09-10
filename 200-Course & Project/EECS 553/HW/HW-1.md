@@ -231,6 +231,7 @@ $$
 R(h)-R^*=\mathbb{E}_{\boldsymbol{X}}\left[\left|2\eta(\boldsymbol{X})-1\right|1_{\{h(\boldsymbol{X})\neq\operatorname{sign}(2\eta(\boldsymbol{X})-1)\}}\right].
 $$
 $\square$ 
+[ref](https://homepages.warwick.ac.uk/staff/Martin.Lotz/files/learning/lect2.pdf)
 
 # Question 4
 
