@@ -539,6 +539,7 @@ AV
 Ai
 AfPnh
 AF
+Assume
 Notation
 Nowadays
 Necessary

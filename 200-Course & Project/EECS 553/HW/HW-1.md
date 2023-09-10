@@ -294,4 +294,21 @@ $$
 $g(x)$ is a convex function, $\square$
 
 ## (b)
+Assume that function $f$ has more than one minimizer, and we name two of which $\boldsymbol{x}_0,\boldsymbol{y}_0$, where $\boldsymbol{x}_0\neq\boldsymbol{y}_0$, and  $f(x_0)=f(y_0)$ is the minimum.
+Because $f$ is strictly convex, so
+$$
+\forall x \neq y \in \mathbb{R}^{d} \ and \ t \in (0,1), \ \ f(t\boldsymbol{x}+(1-t)\boldsymbol{y})< tf(\boldsymbol{x})+(1-t)f(\boldsymbol{y})\tag{5.1}
+$$
+Consider the situation of $\boldsymbol{x}_0,\boldsymbol{y}_0$, 
+$$
+tf(\boldsymbol{x_0})+(1-t)f(\boldsymbol{y_0})=f(\boldsymbol{x_{0}})
+$$
+From (5.1) we can know that
+$$
+\exists t\in(0,1), \ \boldsymbol{k}=t\boldsymbol{x}+(1-t)\boldsymbol{y}, \ s.t.f(\boldsymbol{k})<f(\boldsymbol{x_{0}})
+$$
+However, it contradicts to the assumption that $f(\boldsymbol{x_{0}})$ is the minimum.
+Therefore, we could deduce that for a strict convex function $f$, there can be at most one minimizer, $\square$
+## (c)
+
 

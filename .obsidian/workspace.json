@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-31.md"
+                "file": "200-Course & Project/EECS 553/HW/HW-1.md"
               }
             }
           }
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-31.md",
+                "file": "200-Course & Project/EECS 553/HW/HW-1.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "200-Course & Project/EECS 553/LEC 8-31.md",
+                "file": "200-Course & Project/EECS 553/HW/HW-1.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               }
@@ -203,10 +202,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "75c8ad60d5651bcd",
+  "active": "92bd1bac156c6320",
   "lastOpenFiles": [
-    "200-Course & Project/EECS 553/HW/HW-1.md",
     "200-Course & Project/EECS 553/LEC 8-31.md",
+    "200-Course & Project/EECS 553/HW/HW-1.md",
     "200-Course & Project/EECS 553/LEC 9-5.md",
     "200-Course & Project/EECS 553/LEC 9-7.md",
     "200-Course & Project/EECS 553/LEC 8-29.md",
