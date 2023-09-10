@@ -196,9 +196,24 @@ Because there are only two label $Y=\{1,-1\}$, thus we have $\eta_{1}(x)+\eta_{-
 $$\begin{align*}
 R(h) &= \mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1,k=1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1,k=-1\}} \right] \\\\
 &=\mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1\}} \right] \\\\
-
+&= \mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h(x)=-1\}} \right] 
 \end{align*}
 
 $$
+ Following the same derivation, we can get:
+$$
+R(h^{*})=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot 1_{\{h^{*}(x)=-1\}} \right]
+$$ and we have
+$$\begin{align*}
+R(h)-R(h^{*}) &=\mathbb{E}_{\boldsymbol{X}}\left[(2\eta(\boldsymbol{X})-1)\cdot (1_{\{h(x)=-1\}}-1_{\{h^{*}(x)=-1\}}) \right]\\\\\\
+\end{align*}
 
- 
+$$
+$$
+\mathbf{1}_{\{h(\boldsymbol{x})=-1\}}-\mathbf{1}_{\{h^*(\boldsymbol{x})=-1\}}=
+\begin{cases} 
+1&\mathrm{~if~}h(\boldsymbol{x})=0,h^*(\boldsymbol{x})=1\\
+-1&\mathrm{~if~}h(\boldsymbol{x})=1,h^*(\boldsymbol{x})=0\\
+0&\mathrm{~if~}h(\boldsymbol{x})=h^*(\boldsymbol{x})&
+\end{cases}
+$$$
