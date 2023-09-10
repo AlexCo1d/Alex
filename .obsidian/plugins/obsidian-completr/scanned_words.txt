@@ -94,6 +94,7 @@ TRm
 Ta
 TE
 Tmf
+Thus
 score
 sec
 some

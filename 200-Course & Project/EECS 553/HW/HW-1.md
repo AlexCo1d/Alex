@@ -274,4 +274,24 @@ If $r=\sqrt{2}$, then $Pr(X\in C)=F_{\chi^2}(2)=0.632121$
 
 # Question 5
 ## (a)
+Proof:
+$$
+\begin{align*}
+g(t\boldsymbol{x}+(1-t)\boldsymbol{y})&=f(A(t\boldsymbol{x}+(1-t)\boldsymbol{y})+\boldsymbol{b})\\
+&=f(t(A \boldsymbol{x+b})+(1-t) (A \boldsymbol{y}+\boldsymbol{b}))
+\end{align*}
+$$ Since function $f$ is convex, so 
+$$
+\begin{align*}
+f(t(A \boldsymbol{x+b})+(1-t) (A \boldsymbol{y}+\boldsymbol{b}))&\leq tf(A \boldsymbol{x+b})+(1-t)f(A \boldsymbol{y+b})\\
+&=tg(\boldsymbol{x})+(1-t)g(\boldsymbol{y})
+\end{align*}
+$$
+Thus
+$$
+g(t\boldsymbol{x}+(1-t)\boldsymbol{y})\leq tg(\boldsymbol{x})+(1-t)g(\boldsymbol{y})
+$$
+$g(x)$ is a convex function, $\square$
+
+## (b)
 
