@@ -9,7 +9,7 @@ $$
 $$
 # Logistic Regression
 focus on binary setting $Y\in \{0,1\}$:
-LR produces an estimate $\widehat{\eta}(x)$ of :
+LR produces an estimate $\widehat{\eta}(x)$ of:
 $$
 \eta(\boldsymbol{x}):=\Pr(Y=1\mid\boldsymbol{X}=\boldsymbol{x})
 $$

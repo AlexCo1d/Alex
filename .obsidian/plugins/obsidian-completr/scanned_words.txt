@@ -145,6 +145,11 @@ sj
 sE
 sB
 scratch
+system
+systems
+satisfy
+squared
+sFP
 discussion
 defined
 demonstrandum
@@ -194,6 +199,7 @@ dd
 dGs
 di
 dyetphrbxme
+degree
 identical
 is
 if
@@ -283,6 +289,7 @@ oQ
 oE
 olb
 oe
+origin
 Office
 Oct
 Often
@@ -361,6 +368,7 @@ GsI
 GvA
 Gj
 Gi
+GZ
 Prof
 Piazza
 Proof
@@ -402,6 +410,9 @@ PI
 PQ
 PRL
 Pcx
+PQM
+Pr
+PBN
 HW
 Hessian
 Hybrid
@@ -526,6 +537,7 @@ Aqu
 AV
 Ai
 AfPnh
+AF
 Notation
 Nowadays
 Necessary
@@ -556,6 +568,7 @@ NY
 NV
 Nr
 Nxt
+Nq
 Variables
 Vr
 Vd
@@ -618,6 +631,7 @@ rE
 ra
 ri
 rwD
+random
 numbers
 number
 not
@@ -706,6 +720,9 @@ cD
 ch
 cV
 cR
+coordinate
+chi
+cv
 means
 more
 method
@@ -793,6 +810,9 @@ fum
 fx
 fgN
 fw
+figure
+freedom
+fb
 every
 each
 exists
@@ -933,6 +953,7 @@ aW
 attdq
 al
 azMl
+angle
 least
 logical
 local
@@ -971,6 +992,7 @@ lD
 lM
 lOG
 lz
+linearity
 be
 by
 been
@@ -1044,6 +1066,7 @@ LhM
 LP
 LB
 Lk
+LWpE
 QED
 Question
 QN
@@ -1087,6 +1110,7 @@ qmU
 qUP
 qd
 qi
+qQ
 which
 was
 we
@@ -1327,6 +1351,7 @@ gC
 gJ
 gX
 gw
+gaussian
 Base
 Bayer
 Bayes
@@ -1369,6 +1394,7 @@ jC
 jQ
 jT
 jL
+jR
 vice
 versa
 value
@@ -1395,6 +1421,7 @@ vo
 vr
 vZ
 vY
+variable
 Reduction
 Reading
 Regression
@@ -1475,6 +1502,7 @@ JJ
 JF
 JZB
 Jd
+JRU
 Yuanhao
 YX
 Yk
@@ -1496,6 +1524,7 @@ Ycb
 YtTO
 YVj
 Yi
+Yij
 Zou
 Zd
 ZA

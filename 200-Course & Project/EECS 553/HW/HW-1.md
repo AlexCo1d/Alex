@@ -1,5 +1,4 @@
-Yuanhao Zou
-yuanhaoz@umich.edu
+Yuanhao Zou,  yuanhaoz@umich.edu
 # Question 1
 ## (a)
 I use the following code to compare different algorithm's cost of time.
@@ -244,8 +243,8 @@ $$
 Let y= $U^T(\boldsymbol{x}-\boldsymbol{\mu})$, $y_{1},y_{2}$ be 2 component of the vector y, then 
 $$
 \begin{align*}
-(x-\boldsymbol{\mu})^{T}U\Lambda U^T(\boldsymbol{x}-\boldsymbol{\mu})
-&=  y^{T}\Lambda y\\
+(x-\boldsymbol{\mu})^{T}U\Lambda^{-1} U^T(\boldsymbol{x}-\boldsymbol{\mu})
+&=  y^{T}\Lambda^{-1} y\\
 &=  \frac{y_1^2}{\lambda_1}+\frac{y_2^2}{\lambda_2}\leq r^2 
 \end{align*}
 $$
@@ -258,4 +257,21 @@ So the scratch is the following figure:
 Where $O$ denotes the origin point of $x_{1},x_2$ coordinate system, while $O'$ denotes the origin point of $y_{1},y_2$ coordinate system. The angle between the 2 coordinate systems are $\frac{\pi}{4}$ 
 
 ## (b)
+Let $\boldsymbol{Y}=\Sigma^{- \frac{1}{2}}(X-\mu)$, Y is a random variable with 2 component each $\boldsymbol{y}$
+then
+$$
+(x-\boldsymbol{\mu})^T\boldsymbol{\Sigma}^{-1}(\boldsymbol{x}-\boldsymbol{\mu})=Y^{T}Y
+\\
+\Rightarrow C:=\{\boldsymbol{y}\ |\ y^{T}y\leq r^{2}\}$$
+Also, because $X\sim\mathcal{N}(\boldsymbol{\mu},\boldsymbol{\Sigma})$, according to the properties of gaussian distribution's linearity we have
+$$\begin{align*}
+\boldsymbol{Y}=\Sigma^{- \frac{1}{2}}(X-\mu)
+\Rightarrow \boldsymbol{Y}\sim \mathcal{N}(0,\Sigma^{- \frac{1}{2}}\Sigma\Sigma^{- \frac{1}{2}})\Leftrightarrow\boldsymbol{Y}\sim(0,I)
+\end{align*}$$
+From the definition of [chi-square distribution](https://en.wikipedia.org/wiki/Chi-squared_distribution), $Y^{T}Y=Y_{1}^{2}+Y_{2}^{2}$ satisfy a k=2 chi-squared distribution, where k is the degree of freedom. So we have:
+$$Pr(X\in C)=Pr(Y_{1}^{2}+Y_{2}^{2}\leq r^{2})=F_{\chi^2}(r^2)$$
+If $r=\sqrt{2}$, then $Pr(X\in C)=F_{\chi^2}(2)=0.632121$
+
+# Question 5
+## (a)
 
