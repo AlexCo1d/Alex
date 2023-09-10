@@ -185,11 +185,20 @@ h^{*}(x)=sign(\eta(x)- \frac{1}{2})=sign(2\eta(x)-1)
 $$
 According to the formula in ***lecture notes***, we have 
 $$\begin{align*}
-R(h)-R^{*} & =\mathbb{E}_{\boldsymbol{X}}\left[1_{\{h(x)\neq y\}}-1_{\{h^{*}(x)\neq y\}}\right]\\\\
-& =\mathbb{E}_{\boldsymbol{X}}\left[\mathbb{E}_{Y|\boldsymbol{X}}\left[1_{\{h(x)\neq y\}}-1_{\{h^{*}(x)\neq y\}}\right]\right]\\\\
-& =\mathbb{E}_{\boldsymbol{X}}\left[\sum\limits_{k=-1,1}\eta_{k}(x)\left(1_{\{h(x)\neq k\}}-1_{\{h^{*}(x)\neq k\}}\right)\right] \\
+R(h) & =\mathbb{E}_{\boldsymbol{X}}\left[1_{\{h(x)\neq y\}}\right]\\\\
+& =\mathbb{E}_{\boldsymbol{X}}\left[\mathbb{E}_{Y|\boldsymbol{X}}\left[1_{\{h(x)\neq y\}}\right]\right]\\\\
+& =\mathbb{E}_{\boldsymbol{X}}\left[\sum\limits_{k=-1,1}\left(\eta_{k}(x)\cdot 1_{\{h(x)\neq k\}}\right)\right] \\
 
 \end{align*}
 $$
-Consider $h(x)$ and $h^{*}(x)$. when $h(x)=h^{*}(x)$, then $h(x)\neq y\}-1\{h^{*}(x)\neq y\}=0$. When $h(x)\neq h^{*}(x)$, there must be an error, 
+Because there are only two label $Y=\{1,-1\}$, thus we have $\eta_{1}(x)+\eta_{-1}(x)=1$
+, and we denote $\eta(\boldsymbol{X})=\eta_{1}(x)$ , $\eta_{-1}(x)=1-\eta(\boldsymbol{X})$. So:
+$$\begin{align*}
+R(h) &= \mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1,k=1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1,k=-1\}} \right] \\\\
+&=\mathbb{E}_{\boldsymbol{X}}\left[\eta(\boldsymbol{X})\cdot 1_{\{h(x)=-1\}}+(1-\eta(\boldsymbol{X}))\cdot 1_{\{h(x)=1\}} \right] \\\\
+
+\end{align*}
+
+$$
+
  
