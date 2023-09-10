@@ -233,6 +233,7 @@ $\square$
 [ref](https://homepages.warwick.ac.uk/staff/Martin.Lotz/files/learning/lect2.pdf)
 
 # Question 4
+## (a)
 
 $$
 \begin{align*}
@@ -251,6 +252,10 @@ $$
 Since $U=\left[\begin{array}{cc}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{array}\right],\theta=\frac{\pi}{4}$,   $U^{T}=\left[\begin{array}{cc} \frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\\-\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\end{array}\right]$
 
 we have $y_{1}=\frac{\sqrt{2}}{2}(x_{1}-1)+\frac{\sqrt{2}}{2}(x_{2}-1)$, and $y_2=-\frac{\sqrt{2}}{2}(x_{1}-1)+\frac{\sqrt{2}}{2}(x_{2}-1)$
-
 So the scratch is the following figure:
+
+![[Q4.1.png|figure]]
+Where $O$ denotes the origin point of $x_{1},x_2$ coordinate system, while $O'$ denotes the origin point of $y_{1},y_2$ coordinate system. The angle between the 2 coordinate systems are $\frac{\pi}{4}$ 
+
+## (b)
 
