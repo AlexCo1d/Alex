@@ -240,7 +240,13 @@ $$
 \Leftrightarrow \ & (x-\boldsymbol{\mu})^{T}U\Lambda U^T(\boldsymbol{x}-\boldsymbol{\mu})\leq r^2
 \end{align*}
 $$
-Let y= $U^T(\boldsymbol{x}-\boldsymbol{\mu})$, then 
+Let y= $U^T(\boldsymbol{x}-\boldsymbol{\mu})$, $y_{1},y_{2}$ be 2 component of the vector y, then 
 $$
-\Leftrightarrow \ y^{T}\Lambda y\leq r^{2}
+\begin{align*}
+(x-\boldsymbol{\mu})^{T}U\Lambda U^T(\boldsymbol{x}-\boldsymbol{\mu})
+&=  y^{T}\Lambda y\\
+&=  \frac{y_1^2}{\lambda_1}+\frac{y_2^2}{\lambda_2}\leq r^2 
+\end{align*}
 $$
+Since $U=\left[\begin{array}{cc}\cos\theta&-\sin\theta\\\sin\theta&\cos\theta\end{array}\right],\theta=\frac{\pi}{4}$,   $U^{T}=\left[\begin{array}{cc} \frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\\-\frac{\sqrt{2}}{2}&\frac{\sqrt{2}}{2}\end{array}\right]$we have
+

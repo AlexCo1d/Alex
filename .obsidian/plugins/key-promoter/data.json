@@ -87,7 +87,7 @@
     "editor:toggle-comments": 1,
     "editor:cycle-list-checklist": 1,
     "daily-notes": 1,
-    "editor:toggle-source": 3,
+    "editor:toggle-source": 5,
     "markdown-table-editor:markdown-table-editor-open-horizontal": 6,
     "markdown-table-editor:markdown-table-editor-open-vertical": 5,
     "markdown-table-editor:markdown-table-editor-select-table-content": 5,
@@ -227,7 +227,7 @@
     "highlightr-plugin:Yellow": 1
   },
   "keyboardStatistics": {
-    "app:open-settings": 55,
+    "app:open-settings": 56,
     "workspace:export-pdf": 8,
     "workspace:split-horizontal": 2,
     "workspace:split-vertical": 5,
@@ -280,10 +280,11 @@
     "editing-toolbar:format-eraser": 2,
     "editor:toggle-highlight": 2,
     "highlightr-plugin:Yellow": 1,
-    "quick-latex:addAlignBlock": 5,
+    "quick-latex:addAlignBlock": 6,
     "quick-latex:addCasesBlock": 4,
     "obsidian-completr:completr-blacklist-current-word": 1,
     "obsidian-completr:completr-select-next-suggestion": 1,
-    "editing-toolbar:change-font-color": 1
+    "editing-toolbar:change-font-color": 1,
+    "quick-latex:addMatrixBlock": 1
   }
 }
