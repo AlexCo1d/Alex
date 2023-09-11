@@ -470,6 +470,7 @@ EP
 EF
 Evt
 EH
+EECS
 Final
 For
 First
@@ -1076,6 +1077,7 @@ LP
 LB
 Lk
 LWpE
+Lecture
 QED
 Question
 QN
@@ -1225,6 +1227,7 @@ pt
 pe
 pi
 pQ
+ppt
 you
 your
 yuanhaoz

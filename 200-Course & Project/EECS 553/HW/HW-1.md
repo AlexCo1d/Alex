@@ -280,7 +280,8 @@ $$
 g(t\boldsymbol{x}+(1-t)\boldsymbol{y})&=f(A(t\boldsymbol{x}+(1-t)\boldsymbol{y})+\boldsymbol{b})\\
 &=f(t(A \boldsymbol{x+b})+(1-t) (A \boldsymbol{y}+\boldsymbol{b}))
 \end{align*}
-$$ Since function $f$ is convex, so 
+$$ 
+Since function $f$ is convex, so 
 $$
 \begin{align*}
 f(t(A \boldsymbol{x+b})+(1-t) (A \boldsymbol{y}+\boldsymbol{b}))&\leq tf(A \boldsymbol{x+b})+(1-t)f(A \boldsymbol{y+b})\\
@@ -309,6 +310,7 @@ $$
 $$
 However, it contradicts to the assumption that $f(\boldsymbol{x_{0}})$ is the minimum.
 Therefore, we could deduce that for a strictly convex function $f$, there can be at most one minimizer, $\square$
+
 ## (c)
 
 $$(\boldsymbol{x^{T}}A \boldsymbol{x})=\sum\limits_{u=1}^{n}\sum\limits_{v=1}^{n}x_{u}x_{v}a_{u,v}$$
